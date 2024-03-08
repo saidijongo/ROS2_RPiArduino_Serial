@@ -10,6 +10,8 @@ setup.py
 ../../build/damin_robot1/damin_robot1.egg-info/zip-safe
 damin_robot1/__init__.py
 damin_robot1/mcu_controller_node.py
+damin_robot1/node1.py
+damin_robot1/node2.py
 resource/damin_robot1
 test/test_copyright.py
 test/test_flake8.py

@@ -1,5 +1,9 @@
+/home/jongo/ros2_ws/install/damin_robot1/lib/python3.10/site-packages/damin_robot1/node2.py
+/home/jongo/ros2_ws/install/damin_robot1/lib/python3.10/site-packages/damin_robot1/node1.py
 /home/jongo/ros2_ws/install/damin_robot1/lib/python3.10/site-packages/damin_robot1/mcu_controller_node.py
 /home/jongo/ros2_ws/install/damin_robot1/lib/python3.10/site-packages/damin_robot1/__init__.py
+/home/jongo/ros2_ws/install/damin_robot1/lib/python3.10/site-packages/damin_robot1/__pycache__/node2.cpython-310.pyc
+/home/jongo/ros2_ws/install/damin_robot1/lib/python3.10/site-packages/damin_robot1/__pycache__/node1.cpython-310.pyc
 /home/jongo/ros2_ws/install/damin_robot1/lib/python3.10/site-packages/damin_robot1/__pycache__/mcu_controller_node.cpython-310.pyc
 /home/jongo/ros2_ws/install/damin_robot1/lib/python3.10/site-packages/damin_robot1/__pycache__/__init__.cpython-310.pyc
 /home/jongo/ros2_ws/install/damin_robot1/share/ament_index/resource_index/packages/damin_robot1
@@ -11,3 +15,5 @@
 /home/jongo/ros2_ws/install/damin_robot1/lib/python3.10/site-packages/damin_robot1-0.0.0-py3.10.egg-info/zip-safe
 /home/jongo/ros2_ws/install/damin_robot1/lib/python3.10/site-packages/damin_robot1-0.0.0-py3.10.egg-info/requires.txt
 /home/jongo/ros2_ws/install/damin_robot1/lib/python3.10/site-packages/damin_robot1-0.0.0-py3.10.egg-info/top_level.txt
+/home/jongo/ros2_ws/install/damin_robot1/lib/damin_robot1/jongo_node1
+/home/jongo/ros2_ws/install/damin_robot1/lib/damin_robot1/jongo_node2

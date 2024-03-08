@@ -22,7 +22,7 @@ if __name__== '__main__':
 
 '''
 
-
+''' 
 import rclpy
 from rclpy.node import Node
 import serial
@@ -47,3 +47,23 @@ def main(args=None):
 
 if __name__ == '__main__':
     main()
+
+'''
+
+from node1 import Node1
+from node2 import Node2
+
+def main(args=None):
+    rclpy.init(args=args)
+    arduino_node = ArduinoControlNode()
+    node1 = Node1()
+    node2 = Node2()
+
+    # Send commands to Arduino
+    arduino_node.send_command_to_arduino('1')  # Turn on LED
+    arduino_node.send_command_to_arduino('0')  # Turn off LED
+
+    rclpy.spin(node1)
+    rclpy.spin(node2)
+    
+    rclpy.shutdown()
