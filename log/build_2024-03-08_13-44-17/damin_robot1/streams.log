@@ -1,0 +1,18 @@
+[3.629s] Invoking command in '/home/jongo/ros2_ws/build/damin_robot1': PYTHONPATH=/home/jongo/ros2_ws/build/damin_robot1/prefix_override:/home/jongo/ros2_ws/install/damin_robot1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jongo/ros2_ws/build/damin_robot1/build --no-deps install_data
+[4.858s] running develop
+[5.594s] running egg_info
+[5.595s] writing damin_robot1.egg-info/PKG-INFO
+[5.596s] writing dependency_links to damin_robot1.egg-info/dependency_links.txt
+[5.597s] writing entry points to damin_robot1.egg-info/entry_points.txt
+[5.598s] writing requirements to damin_robot1.egg-info/requires.txt
+[5.599s] writing top-level names to damin_robot1.egg-info/top_level.txt
+[5.607s] reading manifest file 'damin_robot1.egg-info/SOURCES.txt'
+[5.610s] writing manifest file 'damin_robot1.egg-info/SOURCES.txt'
+[5.616s] running build_ext
+[5.616s] Creating /home/jongo/ros2_ws/install/damin_robot1/lib/python3.10/site-packages/damin-robot1.egg-link (link to .)
+[5.620s] Installing jongo_node1 script to /home/jongo/ros2_ws/install/damin_robot1/lib/damin_robot1
+[5.621s] Installing jongo_node2 script to /home/jongo/ros2_ws/install/damin_robot1/lib/damin_robot1
+[5.624s] 
+[5.626s] Installed /home/jongo/ros2_ws/build/damin_robot1
+[5.627s] running install_data
+[5.784s] Invoked command in '/home/jongo/ros2_ws/build/damin_robot1' returned '0': PYTHONPATH=/home/jongo/ros2_ws/build/damin_robot1/prefix_override:/home/jongo/ros2_ws/install/damin_robot1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jongo/ros2_ws/build/damin_robot1/build --no-deps install_data

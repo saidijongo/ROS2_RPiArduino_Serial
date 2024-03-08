@@ -12,7 +12,11 @@ damin_robot1/__init__.py
 damin_robot1/mcu_controller_node.py
 damin_robot1/node1.py
 damin_robot1/node2.py
+damin_robot1.egg-info/PKG-INFO
+damin_robot1.egg-info/SOURCES.txt
+damin_robot1.egg-info/dependency_links.txt
+damin_robot1.egg-info/entry_points.txt
+damin_robot1.egg-info/requires.txt
+damin_robot1.egg-info/top_level.txt
+damin_robot1.egg-info/zip-safe
 resource/damin_robot1
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py
