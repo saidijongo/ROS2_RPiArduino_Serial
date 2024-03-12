@@ -12,11 +12,11 @@ class DrawShapeNode(Node):
         self.timer = self.create_timer(0, self.send_values)
         self.get_logger().info("Shape node running..")
 
-def send_values(self):
-    msg = Twist()
-    msg.linear.x = 2.0
-    msg.angular.z =1.0
-    self.cmd_vel_pub.publish(msg)
+    def send_values(self):
+        msg = Twist()
+        msg.linear.x = 2.0
+        msg.angular.z =1.0
+        self.cmd_vel_pub.publish(msg)
 
 
 

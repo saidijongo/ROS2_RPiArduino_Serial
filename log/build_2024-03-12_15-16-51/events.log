@@ -1,0 +1,84 @@
+[0.000000] (-) TimerEvent: {}
+[0.001487] (damin_robot1) JobQueued: {'identifier': 'damin_robot1', 'dependencies': OrderedDict()}
+[0.002164] (damin_robot1) JobStarted: {'identifier': 'damin_robot1'}
+[0.099081] (-) TimerEvent: {}
+[0.199679] (-) TimerEvent: {}
+[0.300809] (-) TimerEvent: {}
+[0.401684] (-) TimerEvent: {}
+[0.502509] (-) TimerEvent: {}
+[0.603232] (-) TimerEvent: {}
+[0.703923] (-) TimerEvent: {}
+[0.804573] (-) TimerEvent: {}
+[0.905261] (-) TimerEvent: {}
+[1.005965] (-) TimerEvent: {}
+[1.106660] (-) TimerEvent: {}
+[1.207648] (-) TimerEvent: {}
+[1.308458] (-) TimerEvent: {}
+[1.409522] (-) TimerEvent: {}
+[1.510365] (-) TimerEvent: {}
+[1.612615] (-) TimerEvent: {}
+[1.713819] (-) TimerEvent: {}
+[1.814717] (-) TimerEvent: {}
+[1.915557] (-) TimerEvent: {}
+[2.016411] (-) TimerEvent: {}
+[2.117154] (-) TimerEvent: {}
+[2.217824] (-) TimerEvent: {}
+[2.318562] (-) TimerEvent: {}
+[2.419229] (-) TimerEvent: {}
+[2.520056] (-) TimerEvent: {}
+[2.620725] (-) TimerEvent: {}
+[2.721340] (-) TimerEvent: {}
+[2.822064] (-) TimerEvent: {}
+[2.922720] (-) TimerEvent: {}
+[3.023578] (-) TimerEvent: {}
+[3.124319] (-) TimerEvent: {}
+[3.225121] (-) TimerEvent: {}
+[3.325814] (-) TimerEvent: {}
+[3.426706] (-) TimerEvent: {}
+[3.492101] (damin_robot1) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/jongo/ros2_ws/build/damin_robot1/build', '--no-deps', 'install_data'], 'cwd': '/home/jongo/ros2_ws/build/damin_robot1', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jongo', 'SSH_CLIENT': '172.16.100.124 50476 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/jongo', 'OLDPWD': '/home/jongo/ros2_ws/src', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator2ca99f9887f2e75578a20e2d2ebb4e9f7', 'COLCON_PREFIX_PATH': '/home/jongo/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'jongo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '6', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:10.0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/jongo/ros2_ws/install/damin_robot1:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:994785dc-cbe2-4867-a605-3f4de1a37390', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/jongo/ros2_ws/build/damin_robot1', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '172.16.100.124 50476 172.16.100.82 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jongo/ros2_ws/build/damin_robot1/prefix_override:/home/jongo/ros2_ws/install/damin_robot1/lib/python3.10/site-packages:/home/jongo/ros2_ws/install/damin_robot1/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[3.526876] (-) TimerEvent: {}
+[3.627609] (-) TimerEvent: {}
+[3.728373] (-) TimerEvent: {}
+[3.836358] (-) TimerEvent: {}
+[3.937353] (-) TimerEvent: {}
+[4.038103] (-) TimerEvent: {}
+[4.139559] (-) TimerEvent: {}
+[4.240240] (-) TimerEvent: {}
+[4.341010] (-) TimerEvent: {}
+[4.441692] (-) TimerEvent: {}
+[4.542465] (-) TimerEvent: {}
+[4.643160] (-) TimerEvent: {}
+[4.715424] (damin_robot1) StdoutLine: {'line': b'running develop\n'}
+[4.743316] (-) TimerEvent: {}
+[4.843956] (-) TimerEvent: {}
+[4.944627] (-) TimerEvent: {}
+[5.045306] (-) TimerEvent: {}
+[5.145973] (-) TimerEvent: {}
+[5.246668] (-) TimerEvent: {}
+[5.347347] (-) TimerEvent: {}
+[5.448054] (-) TimerEvent: {}
+[5.486873] (damin_robot1) StdoutLine: {'line': b'running egg_info\n'}
+[5.487700] (damin_robot1) StdoutLine: {'line': b'writing damin_robot1.egg-info/PKG-INFO\n'}
+[5.488762] (damin_robot1) StdoutLine: {'line': b'writing dependency_links to damin_robot1.egg-info/dependency_links.txt\n'}
+[5.489428] (damin_robot1) StdoutLine: {'line': b'writing entry points to damin_robot1.egg-info/entry_points.txt\n'}
+[5.490422] (damin_robot1) StdoutLine: {'line': b'writing requirements to damin_robot1.egg-info/requires.txt\n'}
+[5.491139] (damin_robot1) StdoutLine: {'line': b'writing top-level names to damin_robot1.egg-info/top_level.txt\n'}
+[5.498941] (damin_robot1) StdoutLine: {'line': b"reading manifest file 'damin_robot1.egg-info/SOURCES.txt'\n"}
+[5.503351] (damin_robot1) StdoutLine: {'line': b"writing manifest file 'damin_robot1.egg-info/SOURCES.txt'\n"}
+[5.509626] (damin_robot1) StdoutLine: {'line': b'running build_ext\n'}
+[5.510802] (damin_robot1) StdoutLine: {'line': b'Creating /home/jongo/ros2_ws/install/damin_robot1/lib/python3.10/site-packages/damin-robot1.egg-link (link to .)\n'}
+[5.514068] (damin_robot1) StdoutLine: {'line': b'Installing jongo_drawshape script to /home/jongo/ros2_ws/install/damin_robot1/lib/damin_robot1\n'}
+[5.515068] (damin_robot1) StdoutLine: {'line': b'Installing jongo_node1 script to /home/jongo/ros2_ws/install/damin_robot1/lib/damin_robot1\n'}
+[5.516131] (damin_robot1) StdoutLine: {'line': b'Installing jongo_node2 script to /home/jongo/ros2_ws/install/damin_robot1/lib/damin_robot1\n'}
+[5.517169] (damin_robot1) StdoutLine: {'line': b'Installing jongo_posesubs script to /home/jongo/ros2_ws/install/damin_robot1/lib/damin_robot1\n'}
+[5.518120] (damin_robot1) StdoutLine: {'line': b'\n'}
+[5.518745] (damin_robot1) StdoutLine: {'line': b'Installed /home/jongo/ros2_ws/build/damin_robot1\n'}
+[5.519119] (damin_robot1) StdoutLine: {'line': b'running install_data\n'}
+[5.548389] (-) TimerEvent: {}
+[5.649598] (-) TimerEvent: {}
+[5.655963] (damin_robot1) CommandEnded: {'returncode': 0}
+[5.749762] (-) TimerEvent: {}
+[5.850840] (-) TimerEvent: {}
+[5.952041] (-) TimerEvent: {}
+[5.991956] (damin_robot1) JobEnded: {'identifier': 'damin_robot1', 'rc': 0}
+[5.995017] (-) EventReactorShutdown: {}
