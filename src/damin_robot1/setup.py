@@ -23,7 +23,8 @@ setup(
             "jongo_node1 = damin_robot1.node1:main",
             "jongo_node2 = damin_robot1.node2:main",
             "jongo_drawshape = damin_robot1.drawshape:main",
-            "jongo_posesubs = damin_robot1.pose_subscriber:main"
+            "jongo_posesubs = damin_robot1.pose_subscriber:main",
+            "jongo_sudong= damin_robot1.pose_subscriber:main"
 
         ],
     },
