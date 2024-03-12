@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# EASY-INSTALL-ENTRY-SCRIPT: 'damin-robot1==0.0.0','console_scripts','jongo_node1'
+# EASY-INSTALL-ENTRY-SCRIPT: 'damin-robot1==0.0.0','console_scripts','jongo_drawshape'
 import re
 import sys
 
@@ -30,4 +30,4 @@ globals().setdefault('load_entry_point', importlib_load_entry_point)
 
 if __name__ == '__main__':
     sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
-    sys.exit(load_entry_point('damin-robot1==0.0.0', 'console_scripts', 'jongo_node1')())
+    sys.exit(load_entry_point('damin-robot1==0.0.0', 'console_scripts', 'jongo_drawshape')())
