@@ -1,0 +1,4 @@
+[console_scripts]
+lidar_pub_node = ld06lidar_pkg.lidar_publisher_node:main
+lidar_subs_node = ld06lidar_pkg.lidar_subscriber_node:main
+

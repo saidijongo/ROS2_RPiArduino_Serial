@@ -1,0 +1,22 @@
+[6.595s] Invoking command in '/home/jongo/ros2_ws/build/damin_robot1': PYTHONPATH=/home/jongo/ros2_ws/build/damin_robot1/prefix_override:/home/jongo/ros2_ws/install/damin_robot1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jongo/ros2_ws/build/damin_robot1/build --no-deps install_data
+[7.998s] running develop
+[8.896s] running egg_info
+[8.897s] writing damin_robot1.egg-info/PKG-INFO
+[8.899s] writing dependency_links to damin_robot1.egg-info/dependency_links.txt
+[8.900s] writing entry points to damin_robot1.egg-info/entry_points.txt
+[8.901s] writing requirements to damin_robot1.egg-info/requires.txt
+[8.902s] writing top-level names to damin_robot1.egg-info/top_level.txt
+[8.910s] reading manifest file 'damin_robot1.egg-info/SOURCES.txt'
+[8.915s] writing manifest file 'damin_robot1.egg-info/SOURCES.txt'
+[8.926s] running build_ext
+[8.927s] Creating /home/jongo/ros2_ws/install/damin_robot1/lib/python3.10/site-packages/damin-robot1.egg-link (link to .)
+[8.928s] Installing jongo_drawshape script to /home/jongo/ros2_ws/install/damin_robot1/lib/damin_robot1
+[8.929s] Installing jongo_node1 script to /home/jongo/ros2_ws/install/damin_robot1/lib/damin_robot1
+[8.930s] Installing jongo_node2 script to /home/jongo/ros2_ws/install/damin_robot1/lib/damin_robot1
+[8.930s] Installing jongo_posesubs script to /home/jongo/ros2_ws/install/damin_robot1/lib/damin_robot1
+[8.931s] Installing jongo_sudong script to /home/jongo/ros2_ws/install/damin_robot1/lib/damin_robot1
+[8.932s] 
+[8.933s] Installed /home/jongo/ros2_ws/build/damin_robot1
+[8.934s] running install_data
+[8.935s] copying package.xml -> /home/jongo/ros2_ws/install/damin_robot1/share/damin_robot1
+[9.124s] Invoked command in '/home/jongo/ros2_ws/build/damin_robot1' returned '0': PYTHONPATH=/home/jongo/ros2_ws/build/damin_robot1/prefix_override:/home/jongo/ros2_ws/install/damin_robot1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jongo/ros2_ws/build/damin_robot1/build --no-deps install_data
