@@ -1,0 +1,124 @@
+[2.048s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/jongo/ros2_ws']
+[2.048s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/jongo/ros2_ws'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff8204e980>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0xffff8204d960>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0xffff8204d960>>)
+[6.494s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[6.495s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[6.496s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[6.496s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[6.497s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[6.498s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jongo/ros2_ws'
+[6.500s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws) by extensions ['ignore', 'ignore_ament_install']
+[6.503s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws) by extension 'ignore'
+[6.504s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws) by extension 'ignore_ament_install'
+[6.505s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws) by extensions ['colcon_pkg']
+[6.512s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws) by extension 'colcon_pkg'
+[6.513s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws) by extensions ['colcon_meta']
+[6.513s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws) by extension 'colcon_meta'
+[6.514s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws) by extensions ['ros']
+[6.514s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws) by extension 'ros'
+[6.777s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws) by extensions ['cmake', 'python']
+[6.778s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws) by extension 'cmake'
+[6.778s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws) by extension 'python'
+[6.779s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws) by extensions ['python_setup_py']
+[6.779s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws) by extension 'python_setup_py'
+[6.786s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[6.787s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/build) by extension 'ignore'
+[6.787s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/build) ignored
+[6.789s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[6.793s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/install) by extension 'ignore'
+[6.794s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/install) ignored
+[6.795s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[6.796s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/log) by extension 'ignore'
+[6.797s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/log) ignored
+[6.822s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[6.823s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src) by extension 'ignore'
+[6.823s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src) by extension 'ignore_ament_install'
+[6.824s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src) by extensions ['colcon_pkg']
+[6.825s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src) by extension 'colcon_pkg'
+[6.845s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src) by extensions ['colcon_meta']
+[6.846s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src) by extension 'colcon_meta'
+[6.847s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src) by extensions ['ros']
+[6.847s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src) by extension 'ros'
+[6.848s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src) by extensions ['cmake', 'python']
+[6.849s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src) by extension 'cmake'
+[6.850s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src) by extension 'python'
+[6.851s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src) by extensions ['python_setup_py']
+[6.851s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src) by extension 'python_setup_py'
+[6.853s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src/OrbbecSDK_ROS2) by extensions ['ignore', 'ignore_ament_install']
+[6.878s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src/OrbbecSDK_ROS2) by extension 'ignore'
+[6.879s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src/OrbbecSDK_ROS2) by extension 'ignore_ament_install'
+[6.879s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src/OrbbecSDK_ROS2) by extensions ['colcon_pkg']
+[6.880s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src/OrbbecSDK_ROS2) by extension 'colcon_pkg'
+[6.880s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src/OrbbecSDK_ROS2) by extensions ['colcon_meta']
+[6.881s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src/OrbbecSDK_ROS2) by extension 'colcon_meta'
+[6.882s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src/OrbbecSDK_ROS2) by extensions ['ros']
+[6.882s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src/OrbbecSDK_ROS2) by extension 'ros'
+[6.883s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src/OrbbecSDK_ROS2) by extensions ['cmake', 'python']
+[6.883s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src/OrbbecSDK_ROS2) by extension 'cmake'
+[6.884s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src/OrbbecSDK_ROS2) by extension 'python'
+[6.885s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src/OrbbecSDK_ROS2) by extensions ['python_setup_py']
+[6.885s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src/OrbbecSDK_ROS2) by extension 'python_setup_py'
+[6.906s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera) by extensions ['ignore', 'ignore_ament_install']
+[6.906s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera) by extension 'ignore'
+[6.907s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera) by extension 'ignore_ament_install'
+[6.908s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera) by extensions ['colcon_pkg']
+[6.908s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera) by extension 'colcon_pkg'
+[6.909s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera) by extensions ['colcon_meta']
+[6.909s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera) by extension 'colcon_meta'
+[6.921s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera) by extensions ['ros']
+[6.923s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera) by extension 'ros'
+[6.957s] DEBUG:colcon.colcon_core.package_identification:Package '/home/jongo/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera' with type 'ros.ament_cmake' and name 'orbbec_camera'
+[6.958s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs) by extensions ['ignore', 'ignore_ament_install']
+[6.963s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs) by extension 'ignore'
+[6.964s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs) by extension 'ignore_ament_install'
+[6.964s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs) by extensions ['colcon_pkg']
+[6.965s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs) by extension 'colcon_pkg'
+[6.965s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs) by extensions ['colcon_meta']
+[6.965s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs) by extension 'colcon_meta'
+[6.970s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs) by extensions ['ros']
+[6.970s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs) by extension 'ros'
+[6.984s] DEBUG:colcon.colcon_core.package_identification:Package '/home/jongo/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs' with type 'ros.ament_cmake' and name 'orbbec_camera_msgs'
+[6.986s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src/OrbbecSDK_ROS2/orbbec_description) by extensions ['ignore', 'ignore_ament_install']
+[6.993s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src/OrbbecSDK_ROS2/orbbec_description) by extension 'ignore'
+[6.993s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src/OrbbecSDK_ROS2/orbbec_description) by extension 'ignore_ament_install'
+[6.994s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src/OrbbecSDK_ROS2/orbbec_description) by extensions ['colcon_pkg']
+[6.995s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src/OrbbecSDK_ROS2/orbbec_description) by extension 'colcon_pkg'
+[6.995s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src/OrbbecSDK_ROS2/orbbec_description) by extensions ['colcon_meta']
+[6.995s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src/OrbbecSDK_ROS2/orbbec_description) by extension 'colcon_meta'
+[6.996s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src/OrbbecSDK_ROS2/orbbec_description) by extensions ['ros']
+[7.009s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src/OrbbecSDK_ROS2/orbbec_description) by extension 'ros'
+[7.012s] DEBUG:colcon.colcon_core.package_identification:Package '/home/jongo/ros2_ws/src/OrbbecSDK_ROS2/orbbec_description' with type 'ros.ament_cmake' and name 'orbbec_description'
+[7.014s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src/RPi_Ubuntu2204_3D_Depth_Camera) by extensions ['ignore', 'ignore_ament_install']
+[7.014s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src/RPi_Ubuntu2204_3D_Depth_Camera) by extension 'ignore'
+[7.015s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src/RPi_Ubuntu2204_3D_Depth_Camera) by extension 'ignore_ament_install'
+[7.016s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src/RPi_Ubuntu2204_3D_Depth_Camera) by extensions ['colcon_pkg']
+[7.016s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src/RPi_Ubuntu2204_3D_Depth_Camera) by extension 'colcon_pkg'
+[7.017s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src/RPi_Ubuntu2204_3D_Depth_Camera) by extensions ['colcon_meta']
+[7.017s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src/RPi_Ubuntu2204_3D_Depth_Camera) by extension 'colcon_meta'
+[7.018s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src/RPi_Ubuntu2204_3D_Depth_Camera) by extensions ['ros']
+[7.018s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src/RPi_Ubuntu2204_3D_Depth_Camera) by extension 'ros'
+[7.019s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src/RPi_Ubuntu2204_3D_Depth_Camera) by extensions ['cmake', 'python']
+[7.019s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src/RPi_Ubuntu2204_3D_Depth_Camera) by extension 'cmake'
+[7.020s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src/RPi_Ubuntu2204_3D_Depth_Camera) by extension 'python'
+[7.020s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src/RPi_Ubuntu2204_3D_Depth_Camera) by extensions ['python_setup_py']
+[7.021s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src/RPi_Ubuntu2204_3D_Depth_Camera) by extension 'python_setup_py'
+[7.022s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src/damin_robot1) by extensions ['ignore', 'ignore_ament_install']
+[7.023s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src/damin_robot1) by extension 'ignore'
+[7.023s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src/damin_robot1) by extension 'ignore_ament_install'
+[7.024s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src/damin_robot1) by extensions ['colcon_pkg']
+[7.024s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src/damin_robot1) by extension 'colcon_pkg'
+[7.025s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src/damin_robot1) by extensions ['colcon_meta']
+[7.026s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src/damin_robot1) by extension 'colcon_meta'
+[7.027s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src/damin_robot1) by extensions ['ros']
+[7.027s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src/damin_robot1) by extension 'ros'
+[7.037s] DEBUG:colcon.colcon_core.package_identification:Package '/home/jongo/ros2_ws/src/damin_robot1' with type 'ros.ament_python' and name 'damin_robot1'
+[7.038s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src/ld06lidar_pkg) by extensions ['ignore', 'ignore_ament_install']
+[7.039s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src/ld06lidar_pkg) by extension 'ignore'
+[7.039s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src/ld06lidar_pkg) by extension 'ignore_ament_install'
+[7.040s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src/ld06lidar_pkg) by extensions ['colcon_pkg']
+[7.040s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src/ld06lidar_pkg) by extension 'colcon_pkg'
+[7.041s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src/ld06lidar_pkg) by extensions ['colcon_meta']
+[7.041s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src/ld06lidar_pkg) by extension 'colcon_meta'
+[7.042s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src/ld06lidar_pkg) by extensions ['ros']
+[7.042s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jongo/ros2_ws/src/ld06lidar_pkg) by extension 'ros'
+[7.045s] DEBUG:colcon.colcon_core.package_identification:Package '/home/jongo/ros2_ws/src/ld06lidar_pkg' with type 'ros.ament_python' and name 'ld06lidar_pkg'
+[7.048s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

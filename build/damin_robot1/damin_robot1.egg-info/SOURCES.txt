@@ -10,7 +10,12 @@ setup.py
 ../../build/damin_robot1/damin_robot1.egg-info/zip-safe
 damin_robot1/__init__.py
 damin_robot1/drawshape.py
+damin_robot1/gamepad.py
+damin_robot1/gamepadGUI.py
+damin_robot1/gamepadMotor.py
 damin_robot1/mcu_controller_node.py
+damin_robot1/motor114.py
+damin_robot1/motor114exm.py
 damin_robot1/node1.py
 damin_robot1/node2.py
 damin_robot1/pose_subscriber.py

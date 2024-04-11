@@ -1,0 +1,20 @@
+[4.070s] Invoking command in '/home/jongo/ros2_ws/build/orbbec_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jongo/ros2_ws/install/ld06lidar_pkg:/home/jongo/ros2_ws/install/damin_robot1:/home/jongo/lidar_depthcam_ws/install/depth_camera:/opt/ros/humble /usr/bin/cmake --build /home/jongo/ros2_ws/build/orbbec_description -- -j4 -l4
+[4.270s] Invoked command in '/home/jongo/ros2_ws/build/orbbec_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jongo/ros2_ws/install/ld06lidar_pkg:/home/jongo/ros2_ws/install/damin_robot1:/home/jongo/lidar_depthcam_ws/install/depth_camera:/opt/ros/humble /usr/bin/cmake --build /home/jongo/ros2_ws/build/orbbec_description -- -j4 -l4
+[4.464s] Invoking command in '/home/jongo/ros2_ws/build/orbbec_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jongo/ros2_ws/install/ld06lidar_pkg:/home/jongo/ros2_ws/install/damin_robot1:/home/jongo/lidar_depthcam_ws/install/depth_camera:/opt/ros/humble /usr/bin/cmake --install /home/jongo/ros2_ws/build/orbbec_description
+[4.500s] -- Install configuration: "Release"
+[4.502s] -- Up-to-date: /home/jongo/ros2_ws/install/orbbec_description/share/ament_index/resource_index/package_run_dependencies/orbbec_description
+[4.506s] -- Up-to-date: /home/jongo/ros2_ws/install/orbbec_description/share/ament_index/resource_index/parent_prefix_path/orbbec_description
+[4.508s] -- Up-to-date: /home/jongo/ros2_ws/install/orbbec_description/share/orbbec_description/environment/ament_prefix_path.sh
+[4.509s] -- Up-to-date: /home/jongo/ros2_ws/install/orbbec_description/share/orbbec_description/environment/ament_prefix_path.dsv
+[4.512s] -- Up-to-date: /home/jongo/ros2_ws/install/orbbec_description/share/orbbec_description/environment/path.sh
+[4.514s] -- Up-to-date: /home/jongo/ros2_ws/install/orbbec_description/share/orbbec_description/environment/path.dsv
+[4.514s] -- Up-to-date: /home/jongo/ros2_ws/install/orbbec_description/share/orbbec_description/local_setup.bash
+[4.516s] -- Up-to-date: /home/jongo/ros2_ws/install/orbbec_description/share/orbbec_description/local_setup.sh
+[4.517s] -- Up-to-date: /home/jongo/ros2_ws/install/orbbec_description/share/orbbec_description/local_setup.zsh
+[4.518s] -- Up-to-date: /home/jongo/ros2_ws/install/orbbec_description/share/orbbec_description/local_setup.dsv
+[4.518s] -- Installing: /home/jongo/ros2_ws/install/orbbec_description/share/orbbec_description/package.dsv
+[4.519s] -- Up-to-date: /home/jongo/ros2_ws/install/orbbec_description/share/ament_index/resource_index/packages/orbbec_description
+[4.519s] -- Up-to-date: /home/jongo/ros2_ws/install/orbbec_description/share/orbbec_description/cmake/orbbec_descriptionConfig.cmake
+[4.520s] -- Up-to-date: /home/jongo/ros2_ws/install/orbbec_description/share/orbbec_description/cmake/orbbec_descriptionConfig-version.cmake
+[4.520s] -- Up-to-date: /home/jongo/ros2_ws/install/orbbec_description/share/orbbec_description/package.xml
+[4.540s] Invoked command in '/home/jongo/ros2_ws/build/orbbec_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jongo/ros2_ws/install/ld06lidar_pkg:/home/jongo/ros2_ws/install/damin_robot1:/home/jongo/lidar_depthcam_ws/install/depth_camera:/opt/ros/humble /usr/bin/cmake --install /home/jongo/ros2_ws/build/orbbec_description

@@ -1,0 +1,43 @@
+[3.819s] Invoking command in '/home/jongo/ros2_ws/build/orbbec_description': CMAKE_PREFIX_PATH=/home/jongo/ros2_ws/install/damin_robot1:/opt/ros/humble /usr/bin/cmake /home/jongo/ros2_ws/src/OrbbecSDK_ROS2/orbbec_description -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/jongo/ros2_ws/install/orbbec_description
+[4.080s] -- The C compiler identification is GNU 11.4.0
+[4.364s] -- The CXX compiler identification is GNU 11.4.0
+[4.397s] -- Detecting C compiler ABI info
+[4.739s] -- Detecting C compiler ABI info - done
+[4.773s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.776s] -- Detecting C compile features
+[4.779s] -- Detecting C compile features - done
+[4.794s] -- Detecting CXX compiler ABI info
+[5.209s] -- Detecting CXX compiler ABI info - done
+[5.245s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.248s] -- Detecting CXX compile features
+[5.251s] -- Detecting CXX compile features - done
+[5.286s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[6.441s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[7.137s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.822s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.853s] -- Added test 'lint_cmake' to check CMake code style
+[7.871s] -- Added test 'xmllint' to check XML markup files
+[7.886s] -- Configuring done
+[7.919s] -- Generating done
+[7.926s] -- Build files have been written to: /home/jongo/ros2_ws/build/orbbec_description
+[7.946s] Invoked command in '/home/jongo/ros2_ws/build/orbbec_description' returned '0': CMAKE_PREFIX_PATH=/home/jongo/ros2_ws/install/damin_robot1:/opt/ros/humble /usr/bin/cmake /home/jongo/ros2_ws/src/OrbbecSDK_ROS2/orbbec_description -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/jongo/ros2_ws/install/orbbec_description
+[7.952s] Invoking command in '/home/jongo/ros2_ws/build/orbbec_description': CMAKE_PREFIX_PATH=/home/jongo/ros2_ws/install/damin_robot1:/opt/ros/humble /usr/bin/cmake --build /home/jongo/ros2_ws/build/orbbec_description -- -j4 -l4
+[8.146s] Invoked command in '/home/jongo/ros2_ws/build/orbbec_description' returned '0': CMAKE_PREFIX_PATH=/home/jongo/ros2_ws/install/damin_robot1:/opt/ros/humble /usr/bin/cmake --build /home/jongo/ros2_ws/build/orbbec_description -- -j4 -l4
+[8.323s] Invoking command in '/home/jongo/ros2_ws/build/orbbec_description': CMAKE_PREFIX_PATH=/home/jongo/ros2_ws/install/damin_robot1:/opt/ros/humble /usr/bin/cmake --install /home/jongo/ros2_ws/build/orbbec_description
+[8.361s] -- Install configuration: "Release"
+[8.362s] -- Installing: /home/jongo/ros2_ws/install/orbbec_description/share/ament_index/resource_index/package_run_dependencies/orbbec_description
+[8.364s] -- Installing: /home/jongo/ros2_ws/install/orbbec_description/share/ament_index/resource_index/parent_prefix_path/orbbec_description
+[8.366s] -- Installing: /home/jongo/ros2_ws/install/orbbec_description/share/orbbec_description/environment/ament_prefix_path.sh
+[8.368s] -- Installing: /home/jongo/ros2_ws/install/orbbec_description/share/orbbec_description/environment/ament_prefix_path.dsv
+[8.369s] -- Installing: /home/jongo/ros2_ws/install/orbbec_description/share/orbbec_description/environment/path.sh
+[8.371s] -- Installing: /home/jongo/ros2_ws/install/orbbec_description/share/orbbec_description/environment/path.dsv
+[8.373s] -- Installing: /home/jongo/ros2_ws/install/orbbec_description/share/orbbec_description/local_setup.bash
+[8.374s] -- Installing: /home/jongo/ros2_ws/install/orbbec_description/share/orbbec_description/local_setup.sh
+[8.376s] -- Installing: /home/jongo/ros2_ws/install/orbbec_description/share/orbbec_description/local_setup.zsh
+[8.377s] -- Installing: /home/jongo/ros2_ws/install/orbbec_description/share/orbbec_description/local_setup.dsv
+[8.378s] -- Installing: /home/jongo/ros2_ws/install/orbbec_description/share/orbbec_description/package.dsv
+[8.380s] -- Installing: /home/jongo/ros2_ws/install/orbbec_description/share/ament_index/resource_index/packages/orbbec_description
+[8.382s] -- Installing: /home/jongo/ros2_ws/install/orbbec_description/share/orbbec_description/cmake/orbbec_descriptionConfig.cmake
+[8.383s] -- Installing: /home/jongo/ros2_ws/install/orbbec_description/share/orbbec_description/cmake/orbbec_descriptionConfig-version.cmake
+[8.385s] -- Installing: /home/jongo/ros2_ws/install/orbbec_description/share/orbbec_description/package.xml
+[8.404s] Invoked command in '/home/jongo/ros2_ws/build/orbbec_description' returned '0': CMAKE_PREFIX_PATH=/home/jongo/ros2_ws/install/damin_robot1:/opt/ros/humble /usr/bin/cmake --install /home/jongo/ros2_ws/build/orbbec_description

@@ -1,0 +1,7 @@
+[0.782s] Invoking command in '/home/jongo/ros2_ws/build/orbbec_camera': CMAKE_PREFIX_PATH=/home/jongo/ros2_ws/install/orbbec_camera_msgs:/home/jongo/ros2_ws/install/orbbec_description:/home/jongo/ros2_ws/install/ld06lidar_pkg:/home/jongo/ros2_ws/install/damin_robot1:/home/jongo/lidar_depthcam_ws/install/depth_camera:/opt/ros/humble /usr/bin/cmake --build /home/jongo/ros2_ws/build/orbbec_camera -- -j4 -l4
+[1.067s] [35m[1mConsolidate compiler generated dependencies of target orbbec_camera[0m
+[1.135s] [ 11%] Built target orbbec_camera_node
+[1.230s] [ 16%] [32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/d2c_viewer.cpp.o[0m
+[1.318s] [ 27%] [32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/ob_camera_node.cpp.o[0m
+[1.320s] [ 27%] [32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/ros_service.cpp.o[0m
+[1.323s] [ 33%] [32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/utils.cpp.o[0m

@@ -1,0 +1,6 @@
+gmake[2]: *** [CMakeFiles/orbbec_camera.dir/build.make:76: CMakeFiles/orbbec_camera.dir/src/d2c_viewer.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/orbbec_camera.dir/build.make:118: CMakeFiles/orbbec_camera.dir/src/ob_camera_node.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/orbbec_camera.dir/build.make:146: CMakeFiles/orbbec_camera.dir/src/ros_service.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/orbbec_camera.dir/build.make:174: CMakeFiles/orbbec_camera.dir/src/utils.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:145: CMakeFiles/orbbec_camera.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

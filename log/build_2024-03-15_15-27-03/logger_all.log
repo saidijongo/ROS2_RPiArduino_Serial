@@ -1,0 +1,356 @@
+[4.118s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--event-handlers', 'console_direct+', '--cmake-args', '-DCMAKE_BUILD_TYPE=Release']
+[4.119s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=['console_direct+'], ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=['-DCMAKE_BUILD_TYPE=Release'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffa8de2530>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffa9109b40>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffa9109b40>>)
+[4.305s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[4.305s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[4.305s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[4.305s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[4.305s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[4.306s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[4.306s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jongo/ros2_ws'
+[4.306s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[4.306s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[4.307s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[4.307s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[4.307s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[4.307s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[4.307s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[4.307s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[4.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[4.353s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[4.353s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[4.353s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[4.354s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[4.354s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[4.354s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[4.355s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[4.355s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[4.355s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[4.356s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[4.356s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[4.357s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[4.357s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[4.357s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[4.357s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[4.358s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[4.358s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[4.358s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[4.358s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[4.358s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[4.358s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[4.359s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[4.359s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[4.359s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[4.359s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[4.359s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[4.359s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[4.360s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[4.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2) by extensions ['ignore', 'ignore_ament_install']
+[4.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2) by extension 'ignore'
+[4.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2) by extension 'ignore_ament_install'
+[4.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2) by extensions ['colcon_pkg']
+[4.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2) by extension 'colcon_pkg'
+[4.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2) by extensions ['colcon_meta']
+[4.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2) by extension 'colcon_meta'
+[4.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2) by extensions ['ros']
+[4.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2) by extension 'ros'
+[4.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2) by extensions ['cmake', 'python']
+[4.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2) by extension 'cmake'
+[4.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2) by extension 'python'
+[4.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2) by extensions ['python_setup_py']
+[4.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2) by extension 'python_setup_py'
+[4.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera) by extensions ['ignore', 'ignore_ament_install']
+[4.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera) by extension 'ignore'
+[4.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera) by extension 'ignore_ament_install'
+[4.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera) by extensions ['colcon_pkg']
+[4.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera) by extension 'colcon_pkg'
+[4.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera) by extensions ['colcon_meta']
+[4.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera) by extension 'colcon_meta'
+[4.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera) by extensions ['ros']
+[4.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera) by extension 'ros'
+[4.378s] DEBUG:colcon.colcon_core.package_identification:Package 'src/OrbbecSDK_ROS2/orbbec_camera' with type 'ros.ament_cmake' and name 'orbbec_camera'
+[4.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera_msgs) by extensions ['ignore', 'ignore_ament_install']
+[4.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera_msgs) by extension 'ignore'
+[4.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera_msgs) by extension 'ignore_ament_install'
+[4.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera_msgs) by extensions ['colcon_pkg']
+[4.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera_msgs) by extension 'colcon_pkg'
+[4.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera_msgs) by extensions ['colcon_meta']
+[4.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera_msgs) by extension 'colcon_meta'
+[4.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera_msgs) by extensions ['ros']
+[4.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera_msgs) by extension 'ros'
+[4.383s] DEBUG:colcon.colcon_core.package_identification:Package 'src/OrbbecSDK_ROS2/orbbec_camera_msgs' with type 'ros.ament_cmake' and name 'orbbec_camera_msgs'
+[4.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_description) by extensions ['ignore', 'ignore_ament_install']
+[4.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_description) by extension 'ignore'
+[4.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_description) by extension 'ignore_ament_install'
+[4.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_description) by extensions ['colcon_pkg']
+[4.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_description) by extension 'colcon_pkg'
+[4.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_description) by extensions ['colcon_meta']
+[4.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_description) by extension 'colcon_meta'
+[4.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_description) by extensions ['ros']
+[4.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_description) by extension 'ros'
+[4.387s] DEBUG:colcon.colcon_core.package_identification:Package 'src/OrbbecSDK_ROS2/orbbec_description' with type 'ros.ament_cmake' and name 'orbbec_description'
+[4.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/RPi_Ubuntu2204_3D_Depth_Camera) by extensions ['ignore', 'ignore_ament_install']
+[4.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/RPi_Ubuntu2204_3D_Depth_Camera) by extension 'ignore'
+[4.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/RPi_Ubuntu2204_3D_Depth_Camera) by extension 'ignore_ament_install'
+[4.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/RPi_Ubuntu2204_3D_Depth_Camera) by extensions ['colcon_pkg']
+[4.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/RPi_Ubuntu2204_3D_Depth_Camera) by extension 'colcon_pkg'
+[4.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/RPi_Ubuntu2204_3D_Depth_Camera) by extensions ['colcon_meta']
+[4.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/RPi_Ubuntu2204_3D_Depth_Camera) by extension 'colcon_meta'
+[4.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/RPi_Ubuntu2204_3D_Depth_Camera) by extensions ['ros']
+[4.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/RPi_Ubuntu2204_3D_Depth_Camera) by extension 'ros'
+[4.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/RPi_Ubuntu2204_3D_Depth_Camera) by extensions ['cmake', 'python']
+[4.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/RPi_Ubuntu2204_3D_Depth_Camera) by extension 'cmake'
+[4.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/RPi_Ubuntu2204_3D_Depth_Camera) by extension 'python'
+[4.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/RPi_Ubuntu2204_3D_Depth_Camera) by extensions ['python_setup_py']
+[4.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/RPi_Ubuntu2204_3D_Depth_Camera) by extension 'python_setup_py'
+[4.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/damin_robot1) by extensions ['ignore', 'ignore_ament_install']
+[4.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/damin_robot1) by extension 'ignore'
+[4.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/damin_robot1) by extension 'ignore_ament_install'
+[4.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/damin_robot1) by extensions ['colcon_pkg']
+[4.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/damin_robot1) by extension 'colcon_pkg'
+[4.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/damin_robot1) by extensions ['colcon_meta']
+[4.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/damin_robot1) by extension 'colcon_meta'
+[4.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/damin_robot1) by extensions ['ros']
+[4.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/damin_robot1) by extension 'ros'
+[4.394s] DEBUG:colcon.colcon_core.package_identification:Package 'src/damin_robot1' with type 'ros.ament_python' and name 'damin_robot1'
+[4.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/ld06lidar_pkg) by extensions ['ignore', 'ignore_ament_install']
+[4.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/ld06lidar_pkg) by extension 'ignore'
+[4.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/ld06lidar_pkg) by extension 'ignore_ament_install'
+[4.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/ld06lidar_pkg) by extensions ['colcon_pkg']
+[4.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/ld06lidar_pkg) by extension 'colcon_pkg'
+[4.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/ld06lidar_pkg) by extensions ['colcon_meta']
+[4.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/ld06lidar_pkg) by extension 'colcon_meta'
+[4.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/ld06lidar_pkg) by extensions ['ros']
+[4.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/ld06lidar_pkg) by extension 'ros'
+[4.398s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ld06lidar_pkg' with type 'ros.ament_python' and name 'ld06lidar_pkg'
+[4.398s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[4.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[4.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[4.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[4.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[4.757s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[4.758s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[4.877s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/jongo/ros2_ws/install
+[4.941s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 276 installed packages in /opt/ros/humble
+[4.948s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[5.326s] Level 5:colcon.colcon_core.verb:set package 'damin_robot1' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[5.326s] Level 5:colcon.colcon_core.verb:set package 'damin_robot1' build argument 'cmake_target' from command line to 'None'
+[5.326s] Level 5:colcon.colcon_core.verb:set package 'damin_robot1' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.326s] Level 5:colcon.colcon_core.verb:set package 'damin_robot1' build argument 'cmake_clean_cache' from command line to 'False'
+[5.326s] Level 5:colcon.colcon_core.verb:set package 'damin_robot1' build argument 'cmake_clean_first' from command line to 'False'
+[5.327s] Level 5:colcon.colcon_core.verb:set package 'damin_robot1' build argument 'cmake_force_configure' from command line to 'False'
+[5.327s] Level 5:colcon.colcon_core.verb:set package 'damin_robot1' build argument 'ament_cmake_args' from command line to 'None'
+[5.327s] Level 5:colcon.colcon_core.verb:set package 'damin_robot1' build argument 'catkin_cmake_args' from command line to 'None'
+[5.327s] Level 5:colcon.colcon_core.verb:set package 'damin_robot1' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.327s] DEBUG:colcon.colcon_core.verb:Building package 'damin_robot1' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jongo/ros2_ws/build/damin_robot1', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jongo/ros2_ws/install/damin_robot1', 'merge_install': False, 'path': '/home/jongo/ros2_ws/src/damin_robot1', 'symlink_install': False, 'test_result_base': None}
+[5.384s] Level 5:colcon.colcon_core.verb:set package 'ld06lidar_pkg' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[5.385s] Level 5:colcon.colcon_core.verb:set package 'ld06lidar_pkg' build argument 'cmake_target' from command line to 'None'
+[5.385s] Level 5:colcon.colcon_core.verb:set package 'ld06lidar_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.385s] Level 5:colcon.colcon_core.verb:set package 'ld06lidar_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[5.385s] Level 5:colcon.colcon_core.verb:set package 'ld06lidar_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[5.385s] Level 5:colcon.colcon_core.verb:set package 'ld06lidar_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[5.385s] Level 5:colcon.colcon_core.verb:set package 'ld06lidar_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[5.385s] Level 5:colcon.colcon_core.verb:set package 'ld06lidar_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[5.385s] Level 5:colcon.colcon_core.verb:set package 'ld06lidar_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.386s] DEBUG:colcon.colcon_core.verb:Building package 'ld06lidar_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jongo/ros2_ws/build/ld06lidar_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jongo/ros2_ws/install/ld06lidar_pkg', 'merge_install': False, 'path': '/home/jongo/ros2_ws/src/ld06lidar_pkg', 'symlink_install': False, 'test_result_base': None}
+[5.443s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera_msgs' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[5.443s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera_msgs' build argument 'cmake_target' from command line to 'None'
+[5.443s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.443s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[5.444s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[5.444s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[5.444s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[5.444s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[5.444s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.444s] DEBUG:colcon.colcon_core.verb:Building package 'orbbec_camera_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jongo/ros2_ws/build/orbbec_camera_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jongo/ros2_ws/install/orbbec_camera_msgs', 'merge_install': False, 'path': '/home/jongo/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs', 'symlink_install': False, 'test_result_base': None}
+[5.501s] Level 5:colcon.colcon_core.verb:set package 'orbbec_description' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[5.501s] Level 5:colcon.colcon_core.verb:set package 'orbbec_description' build argument 'cmake_target' from command line to 'None'
+[5.502s] Level 5:colcon.colcon_core.verb:set package 'orbbec_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.502s] Level 5:colcon.colcon_core.verb:set package 'orbbec_description' build argument 'cmake_clean_cache' from command line to 'False'
+[5.502s] Level 5:colcon.colcon_core.verb:set package 'orbbec_description' build argument 'cmake_clean_first' from command line to 'False'
+[5.502s] Level 5:colcon.colcon_core.verb:set package 'orbbec_description' build argument 'cmake_force_configure' from command line to 'False'
+[5.502s] Level 5:colcon.colcon_core.verb:set package 'orbbec_description' build argument 'ament_cmake_args' from command line to 'None'
+[5.502s] Level 5:colcon.colcon_core.verb:set package 'orbbec_description' build argument 'catkin_cmake_args' from command line to 'None'
+[5.502s] Level 5:colcon.colcon_core.verb:set package 'orbbec_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.502s] DEBUG:colcon.colcon_core.verb:Building package 'orbbec_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jongo/ros2_ws/build/orbbec_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jongo/ros2_ws/install/orbbec_description', 'merge_install': False, 'path': '/home/jongo/ros2_ws/src/OrbbecSDK_ROS2/orbbec_description', 'symlink_install': False, 'test_result_base': None}
+[5.560s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[5.560s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera' build argument 'cmake_target' from command line to 'None'
+[5.560s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.560s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera' build argument 'cmake_clean_cache' from command line to 'False'
+[5.561s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera' build argument 'cmake_clean_first' from command line to 'False'
+[5.561s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera' build argument 'cmake_force_configure' from command line to 'False'
+[5.561s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera' build argument 'ament_cmake_args' from command line to 'None'
+[5.561s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera' build argument 'catkin_cmake_args' from command line to 'None'
+[5.561s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.561s] DEBUG:colcon.colcon_core.verb:Building package 'orbbec_camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jongo/ros2_ws/build/orbbec_camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jongo/ros2_ws/install/orbbec_camera', 'merge_install': False, 'path': '/home/jongo/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera', 'symlink_install': False, 'test_result_base': None}
+[5.617s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[5.676s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[5.678s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jongo/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs' with build type 'ament_cmake'
+[5.678s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jongo/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs'
+[5.745s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[5.746s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.746s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.938s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jongo/ros2_ws/src/damin_robot1' with build type 'ament_python'
+[5.939s] Level 1:colcon.colcon_core.shell:create_environment_hook('damin_robot1', 'ament_prefix_path')
+[6.002s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jongo/ros2_ws/install/damin_robot1/share/damin_robot1/hook/ament_prefix_path.ps1'
+[6.004s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jongo/ros2_ws/install/damin_robot1/share/damin_robot1/hook/ament_prefix_path.dsv'
+[6.006s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jongo/ros2_ws/install/damin_robot1/share/damin_robot1/hook/ament_prefix_path.sh'
+[6.066s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.067s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.255s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jongo/ros2_ws/src/ld06lidar_pkg' with build type 'ament_python'
+[6.256s] Level 1:colcon.colcon_core.shell:create_environment_hook('ld06lidar_pkg', 'ament_prefix_path')
+[6.319s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jongo/ros2_ws/install/ld06lidar_pkg/share/ld06lidar_pkg/hook/ament_prefix_path.ps1'
+[6.321s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jongo/ros2_ws/install/ld06lidar_pkg/share/ld06lidar_pkg/hook/ament_prefix_path.dsv'
+[6.322s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jongo/ros2_ws/install/ld06lidar_pkg/share/ld06lidar_pkg/hook/ament_prefix_path.sh'
+[6.382s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.382s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.570s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jongo/ros2_ws/src/OrbbecSDK_ROS2/orbbec_description' with build type 'ament_cmake'
+[6.571s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jongo/ros2_ws/src/OrbbecSDK_ROS2/orbbec_description'
+[6.672s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.672s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.877s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jongo/ros2_ws/build/orbbec_camera_msgs': CMAKE_PREFIX_PATH=/home/jongo/ros2_ws/install/damin_robot1:/opt/ros/humble /usr/bin/cmake /home/jongo/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/jongo/ros2_ws/install/orbbec_camera_msgs
+[8.301s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jongo/ros2_ws/src/damin_robot1'
+[8.378s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.378s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.086s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jongo/ros2_ws/src/ld06lidar_pkg'
+[10.150s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.150s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.390s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jongo/ros2_ws/build/orbbec_description': CMAKE_PREFIX_PATH=/home/jongo/ros2_ws/install/damin_robot1:/opt/ros/humble /usr/bin/cmake /home/jongo/ros2_ws/src/OrbbecSDK_ROS2/orbbec_description -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/jongo/ros2_ws/install/orbbec_description
+[12.859s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jongo/ros2_ws/build/damin_robot1': PYTHONPATH=/home/jongo/ros2_ws/build/damin_robot1/prefix_override:/home/jongo/ros2_ws/install/damin_robot1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/jongo/ros2_ws/build/damin_robot1/build
+[12.959s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jongo/ros2_ws/build/ld06lidar_pkg': PYTHONPATH=/home/jongo/ros2_ws/build/ld06lidar_pkg/prefix_override:/home/jongo/ros2_ws/install/ld06lidar_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/jongo/ros2_ws/build/ld06lidar_pkg/build
+[14.518s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jongo/ros2_ws/build/orbbec_description' returned '0': CMAKE_PREFIX_PATH=/home/jongo/ros2_ws/install/damin_robot1:/opt/ros/humble /usr/bin/cmake /home/jongo/ros2_ws/src/OrbbecSDK_ROS2/orbbec_description -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/jongo/ros2_ws/install/orbbec_description
+[14.524s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jongo/ros2_ws/build/orbbec_description': CMAKE_PREFIX_PATH=/home/jongo/ros2_ws/install/damin_robot1:/opt/ros/humble /usr/bin/cmake --build /home/jongo/ros2_ws/build/orbbec_description -- -j4 -l4
+[14.717s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jongo/ros2_ws/build/orbbec_description' returned '0': CMAKE_PREFIX_PATH=/home/jongo/ros2_ws/install/damin_robot1:/opt/ros/humble /usr/bin/cmake --build /home/jongo/ros2_ws/build/orbbec_description -- -j4 -l4
+[14.894s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jongo/ros2_ws/build/orbbec_description': CMAKE_PREFIX_PATH=/home/jongo/ros2_ws/install/damin_robot1:/opt/ros/humble /usr/bin/cmake --install /home/jongo/ros2_ws/build/orbbec_description
+[14.963s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(orbbec_description)
+[14.975s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jongo/ros2_ws/build/orbbec_description' returned '0': CMAKE_PREFIX_PATH=/home/jongo/ros2_ws/install/damin_robot1:/opt/ros/humble /usr/bin/cmake --install /home/jongo/ros2_ws/build/orbbec_description
+[15.097s] Level 1:colcon.colcon_core.environment:checking '/home/jongo/ros2_ws/install/orbbec_description' for CMake module files
+[15.099s] Level 1:colcon.colcon_core.environment:checking '/home/jongo/ros2_ws/install/orbbec_description' for CMake config files
+[15.101s] Level 1:colcon.colcon_core.shell:create_environment_hook('orbbec_description', 'cmake_prefix_path')
+[15.199s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jongo/ros2_ws/install/orbbec_description/share/orbbec_description/hook/cmake_prefix_path.ps1'
+[15.202s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jongo/ros2_ws/install/orbbec_description/share/orbbec_description/hook/cmake_prefix_path.dsv'
+[15.204s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jongo/ros2_ws/install/orbbec_description/share/orbbec_description/hook/cmake_prefix_path.sh'
+[15.207s] Level 1:colcon.colcon_core.environment:checking '/home/jongo/ros2_ws/install/orbbec_description/bin'
+[15.208s] Level 1:colcon.colcon_core.environment:checking '/home/jongo/ros2_ws/install/orbbec_description/lib/pkgconfig/orbbec_description.pc'
+[15.209s] Level 1:colcon.colcon_core.environment:checking '/home/jongo/ros2_ws/install/orbbec_description/lib/python3.10/site-packages'
+[15.210s] Level 1:colcon.colcon_core.environment:checking '/home/jongo/ros2_ws/install/orbbec_description/bin'
+[15.315s] INFO:colcon.colcon_core.shell:Creating package script '/home/jongo/ros2_ws/install/orbbec_description/share/orbbec_description/package.ps1'
+[15.319s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jongo/ros2_ws/install/orbbec_description/share/orbbec_description/package.dsv'
+[15.322s] INFO:colcon.colcon_core.shell:Creating package script '/home/jongo/ros2_ws/install/orbbec_description/share/orbbec_description/package.sh'
+[15.326s] INFO:colcon.colcon_core.shell:Creating package script '/home/jongo/ros2_ws/install/orbbec_description/share/orbbec_description/package.bash'
+[15.329s] INFO:colcon.colcon_core.shell:Creating package script '/home/jongo/ros2_ws/install/orbbec_description/share/orbbec_description/package.zsh'
+[15.333s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jongo/ros2_ws/install/orbbec_description/share/colcon-core/packages/orbbec_description)
+[15.575s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(orbbec_description)
+[15.701s] Level 1:colcon.colcon_core.environment:checking '/home/jongo/ros2_ws/install/orbbec_description' for CMake module files
+[15.705s] Level 1:colcon.colcon_core.environment:checking '/home/jongo/ros2_ws/install/orbbec_description' for CMake config files
+[15.706s] Level 1:colcon.colcon_core.shell:create_environment_hook('orbbec_description', 'cmake_prefix_path')
+[15.821s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jongo/ros2_ws/install/orbbec_description/share/orbbec_description/hook/cmake_prefix_path.ps1'
+[15.824s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jongo/ros2_ws/install/orbbec_description/share/orbbec_description/hook/cmake_prefix_path.dsv'
+[15.826s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jongo/ros2_ws/install/orbbec_description/share/orbbec_description/hook/cmake_prefix_path.sh'
+[15.829s] Level 1:colcon.colcon_core.environment:checking '/home/jongo/ros2_ws/install/orbbec_description/bin'
+[15.830s] Level 1:colcon.colcon_core.environment:checking '/home/jongo/ros2_ws/install/orbbec_description/lib/pkgconfig/orbbec_description.pc'
+[15.831s] Level 1:colcon.colcon_core.environment:checking '/home/jongo/ros2_ws/install/orbbec_description/lib/python3.10/site-packages'
+[15.832s] Level 1:colcon.colcon_core.environment:checking '/home/jongo/ros2_ws/install/orbbec_description/bin'
+[15.938s] INFO:colcon.colcon_core.shell:Creating package script '/home/jongo/ros2_ws/install/orbbec_description/share/orbbec_description/package.ps1'
+[15.941s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jongo/ros2_ws/install/orbbec_description/share/orbbec_description/package.dsv'
+[15.943s] INFO:colcon.colcon_core.shell:Creating package script '/home/jongo/ros2_ws/install/orbbec_description/share/orbbec_description/package.sh'
+[15.946s] INFO:colcon.colcon_core.shell:Creating package script '/home/jongo/ros2_ws/install/orbbec_description/share/orbbec_description/package.bash'
+[15.948s] INFO:colcon.colcon_core.shell:Creating package script '/home/jongo/ros2_ws/install/orbbec_description/share/orbbec_description/package.zsh'
+[15.951s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jongo/ros2_ws/install/orbbec_description/share/colcon-core/packages/orbbec_description)
+[16.222s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jongo/ros2_ws/build/ld06lidar_pkg' returned '0': PYTHONPATH=/home/jongo/ros2_ws/build/ld06lidar_pkg/prefix_override:/home/jongo/ros2_ws/install/ld06lidar_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/jongo/ros2_ws/build/ld06lidar_pkg/build
+[16.230s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jongo/ros2_ws/src/ld06lidar_pkg': PYTHONPATH=/home/jongo/ros2_ws/build/ld06lidar_pkg/prefix_override:/home/jongo/ros2_ws/install/ld06lidar_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ld06lidar_pkg build --build-base /home/jongo/ros2_ws/build/ld06lidar_pkg/build install --record /home/jongo/ros2_ws/build/ld06lidar_pkg/install.log --single-version-externally-managed
+[16.341s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jongo/ros2_ws/build/damin_robot1' returned '0': PYTHONPATH=/home/jongo/ros2_ws/build/damin_robot1/prefix_override:/home/jongo/ros2_ws/install/damin_robot1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/jongo/ros2_ws/build/damin_robot1/build
+[16.352s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jongo/ros2_ws/src/damin_robot1': PYTHONPATH=/home/jongo/ros2_ws/build/damin_robot1/prefix_override:/home/jongo/ros2_ws/install/damin_robot1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/damin_robot1 build --build-base /home/jongo/ros2_ws/build/damin_robot1/build install --record /home/jongo/ros2_ws/build/damin_robot1/install.log --single-version-externally-managed
+[18.085s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jongo/ros2_ws/src/ld06lidar_pkg' returned '0': PYTHONPATH=/home/jongo/ros2_ws/build/ld06lidar_pkg/prefix_override:/home/jongo/ros2_ws/install/ld06lidar_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ld06lidar_pkg build --build-base /home/jongo/ros2_ws/build/ld06lidar_pkg/build install --record /home/jongo/ros2_ws/build/ld06lidar_pkg/install.log --single-version-externally-managed
+[18.250s] Level 1:colcon.colcon_core.environment:checking '/home/jongo/ros2_ws/install/ld06lidar_pkg' for CMake module files
+[18.252s] Level 1:colcon.colcon_core.environment:checking '/home/jongo/ros2_ws/install/ld06lidar_pkg' for CMake config files
+[18.256s] Level 1:colcon.colcon_core.environment:checking '/home/jongo/ros2_ws/install/ld06lidar_pkg/lib'
+[18.257s] Level 1:colcon.colcon_core.environment:checking '/home/jongo/ros2_ws/install/ld06lidar_pkg/bin'
+[18.257s] Level 1:colcon.colcon_core.environment:checking '/home/jongo/ros2_ws/install/ld06lidar_pkg/lib/pkgconfig/ld06lidar_pkg.pc'
+[18.258s] Level 1:colcon.colcon_core.environment:checking '/home/jongo/ros2_ws/install/ld06lidar_pkg/lib/python3.10/site-packages'
+[18.258s] Level 1:colcon.colcon_core.shell:create_environment_hook('ld06lidar_pkg', 'pythonpath')
+[18.336s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jongo/ros2_ws/install/ld06lidar_pkg/share/ld06lidar_pkg/hook/pythonpath.ps1'
+[18.339s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jongo/ros2_ws/install/ld06lidar_pkg/share/ld06lidar_pkg/hook/pythonpath.dsv'
+[18.340s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jongo/ros2_ws/install/ld06lidar_pkg/share/ld06lidar_pkg/hook/pythonpath.sh'
+[18.343s] Level 1:colcon.colcon_core.environment:checking '/home/jongo/ros2_ws/install/ld06lidar_pkg/bin'
+[18.344s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ld06lidar_pkg)
+[18.430s] INFO:colcon.colcon_core.shell:Creating package script '/home/jongo/ros2_ws/install/ld06lidar_pkg/share/ld06lidar_pkg/package.ps1'
+[18.432s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jongo/ros2_ws/install/ld06lidar_pkg/share/ld06lidar_pkg/package.dsv'
+[18.435s] INFO:colcon.colcon_core.shell:Creating package script '/home/jongo/ros2_ws/install/ld06lidar_pkg/share/ld06lidar_pkg/package.sh'
+[18.437s] INFO:colcon.colcon_core.shell:Creating package script '/home/jongo/ros2_ws/install/ld06lidar_pkg/share/ld06lidar_pkg/package.bash'
+[18.438s] INFO:colcon.colcon_core.shell:Creating package script '/home/jongo/ros2_ws/install/ld06lidar_pkg/share/ld06lidar_pkg/package.zsh'
+[18.440s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jongo/ros2_ws/install/ld06lidar_pkg/share/colcon-core/packages/ld06lidar_pkg)
+[18.447s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jongo/ros2_ws/src/damin_robot1' returned '0': PYTHONPATH=/home/jongo/ros2_ws/build/damin_robot1/prefix_override:/home/jongo/ros2_ws/install/damin_robot1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/damin_robot1 build --build-base /home/jongo/ros2_ws/build/damin_robot1/build install --record /home/jongo/ros2_ws/build/damin_robot1/install.log --single-version-externally-managed
+[18.533s] Level 1:colcon.colcon_core.environment:checking '/home/jongo/ros2_ws/install/damin_robot1' for CMake module files
+[18.535s] Level 1:colcon.colcon_core.environment:checking '/home/jongo/ros2_ws/install/damin_robot1' for CMake config files
+[18.539s] Level 1:colcon.colcon_core.environment:checking '/home/jongo/ros2_ws/install/damin_robot1/lib'
+[18.540s] Level 1:colcon.colcon_core.environment:checking '/home/jongo/ros2_ws/install/damin_robot1/bin'
+[18.540s] Level 1:colcon.colcon_core.environment:checking '/home/jongo/ros2_ws/install/damin_robot1/lib/pkgconfig/damin_robot1.pc'
+[18.541s] Level 1:colcon.colcon_core.environment:checking '/home/jongo/ros2_ws/install/damin_robot1/lib/python3.10/site-packages'
+[18.541s] Level 1:colcon.colcon_core.shell:create_environment_hook('damin_robot1', 'pythonpath')
+[18.610s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jongo/ros2_ws/install/damin_robot1/share/damin_robot1/hook/pythonpath.ps1'
+[18.612s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jongo/ros2_ws/install/damin_robot1/share/damin_robot1/hook/pythonpath.dsv'
+[18.614s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jongo/ros2_ws/install/damin_robot1/share/damin_robot1/hook/pythonpath.sh'
+[18.616s] Level 1:colcon.colcon_core.environment:checking '/home/jongo/ros2_ws/install/damin_robot1/bin'
+[18.617s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(damin_robot1)
+[18.687s] INFO:colcon.colcon_core.shell:Creating package script '/home/jongo/ros2_ws/install/damin_robot1/share/damin_robot1/package.ps1'
+[18.689s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jongo/ros2_ws/install/damin_robot1/share/damin_robot1/package.dsv'
+[18.692s] INFO:colcon.colcon_core.shell:Creating package script '/home/jongo/ros2_ws/install/damin_robot1/share/damin_robot1/package.sh'
+[18.694s] INFO:colcon.colcon_core.shell:Creating package script '/home/jongo/ros2_ws/install/damin_robot1/share/damin_robot1/package.bash'
+[18.695s] INFO:colcon.colcon_core.shell:Creating package script '/home/jongo/ros2_ws/install/damin_robot1/share/damin_robot1/package.zsh'
+[18.697s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jongo/ros2_ws/install/damin_robot1/share/colcon-core/packages/damin_robot1)
+[20.174s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jongo/ros2_ws/build/orbbec_camera_msgs' returned '0': CMAKE_PREFIX_PATH=/home/jongo/ros2_ws/install/damin_robot1:/opt/ros/humble /usr/bin/cmake /home/jongo/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/jongo/ros2_ws/install/orbbec_camera_msgs
+[20.182s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jongo/ros2_ws/build/orbbec_camera_msgs': CMAKE_PREFIX_PATH=/home/jongo/ros2_ws/install/damin_robot1:/opt/ros/humble /usr/bin/cmake --build /home/jongo/ros2_ws/build/orbbec_camera_msgs -- -j4 -l4
+[71.628s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jongo/ros2_ws/build/orbbec_camera_msgs' returned '0': CMAKE_PREFIX_PATH=/home/jongo/ros2_ws/install/damin_robot1:/opt/ros/humble /usr/bin/cmake --build /home/jongo/ros2_ws/build/orbbec_camera_msgs -- -j4 -l4
+[73.145s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jongo/ros2_ws/build/orbbec_camera_msgs': CMAKE_PREFIX_PATH=/home/jongo/ros2_ws/install/damin_robot1:/opt/ros/humble /usr/bin/cmake --install /home/jongo/ros2_ws/build/orbbec_camera_msgs
+[73.810s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(orbbec_camera_msgs)
+[73.811s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jongo/ros2_ws/build/orbbec_camera_msgs' returned '0': CMAKE_PREFIX_PATH=/home/jongo/ros2_ws/install/damin_robot1:/opt/ros/humble /usr/bin/cmake --install /home/jongo/ros2_ws/build/orbbec_camera_msgs
+[73.874s] Level 1:colcon.colcon_core.environment:checking '/home/jongo/ros2_ws/install/orbbec_camera_msgs' for CMake module files
+[73.878s] Level 1:colcon.colcon_core.environment:checking '/home/jongo/ros2_ws/install/orbbec_camera_msgs' for CMake config files
+[73.885s] Level 1:colcon.colcon_core.shell:create_environment_hook('orbbec_camera_msgs', 'cmake_prefix_path')
+[73.943s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/hook/cmake_prefix_path.ps1'
+[73.945s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/hook/cmake_prefix_path.dsv'
+[73.946s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/hook/cmake_prefix_path.sh'
+[73.949s] Level 1:colcon.colcon_core.environment:checking '/home/jongo/ros2_ws/install/orbbec_camera_msgs/lib'
+[73.949s] Level 1:colcon.colcon_core.shell:create_environment_hook('orbbec_camera_msgs', 'ld_library_path_lib')
+[74.010s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/hook/ld_library_path_lib.ps1'
+[74.012s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/hook/ld_library_path_lib.dsv'
+[74.013s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/hook/ld_library_path_lib.sh'
+[74.015s] Level 1:colcon.colcon_core.environment:checking '/home/jongo/ros2_ws/install/orbbec_camera_msgs/bin'
+[74.015s] Level 1:colcon.colcon_core.environment:checking '/home/jongo/ros2_ws/install/orbbec_camera_msgs/lib/pkgconfig/orbbec_camera_msgs.pc'
+[74.016s] Level 1:colcon.colcon_core.environment:checking '/home/jongo/ros2_ws/install/orbbec_camera_msgs/lib/python3.10/site-packages'
+[74.017s] Level 1:colcon.colcon_core.environment:checking '/home/jongo/ros2_ws/install/orbbec_camera_msgs/bin'
+[74.077s] INFO:colcon.colcon_core.shell:Creating package script '/home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/package.ps1'
+[74.079s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/package.dsv'
+[74.082s] INFO:colcon.colcon_core.shell:Creating package script '/home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/package.sh'
+[74.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/package.bash'
+[74.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/package.zsh'
+[74.087s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jongo/ros2_ws/install/orbbec_camera_msgs/share/colcon-core/packages/orbbec_camera_msgs)
+[75.665s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(orbbec_camera_msgs)
+[75.726s] Level 1:colcon.colcon_core.environment:checking '/home/jongo/ros2_ws/install/orbbec_camera_msgs' for CMake module files
+[75.730s] Level 1:colcon.colcon_core.environment:checking '/home/jongo/ros2_ws/install/orbbec_camera_msgs' for CMake config files
+[75.736s] Level 1:colcon.colcon_core.shell:create_environment_hook('orbbec_camera_msgs', 'cmake_prefix_path')
+[75.795s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/hook/cmake_prefix_path.ps1'
+[75.798s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/hook/cmake_prefix_path.dsv'
+[75.799s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/hook/cmake_prefix_path.sh'
+[75.802s] Level 1:colcon.colcon_core.environment:checking '/home/jongo/ros2_ws/install/orbbec_camera_msgs/lib'
+[75.803s] Level 1:colcon.colcon_core.shell:create_environment_hook('orbbec_camera_msgs', 'ld_library_path_lib')
+[75.862s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/hook/ld_library_path_lib.ps1'
+[75.864s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/hook/ld_library_path_lib.dsv'
+[75.866s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/hook/ld_library_path_lib.sh'
+[75.867s] Level 1:colcon.colcon_core.environment:checking '/home/jongo/ros2_ws/install/orbbec_camera_msgs/bin'
+[75.868s] Level 1:colcon.colcon_core.environment:checking '/home/jongo/ros2_ws/install/orbbec_camera_msgs/lib/pkgconfig/orbbec_camera_msgs.pc'
+[75.869s] Level 1:colcon.colcon_core.environment:checking '/home/jongo/ros2_ws/install/orbbec_camera_msgs/lib/python3.10/site-packages'
+[75.870s] Level 1:colcon.colcon_core.environment:checking '/home/jongo/ros2_ws/install/orbbec_camera_msgs/bin'
+[75.931s] INFO:colcon.colcon_core.shell:Creating package script '/home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/package.ps1'
+[75.934s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/package.dsv'
+[75.937s] INFO:colcon.colcon_core.shell:Creating package script '/home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/package.sh'
+[75.939s] INFO:colcon.colcon_core.shell:Creating package script '/home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/package.bash'
+[75.941s] INFO:colcon.colcon_core.shell:Creating package script '/home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/package.zsh'
+[75.943s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jongo/ros2_ws/install/orbbec_camera_msgs/share/colcon-core/packages/orbbec_camera_msgs)
+[75.944s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jongo/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera' with build type 'ament_cmake'
+[75.945s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jongo/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera'
+[76.012s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[76.013s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[76.234s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jongo/ros2_ws/build/orbbec_camera': AMENT_PREFIX_PATH=/home/jongo/ros2_ws/install/orbbec_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jongo/ros2_ws/install/orbbec_camera_msgs:/home/jongo/ros2_ws/install/damin_robot1:/opt/ros/humble LD_LIBRARY_PATH=/home/jongo/ros2_ws/install/orbbec_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jongo/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jongo/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/jongo/ros2_ws/install/orbbec_camera
+[88.906s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jongo/ros2_ws/build/orbbec_camera' returned '0': AMENT_PREFIX_PATH=/home/jongo/ros2_ws/install/orbbec_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jongo/ros2_ws/install/orbbec_camera_msgs:/home/jongo/ros2_ws/install/damin_robot1:/opt/ros/humble LD_LIBRARY_PATH=/home/jongo/ros2_ws/install/orbbec_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jongo/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jongo/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/jongo/ros2_ws/install/orbbec_camera
+[88.916s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jongo/ros2_ws/build/orbbec_camera': AMENT_PREFIX_PATH=/home/jongo/ros2_ws/install/orbbec_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jongo/ros2_ws/install/orbbec_camera_msgs:/home/jongo/ros2_ws/install/damin_robot1:/opt/ros/humble LD_LIBRARY_PATH=/home/jongo/ros2_ws/install/orbbec_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jongo/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jongo/ros2_ws/build/orbbec_camera -- -j4 -l4

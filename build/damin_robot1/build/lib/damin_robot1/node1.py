@@ -75,6 +75,6 @@ def main(args=None):
     #rclpy.spin(node)
     rclpy.spin(node)
     rclpy.shutdown()
-
+clearclaff
 if __name__ == '__main__':
     main()

@@ -1,0 +1,1211 @@
+[0.000000] (-) TimerEvent: {}
+[0.001560] (damin_robot1) JobQueued: {'identifier': 'damin_robot1', 'dependencies': OrderedDict()}
+[0.002193] (ld06lidar_pkg) JobQueued: {'identifier': 'ld06lidar_pkg', 'dependencies': OrderedDict()}
+[0.002484] (orbbec_camera_msgs) JobQueued: {'identifier': 'orbbec_camera_msgs', 'dependencies': OrderedDict()}
+[0.002645] (orbbec_description) JobQueued: {'identifier': 'orbbec_description', 'dependencies': OrderedDict()}
+[0.002960] (orbbec_camera) JobQueued: {'identifier': 'orbbec_camera', 'dependencies': OrderedDict([('orbbec_camera_msgs', '/home/jongo/ros2_ws/install/orbbec_camera_msgs')])}
+[0.003224] (orbbec_camera_msgs) JobStarted: {'identifier': 'orbbec_camera_msgs'}
+[0.098969] (-) TimerEvent: {}
+[0.200084] (-) TimerEvent: {}
+[0.300714] (-) TimerEvent: {}
+[0.345732] (damin_robot1) JobStarted: {'identifier': 'damin_robot1'}
+[0.400862] (-) TimerEvent: {}
+[0.501881] (-) TimerEvent: {}
+[0.602783] (-) TimerEvent: {}
+[0.703522] (-) TimerEvent: {}
+[0.745668] (ld06lidar_pkg) JobStarted: {'identifier': 'ld06lidar_pkg'}
+[0.829488] (-) TimerEvent: {}
+[0.931371] (-) TimerEvent: {}
+[1.032437] (-) TimerEvent: {}
+[1.133810] (-) TimerEvent: {}
+[1.198748] (orbbec_description) JobStarted: {'identifier': 'orbbec_description'}
+[1.234251] (-) TimerEvent: {}
+[1.335182] (-) TimerEvent: {}
+[1.435987] (-) TimerEvent: {}
+[1.529904] (orbbec_camera_msgs) JobProgress: {'identifier': 'orbbec_camera_msgs', 'progress': 'cmake'}
+[1.534804] (orbbec_camera_msgs) JobProgress: {'identifier': 'orbbec_camera_msgs', 'progress': 'build'}
+[1.537634] (orbbec_camera_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jongo/ros2_ws/build/orbbec_camera_msgs', '--', '-j4', '-l4'], 'cwd': '/home/jongo/ros2_ws/build/orbbec_camera_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jongo'), ('SSH_CLIENT', '172.16.100.124 57964 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/jongo/ros2_ws/install/orbbec_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jongo'), ('OLDPWD', '/home/jongo'), ('SSH_TTY', '/dev/pts/3'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator29dc8adce6160aa71083b29ec48bed94c'), ('COLCON_PREFIX_PATH', '/home/jongo/ros2_ws/install:/home/jongo/lidar_depthcam_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jongo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:11.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/jongo/ros2_ws/install/orbbec_description:/home/jongo/ros2_ws/install/orbbec_camera_msgs:/home/jongo/ros2_ws/install/ld06lidar_pkg:/home/jongo/ros2_ws/install/damin_robot1:/home/jongo/lidar_depthcam_ws/install/depth_camera:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:c83affae-034c-4606-9b55-d079d62f4585'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/jongo/ros2_ws/build/orbbec_camera_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '172.16.100.124 57964 172.16.100.82 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jongo/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages:/home/jongo/ros2_ws/install/ld06lidar_pkg/lib/python3.10/site-packages:/home/jongo/ros2_ws/install/damin_robot1/lib/python3.10/site-packages:/home/jongo/lidar_depthcam_ws/build/depth_camera:/home/jongo/lidar_depthcam_ws/install/depth_camera/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jongo/ros2_ws/install/orbbec_description:/home/jongo/ros2_ws/install/orbbec_camera_msgs:/home/jongo/ros2_ws/install/ld06lidar_pkg:/home/jongo/ros2_ws/install/damin_robot1:/home/jongo/lidar_depthcam_ws/install/depth_camera:/opt/ros/humble')]), 'shell': False}
+[1.541715] (-) TimerEvent: {}
+[1.642674] (-) TimerEvent: {}
+[1.743456] (-) TimerEvent: {}
+[1.844260] (-) TimerEvent: {}
+[1.945145] (-) TimerEvent: {}
+[2.046592] (-) TimerEvent: {}
+[2.149029] (-) TimerEvent: {}
+[2.249878] (-) TimerEvent: {}
+[2.351376] (-) TimerEvent: {}
+[2.452609] (-) TimerEvent: {}
+[2.553455] (-) TimerEvent: {}
+[2.654378] (-) TimerEvent: {}
+[2.755840] (-) TimerEvent: {}
+[2.857530] (-) TimerEvent: {}
+[2.958400] (-) TimerEvent: {}
+[3.059254] (-) TimerEvent: {}
+[3.160071] (-) TimerEvent: {}
+[3.261156] (-) TimerEvent: {}
+[3.362451] (-) TimerEvent: {}
+[3.463832] (-) TimerEvent: {}
+[3.569196] (-) TimerEvent: {}
+[3.670058] (-) TimerEvent: {}
+[3.770922] (-) TimerEvent: {}
+[3.872144] (-) TimerEvent: {}
+[3.973195] (-) TimerEvent: {}
+[4.074076] (-) TimerEvent: {}
+[4.174760] (-) TimerEvent: {}
+[4.275451] (-) TimerEvent: {}
+[4.376085] (-) TimerEvent: {}
+[4.476732] (-) TimerEvent: {}
+[4.577447] (-) TimerEvent: {}
+[4.678160] (-) TimerEvent: {}
+[4.778922] (-) TimerEvent: {}
+[4.879757] (-) TimerEvent: {}
+[4.980779] (-) TimerEvent: {}
+[5.081589] (-) TimerEvent: {}
+[5.186346] (-) TimerEvent: {}
+[5.228383] (orbbec_camera_msgs) StdoutLine: {'line': b'[  0%] Built target orbbec_camera_msgs__cpp\n'}
+[5.230445] (orbbec_camera_msgs) StdoutLine: {'line': b'[ 12%] Built target orbbec_camera_msgs__rosidl_generator_c\n'}
+[5.233001] (orbbec_camera_msgs) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_orbbec_camera_msgs\n'}
+[5.235358] (orbbec_camera_msgs) StdoutLine: {'line': b'[ 24%] Built target orbbec_camera_msgs__rosidl_typesupport_cpp\n'}
+[5.237013] (orbbec_camera_msgs) StdoutLine: {'line': b'[ 35%] Built target orbbec_camera_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[5.240865] (orbbec_camera_msgs) StdoutLine: {'line': b'[ 47%] Built target orbbec_camera_msgs__rosidl_typesupport_introspection_cpp\n'}
+[5.243052] (orbbec_camera_msgs) StdoutLine: {'line': b'[ 59%] Built target orbbec_camera_msgs__rosidl_typesupport_fastrtps_c\n'}
+[5.243808] (orbbec_camera_msgs) StdoutLine: {'line': b'[ 71%] Built target orbbec_camera_msgs__rosidl_typesupport_introspection_c\n'}
+[5.244672] (orbbec_camera_msgs) StdoutLine: {'line': b'[ 82%] Built target orbbec_camera_msgs__rosidl_typesupport_c\n'}
+[5.246312] (orbbec_camera_msgs) StdoutLine: {'line': b'[ 82%] Built target orbbec_camera_msgs\n'}
+[5.247311] (orbbec_camera_msgs) StdoutLine: {'line': b'[ 83%] Built target orbbec_camera_msgs__py\n'}
+[5.248213] (orbbec_camera_msgs) StdoutLine: {'line': b'[ 94%] Built target orbbec_camera_msgs__rosidl_generator_py\n'}
+[5.249022] (orbbec_camera_msgs) StdoutLine: {'line': b'[ 96%] Built target orbbec_camera_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[5.249685] (orbbec_camera_msgs) StdoutLine: {'line': b'[ 98%] Built target orbbec_camera_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[5.250282] (orbbec_camera_msgs) StdoutLine: {'line': b'[100%] Built target orbbec_camera_msgs__rosidl_typesupport_c__pyext\n'}
+[5.250794] (orbbec_camera_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[5.252843] (orbbec_camera_msgs) StdoutLine: {'line': b'writing orbbec_camera_msgs.egg-info/PKG-INFO\n'}
+[5.253598] (orbbec_camera_msgs) StdoutLine: {'line': b'writing dependency_links to orbbec_camera_msgs.egg-info/dependency_links.txt\n'}
+[5.254569] (orbbec_camera_msgs) StdoutLine: {'line': b'writing top-level names to orbbec_camera_msgs.egg-info/top_level.txt\n'}
+[5.255478] (orbbec_camera_msgs) StdoutLine: {'line': b"reading manifest file 'orbbec_camera_msgs.egg-info/SOURCES.txt'\n"}
+[5.256257] (orbbec_camera_msgs) StdoutLine: {'line': b"writing manifest file 'orbbec_camera_msgs.egg-info/SOURCES.txt'\n"}
+[5.256953] (orbbec_camera_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_orbbec_camera_msgs_egg\n'}
+[5.258146] (orbbec_camera_msgs) CommandEnded: {'returncode': 0}
+[5.259864] (orbbec_description) JobProgress: {'identifier': 'orbbec_description', 'progress': 'cmake'}
+[5.260244] (orbbec_description) JobProgress: {'identifier': 'orbbec_description', 'progress': 'build'}
+[5.261555] (orbbec_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jongo/ros2_ws/build/orbbec_description', '--', '-j4', '-l4'], 'cwd': '/home/jongo/ros2_ws/build/orbbec_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jongo'), ('SSH_CLIENT', '172.16.100.124 57964 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/jongo/ros2_ws/install/orbbec_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jongo'), ('OLDPWD', '/home/jongo'), ('SSH_TTY', '/dev/pts/3'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator29dc8adce6160aa71083b29ec48bed94c'), ('COLCON_PREFIX_PATH', '/home/jongo/ros2_ws/install:/home/jongo/lidar_depthcam_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jongo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:11.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/jongo/ros2_ws/install/orbbec_description:/home/jongo/ros2_ws/install/orbbec_camera_msgs:/home/jongo/ros2_ws/install/ld06lidar_pkg:/home/jongo/ros2_ws/install/damin_robot1:/home/jongo/lidar_depthcam_ws/install/depth_camera:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:c83affae-034c-4606-9b55-d079d62f4585'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/jongo/ros2_ws/build/orbbec_description'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '172.16.100.124 57964 172.16.100.82 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jongo/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages:/home/jongo/ros2_ws/install/ld06lidar_pkg/lib/python3.10/site-packages:/home/jongo/ros2_ws/install/damin_robot1/lib/python3.10/site-packages:/home/jongo/lidar_depthcam_ws/build/depth_camera:/home/jongo/lidar_depthcam_ws/install/depth_camera/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jongo/ros2_ws/install/orbbec_description:/home/jongo/ros2_ws/install/orbbec_camera_msgs:/home/jongo/ros2_ws/install/ld06lidar_pkg:/home/jongo/ros2_ws/install/damin_robot1:/home/jongo/lidar_depthcam_ws/install/depth_camera:/opt/ros/humble')]), 'shell': False}
+[5.287339] (-) TimerEvent: {}
+[5.388687] (-) TimerEvent: {}
+[5.468809] (orbbec_description) CommandEnded: {'returncode': 0}
+[5.488901] (-) TimerEvent: {}
+[5.590604] (-) TimerEvent: {}
+[5.614946] (orbbec_description) JobProgress: {'identifier': 'orbbec_description', 'progress': 'install'}
+[5.656635] (orbbec_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jongo/ros2_ws/build/orbbec_description'], 'cwd': '/home/jongo/ros2_ws/build/orbbec_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jongo'), ('SSH_CLIENT', '172.16.100.124 57964 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/jongo/ros2_ws/install/orbbec_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jongo'), ('OLDPWD', '/home/jongo'), ('SSH_TTY', '/dev/pts/3'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator29dc8adce6160aa71083b29ec48bed94c'), ('COLCON_PREFIX_PATH', '/home/jongo/ros2_ws/install:/home/jongo/lidar_depthcam_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jongo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:11.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/jongo/ros2_ws/install/orbbec_description:/home/jongo/ros2_ws/install/orbbec_camera_msgs:/home/jongo/ros2_ws/install/ld06lidar_pkg:/home/jongo/ros2_ws/install/damin_robot1:/home/jongo/lidar_depthcam_ws/install/depth_camera:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:c83affae-034c-4606-9b55-d079d62f4585'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/jongo/ros2_ws/build/orbbec_description'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '172.16.100.124 57964 172.16.100.82 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jongo/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages:/home/jongo/ros2_ws/install/ld06lidar_pkg/lib/python3.10/site-packages:/home/jongo/ros2_ws/install/damin_robot1/lib/python3.10/site-packages:/home/jongo/lidar_depthcam_ws/build/depth_camera:/home/jongo/lidar_depthcam_ws/install/depth_camera/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jongo/ros2_ws/install/orbbec_description:/home/jongo/ros2_ws/install/orbbec_camera_msgs:/home/jongo/ros2_ws/install/ld06lidar_pkg:/home/jongo/ros2_ws/install/damin_robot1:/home/jongo/lidar_depthcam_ws/install/depth_camera:/opt/ros/humble')]), 'shell': False}
+[5.690857] (-) TimerEvent: {}
+[5.698422] (orbbec_description) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[5.700814] (orbbec_description) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_description/share/ament_index/resource_index/package_run_dependencies/orbbec_description\n'}
+[5.703581] (orbbec_description) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_description/share/ament_index/resource_index/parent_prefix_path/orbbec_description\n'}
+[5.705789] (orbbec_description) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_description/share/orbbec_description/environment/ament_prefix_path.sh\n'}
+[5.708032] (orbbec_description) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_description/share/orbbec_description/environment/ament_prefix_path.dsv\n'}
+[5.710719] (orbbec_description) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_description/share/orbbec_description/environment/path.sh\n'}
+[5.711730] (orbbec_description) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_description/share/orbbec_description/environment/path.dsv\n'}
+[5.713259] (orbbec_description) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_description/share/orbbec_description/local_setup.bash\n'}
+[5.714363] (orbbec_description) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_description/share/orbbec_description/local_setup.sh\n'}
+[5.715738] (orbbec_description) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_description/share/orbbec_description/local_setup.zsh\n'}
+[5.716392] (orbbec_description) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_description/share/orbbec_description/local_setup.dsv\n'}
+[5.717097] (orbbec_description) StdoutLine: {'line': b'-- Installing: /home/jongo/ros2_ws/install/orbbec_description/share/orbbec_description/package.dsv\n'}
+[5.717676] (orbbec_description) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_description/share/ament_index/resource_index/packages/orbbec_description\n'}
+[5.718248] (orbbec_description) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_description/share/orbbec_description/cmake/orbbec_descriptionConfig.cmake\n'}
+[5.718836] (orbbec_description) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_description/share/orbbec_description/cmake/orbbec_descriptionConfig-version.cmake\n'}
+[5.719441] (orbbec_description) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_description/share/orbbec_description/package.xml\n'}
+[5.738434] (orbbec_description) CommandEnded: {'returncode': 0}
+[5.791293] (-) TimerEvent: {}
+[5.892406] (-) TimerEvent: {}
+[5.996100] (-) TimerEvent: {}
+[6.097017] (-) TimerEvent: {}
+[6.197841] (-) TimerEvent: {}
+[6.298794] (-) TimerEvent: {}
+[6.401583] (-) TimerEvent: {}
+[6.503450] (-) TimerEvent: {}
+[6.605728] (-) TimerEvent: {}
+[6.707063] (-) TimerEvent: {}
+[6.785592] (orbbec_description) JobEnded: {'identifier': 'orbbec_description', 'rc': 0}
+[6.807285] (-) TimerEvent: {}
+[6.908099] (-) TimerEvent: {}
+[6.932613] (orbbec_camera_msgs) JobProgress: {'identifier': 'orbbec_camera_msgs', 'progress': 'install'}
+[6.932867] (orbbec_camera_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jongo/ros2_ws/build/orbbec_camera_msgs'], 'cwd': '/home/jongo/ros2_ws/build/orbbec_camera_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jongo'), ('SSH_CLIENT', '172.16.100.124 57964 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/jongo/ros2_ws/install/orbbec_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jongo'), ('OLDPWD', '/home/jongo'), ('SSH_TTY', '/dev/pts/3'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator29dc8adce6160aa71083b29ec48bed94c'), ('COLCON_PREFIX_PATH', '/home/jongo/ros2_ws/install:/home/jongo/lidar_depthcam_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jongo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:11.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/jongo/ros2_ws/install/orbbec_description:/home/jongo/ros2_ws/install/orbbec_camera_msgs:/home/jongo/ros2_ws/install/ld06lidar_pkg:/home/jongo/ros2_ws/install/damin_robot1:/home/jongo/lidar_depthcam_ws/install/depth_camera:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:c83affae-034c-4606-9b55-d079d62f4585'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/jongo/ros2_ws/build/orbbec_camera_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '172.16.100.124 57964 172.16.100.82 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jongo/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages:/home/jongo/ros2_ws/install/ld06lidar_pkg/lib/python3.10/site-packages:/home/jongo/ros2_ws/install/damin_robot1/lib/python3.10/site-packages:/home/jongo/lidar_depthcam_ws/build/depth_camera:/home/jongo/lidar_depthcam_ws/install/depth_camera/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jongo/ros2_ws/install/orbbec_description:/home/jongo/ros2_ws/install/orbbec_camera_msgs:/home/jongo/ros2_ws/install/ld06lidar_pkg:/home/jongo/ros2_ws/install/damin_robot1:/home/jongo/lidar_depthcam_ws/install/depth_camera:/opt/ros/humble')]), 'shell': False}
+[6.971255] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[6.972738] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/ament_index/resource_index/rosidl_interfaces/orbbec_camera_msgs\n'}
+[6.974637] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs\n'}
+[6.976157] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg\n'}
+[6.977594] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/metadata.h\n'}
+[6.979632] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/extrinsics.h\n'}
+[6.982085] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail\n'}
+[6.988018] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/extrinsics__struct.h\n'}
+[6.988719] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/metadata__type_support.h\n'}
+[6.990090] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/metadata__struct.h\n'}
+[6.992167] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/extrinsics__type_support.h\n'}
+[6.993886] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_info__type_support.h\n'}
+[6.996908] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/extrinsics__functions.h\n'}
+[7.004768] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/metadata__functions.h\n'}
+[7.005474] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_info__struct.h\n'}
+[7.006081] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/metadata__functions.c\n'}
+[7.006965] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_info__functions.h\n'}
+[7.007711] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/extrinsics__functions.c\n'}
+[7.009228] (-) TimerEvent: {}
+[7.010195] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_info__functions.c\n'}
+[7.011982] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/device_info.h\n'}
+[7.014299] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[7.016024] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv\n'}
+[7.016977] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/get_device_info.h\n'}
+[7.017980] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/get_int32.h\n'}
+[7.019660] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/set_string.h\n'}
+[7.021014] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail\n'}
+[7.022717] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_bool__functions.c\n'}
+[7.024938] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_string__functions.c\n'}
+[7.026361] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_bool__struct.h\n'}
+[7.028395] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_int32__struct.h\n'}
+[7.030438] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_int32__functions.c\n'}
+[7.036370] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_string__functions.h\n'}
+[7.037159] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_camera_info__functions.c\n'}
+[7.037801] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_device_info__functions.c\n'}
+[7.038441] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_string__type_support.h\n'}
+[7.039042] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_int32__functions.h\n'}
+[7.040240] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_camera_info__functions.h\n'}
+[7.042351] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_string__struct.h\n'}
+[7.045622] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_int32__type_support.h\n'}
+[7.047439] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_string__type_support.h\n'}
+[7.049254] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_int32__functions.c\n'}
+[7.050872] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_int32__struct.h\n'}
+[7.052785] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_int32__type_support.h\n'}
+[7.057061] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_device_info__struct.h\n'}
+[7.059650] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_camera_info__struct.h\n'}
+[7.061961] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_bool__functions.h\n'}
+[7.066143] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_device_info__functions.h\n'}
+[7.066970] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_int32__functions.h\n'}
+[7.067681] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_string__struct.h\n'}
+[7.069837] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_camera_info__type_support.h\n'}
+[7.070585] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_bool__type_support.h\n'}
+[7.071607] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_string__functions.c\n'}
+[7.072663] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_string__functions.h\n'}
+[7.073492] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_device_info__type_support.h\n'}
+[7.074420] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/set_int32.h\n'}
+[7.075192] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/get_camera_info.h\n'}
+[7.076270] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/get_string.h\n'}
+[7.078501] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/get_bool.h\n'}
+[7.079993] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/environment/library_path.sh\n'}
+[7.081503] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/environment/library_path.dsv\n'}
+[7.083610] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__rosidl_generator_c.so\n'}
+[7.085632] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs\n'}
+[7.086715] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg\n'}
+[7.087278] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[7.088037] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail\n'}
+[7.088897] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/metadata__rosidl_typesupport_fastrtps_c.h\n'}
+[7.090126] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_fastrtps_c.h\n'}
+[7.091269] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_info__rosidl_typesupport_fastrtps_c.h\n'}
+[7.092165] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv\n'}
+[7.093077] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail\n'}
+[7.094030] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_fastrtps_c.h\n'}
+[7.095367] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_int32__rosidl_typesupport_fastrtps_c.h\n'}
+[7.101194] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_string__rosidl_typesupport_fastrtps_c.h\n'}
+[7.102146] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_bool__rosidl_typesupport_fastrtps_c.h\n'}
+[7.102752] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_string__rosidl_typesupport_fastrtps_c.h\n'}
+[7.103506] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_int32__rosidl_typesupport_fastrtps_c.h\n'}
+[7.104146] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_fastrtps_c.h\n'}
+[7.105183] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[7.105770] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs\n'}
+[7.107302] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg\n'}
+[7.109568] (-) TimerEvent: {}
+[7.110298] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail\n'}
+[7.111049] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_introspection_c.h\n'}
+[7.113043] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_info__type_support.c\n'}
+[7.114626] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/metadata__type_support.c\n'}
+[7.116726] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/metadata__rosidl_typesupport_introspection_c.h\n'}
+[7.118323] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_info__rosidl_typesupport_introspection_c.h\n'}
+[7.119509] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/extrinsics__type_support.c\n'}
+[7.120390] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[7.121219] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv\n'}
+[7.122171] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail\n'}
+[7.123161] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_introspection_c.h\n'}
+[7.124967] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_introspection_c.h\n'}
+[7.126011] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_string__type_support.c\n'}
+[7.127220] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_int32__type_support.c\n'}
+[7.133031] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_int32__type_support.c\n'}
+[7.133821] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_int32__rosidl_typesupport_introspection_c.h\n'}
+[7.134661] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_int32__rosidl_typesupport_introspection_c.h\n'}
+[7.135373] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_string__type_support.c\n'}
+[7.135972] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_bool__rosidl_typesupport_introspection_c.h\n'}
+[7.136788] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_string__rosidl_typesupport_introspection_c.h\n'}
+[7.137506] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_camera_info__type_support.c\n'}
+[7.138199] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_bool__type_support.c\n'}
+[7.139158] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_string__rosidl_typesupport_introspection_c.h\n'}
+[7.140047] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_device_info__type_support.c\n'}
+[7.140672] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__rosidl_typesupport_introspection_c.so\n'}
+[7.141312] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__rosidl_typesupport_c.so\n'}
+[7.141870] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs\n'}
+[7.142511] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg\n'}
+[7.144146] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/device_info.hpp\n'}
+[7.145300] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail\n'}
+[7.146300] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/extrinsics__struct.hpp\n'}
+[7.147156] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/metadata__builder.hpp\n'}
+[7.148219] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/extrinsics__builder.hpp\n'}
+[7.149255] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/extrinsics__traits.hpp\n'}
+[7.150035] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_info__builder.hpp\n'}
+[7.150688] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_info__traits.hpp\n'}
+[7.151931] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/metadata__struct.hpp\n'}
+[7.153250] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/metadata__traits.hpp\n'}
+[7.154040] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_info__struct.hpp\n'}
+[7.154868] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/metadata.hpp\n'}
+[7.155741] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/extrinsics.hpp\n'}
+[7.157091] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv\n'}
+[7.158107] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/get_camera_info.hpp\n'}
+[7.159108] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/get_device_info.hpp\n'}
+[7.160183] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/get_bool.hpp\n'}
+[7.165269] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail\n'}
+[7.165930] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_string__traits.hpp\n'}
+[7.166630] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_device_info__builder.hpp\n'}
+[7.167283] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_int32__traits.hpp\n'}
+[7.167892] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_bool__struct.hpp\n'}
+[7.168562] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_string__builder.hpp\n'}
+[7.169240] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_camera_info__traits.hpp\n'}
+[7.169717] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_device_info__struct.hpp\n'}
+[7.170391] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_string__struct.hpp\n'}
+[7.171178] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_bool__traits.hpp\n'}
+[7.171741] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_int32__traits.hpp\n'}
+[7.172497] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_string__builder.hpp\n'}
+[7.173174] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_int32__builder.hpp\n'}
+[7.174791] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_int32__builder.hpp\n'}
+[7.175705] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_camera_info__builder.hpp\n'}
+[7.176495] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_device_info__traits.hpp\n'}
+[7.177557] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_camera_info__struct.hpp\n'}
+[7.178447] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_string__traits.hpp\n'}
+[7.179501] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_string__struct.hpp\n'}
+[7.180831] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_int32__struct.hpp\n'}
+[7.181845] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_bool__builder.hpp\n'}
+[7.183329] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_int32__struct.hpp\n'}
+[7.184132] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/get_int32.hpp\n'}
+[7.184896] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/set_string.hpp\n'}
+[7.185614] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/get_string.hpp\n'}
+[7.186313] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/set_int32.hpp\n'}
+[7.186938] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs\n'}
+[7.187610] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg\n'}
+[7.188335] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail\n'}
+[7.189052] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/dds_fastrtps\n'}
+[7.189708] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.190317] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/metadata__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.190832] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.191423] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[7.191985] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv\n'}
+[7.192440] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail\n'}
+[7.192888] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_string__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.193251] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_bool__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.193642] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_int32__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.194004] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.194416] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/dds_fastrtps\n'}
+[7.194976] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_int32__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.195798] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_string__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.196469] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.197131] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[7.197748] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs\n'}
+[7.198303] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg\n'}
+[7.198871] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail\n'}
+[7.199529] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.200004] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/extrinsics__type_support.cpp\n'}
+[7.200529] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/metadata__type_support.cpp\n'}
+[7.201055] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/metadata__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.201552] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_info__type_support.cpp\n'}
+[7.202030] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.202432] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv\n'}
+[7.202920] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail\n'}
+[7.203416] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_int32__type_support.cpp\n'}
+[7.203845] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_camera_info__type_support.cpp\n'}
+[7.204273] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.204764] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_string__type_support.cpp\n'}
+[7.205234] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_string__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.205635] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_int32__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.205962] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_int32__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.206288] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_int32__type_support.cpp\n'}
+[7.206691] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_string__type_support.cpp\n'}
+[7.207262] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_device_info__type_support.cpp\n'}
+[7.207817] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_string__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.208404] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_bool__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.209123] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_bool__type_support.cpp\n'}
+[7.209990] (-) TimerEvent: {}
+[7.210596] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.211383] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[7.212011] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__rosidl_typesupport_cpp.so\n'}
+[7.212596] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/environment/pythonpath.sh\n'}
+[7.213164] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/environment/pythonpath.dsv\n'}
+[7.213801] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs-1.2.2-py3.10.egg-info\n'}
+[7.214640] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/jongo/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs-1.2.2-py3.10.egg-info/SOURCES.txt\n'}
+[7.215809] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/jongo/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs-1.2.2-py3.10.egg-info/dependency_links.txt\n'}
+[7.217122] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/jongo/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs-1.2.2-py3.10.egg-info/PKG-INFO\n'}
+[7.218349] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/jongo/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs-1.2.2-py3.10.egg-info/top_level.txt\n'}
+[7.219024] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs\n'}
+[7.219630] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/_orbbec_camera_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[7.220229] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg\n'}
+[7.220873] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg/_metadata.py\n'}
+[7.221497] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg/_extrinsics_s.c\n'}
+[7.222100] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg/_device_info_s.c\n'}
+[7.222766] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg/_metadata_s.c\n'}
+[7.223401] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg/_device_info.py\n'}
+[7.224061] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg/__init__.py\n'}
+[7.224708] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg/_extrinsics.py\n'}
+[7.225452] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/_orbbec_camera_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[7.226244] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/liborbbec_camera_msgs__rosidl_generator_py.so\n'}
+[7.226944] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/orbbec_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[7.227703] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv\n'}
+[7.228440] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_get_device_info_s.c\n'}
+[7.229071] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_set_int32.py\n'}
+[7.229688] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_get_device_info.py\n'}
+[7.230298] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_get_int32_s.c\n'}
+[7.230831] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_get_bool.py\n'}
+[7.231419] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_get_string_s.c\n'}
+[7.231879] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/__init__.py\n'}
+[7.232354] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_get_camera_info_s.c\n'}
+[7.232870] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_get_camera_info.py\n'}
+[7.233313] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_get_bool_s.c\n'}
+[7.233774] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_set_string_s.c\n'}
+[7.234357] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_get_string.py\n'}
+[7.234946] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_set_int32_s.c\n'}
+[7.235544] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_set_string.py\n'}
+[7.236126] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_get_int32.py\n'}
+[7.236644] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/orbbec_camera_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[7.237204] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/orbbec_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[7.237772] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/__init__.py\n'}
+[7.238285] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/_orbbec_camera_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[7.310187] (-) TimerEvent: {}
+[7.346806] (orbbec_camera_msgs) StdoutLine: {'line': b"Listing '/home/jongo/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs'...\n"}
+[7.349325] (orbbec_camera_msgs) StdoutLine: {'line': b"Listing '/home/jongo/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg'...\n"}
+[7.351361] (orbbec_camera_msgs) StdoutLine: {'line': b"Listing '/home/jongo/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv'...\n"}
+[7.376407] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/orbbec_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[7.381254] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/orbbec_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[7.386938] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/orbbec_camera_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[7.392735] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__rosidl_generator_py.so\n'}
+[7.395800] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/msg/DeviceInfo.idl\n'}
+[7.397094] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/msg/Extrinsics.idl\n'}
+[7.398406] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/msg/Metadata.idl\n'}
+[7.399605] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetBool.idl\n'}
+[7.400560] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetDeviceInfo.idl\n'}
+[7.403866] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetCameraInfo.idl\n'}
+[7.404679] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetInt32.idl\n'}
+[7.405534] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetString.idl\n'}
+[7.406378] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/SetInt32.idl\n'}
+[7.407349] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/SetString.idl\n'}
+[7.407968] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/msg/DeviceInfo.msg\n'}
+[7.408667] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/msg/Extrinsics.msg\n'}
+[7.409426] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/msg/Metadata.msg\n'}
+[7.409962] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetBool.srv\n'}
+[7.410697] (-) TimerEvent: {}
+[7.411423] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetBool_Request.msg\n'}
+[7.412248] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetBool_Response.msg\n'}
+[7.413029] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetDeviceInfo.srv\n'}
+[7.414830] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetDeviceInfo_Request.msg\n'}
+[7.416053] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetDeviceInfo_Response.msg\n'}
+[7.417137] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetCameraInfo.srv\n'}
+[7.418132] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetCameraInfo_Request.msg\n'}
+[7.419270] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetCameraInfo_Response.msg\n'}
+[7.420341] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetInt32.srv\n'}
+[7.421331] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetInt32_Request.msg\n'}
+[7.422063] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetInt32_Response.msg\n'}
+[7.422475] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetString.srv\n'}
+[7.422823] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetString_Request.msg\n'}
+[7.423272] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetString_Response.msg\n'}
+[7.423634] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/SetInt32.srv\n'}
+[7.423939] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/SetInt32_Request.msg\n'}
+[7.424235] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/SetInt32_Response.msg\n'}
+[7.424523] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/SetString.srv\n'}
+[7.424823] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/SetString_Request.msg\n'}
+[7.425143] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/SetString_Response.msg\n'}
+[7.425634] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/ament_index/resource_index/package_run_dependencies/orbbec_camera_msgs\n'}
+[7.426163] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/ament_index/resource_index/parent_prefix_path/orbbec_camera_msgs\n'}
+[7.426882] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/environment/ament_prefix_path.sh\n'}
+[7.427855] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/environment/ament_prefix_path.dsv\n'}
+[7.428671] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/environment/path.sh\n'}
+[7.429403] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/environment/path.dsv\n'}
+[7.430346] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/local_setup.bash\n'}
+[7.431685] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/local_setup.sh\n'}
+[7.432433] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/local_setup.zsh\n'}
+[7.432951] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/local_setup.dsv\n'}
+[7.433396] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/package.dsv\n'}
+[7.434773] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/ament_index/resource_index/packages/orbbec_camera_msgs\n'}
+[7.440293] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/export_orbbec_camera_msgs__rosidl_generator_cExport.cmake\n'}
+[7.441163] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/export_orbbec_camera_msgs__rosidl_generator_cExport-release.cmake\n'}
+[7.444166] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/export_orbbec_camera_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[7.445084] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/export_orbbec_camera_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake\n'}
+[7.447632] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/orbbec_camera_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[7.448555] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/orbbec_camera_msgs__rosidl_typesupport_introspection_cExport-release.cmake\n'}
+[7.451295] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/orbbec_camera_msgs__rosidl_typesupport_cExport.cmake\n'}
+[7.452315] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/orbbec_camera_msgs__rosidl_typesupport_cExport-release.cmake\n'}
+[7.454311] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/export_orbbec_camera_msgs__rosidl_generator_cppExport.cmake\n'}
+[7.456818] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/export_orbbec_camera_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[7.457794] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/export_orbbec_camera_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake\n'}
+[7.460346] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/orbbec_camera_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[7.461268] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/orbbec_camera_msgs__rosidl_typesupport_introspection_cppExport-release.cmake\n'}
+[7.464013] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/orbbec_camera_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[7.469156] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/orbbec_camera_msgs__rosidl_typesupport_cppExport-release.cmake\n'}
+[7.470103] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/export_orbbec_camera_msgs__rosidl_generator_pyExport.cmake\n'}
+[7.472192] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/export_orbbec_camera_msgs__rosidl_generator_pyExport-release.cmake\n'}
+[7.473111] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[7.474355] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.475442] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.476454] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[7.477150] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[7.478357] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[7.478984] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[7.479956] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/orbbec_camera_msgsConfig.cmake\n'}
+[7.480752] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/orbbec_camera_msgsConfig-version.cmake\n'}
+[7.481746] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jongo/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/package.xml\n'}
+[7.486701] (orbbec_camera_msgs) CommandEnded: {'returncode': 0}
+[7.510903] (-) TimerEvent: {}
+[7.612591] (-) TimerEvent: {}
+[7.713588] (-) TimerEvent: {}
+[7.814522] (-) TimerEvent: {}
+[7.919850] (-) TimerEvent: {}
+[8.022349] (-) TimerEvent: {}
+[8.076598] (ld06lidar_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/ld06lidar_pkg', 'build', '--build-base', '/home/jongo/ros2_ws/build/ld06lidar_pkg/build', 'install', '--record', '/home/jongo/ros2_ws/build/ld06lidar_pkg/install.log', '--single-version-externally-managed'], 'cwd': '/home/jongo/ros2_ws/src/ld06lidar_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jongo', 'SSH_CLIENT': '172.16.100.124 57964 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/jongo/ros2_ws/install/orbbec_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/jongo', 'OLDPWD': '/home/jongo', 'SSH_TTY': '/dev/pts/3', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator29dc8adce6160aa71083b29ec48bed94c', 'COLCON_PREFIX_PATH': '/home/jongo/ros2_ws/install:/home/jongo/lidar_depthcam_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'jongo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:11.0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/jongo/ros2_ws/install/orbbec_description:/home/jongo/ros2_ws/install/orbbec_camera_msgs:/home/jongo/ros2_ws/install/ld06lidar_pkg:/home/jongo/ros2_ws/install/damin_robot1:/home/jongo/lidar_depthcam_ws/install/depth_camera:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:c83affae-034c-4606-9b55-d079d62f4585', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/jongo/ros2_ws/build/ld06lidar_pkg', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '172.16.100.124 57964 172.16.100.82 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jongo/ros2_ws/build/ld06lidar_pkg/prefix_override:/home/jongo/ros2_ws/install/ld06lidar_pkg/lib/python3.10/site-packages:/home/jongo/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages:/home/jongo/ros2_ws/install/ld06lidar_pkg/lib/python3.10/site-packages:/home/jongo/ros2_ws/install/damin_robot1/lib/python3.10/site-packages:/home/jongo/lidar_depthcam_ws/build/depth_camera:/home/jongo/lidar_depthcam_ws/install/depth_camera/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/jongo/ros2_ws/install/orbbec_description:/home/jongo/ros2_ws/install/orbbec_camera_msgs'}, 'shell': False}
+[8.089368] (damin_robot1) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/damin_robot1', 'build', '--build-base', '/home/jongo/ros2_ws/build/damin_robot1/build', 'install', '--record', '/home/jongo/ros2_ws/build/damin_robot1/install.log', '--single-version-externally-managed'], 'cwd': '/home/jongo/ros2_ws/src/damin_robot1', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jongo', 'SSH_CLIENT': '172.16.100.124 57964 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/jongo/ros2_ws/install/orbbec_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/jongo', 'OLDPWD': '/home/jongo', 'SSH_TTY': '/dev/pts/3', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator29dc8adce6160aa71083b29ec48bed94c', 'COLCON_PREFIX_PATH': '/home/jongo/ros2_ws/install:/home/jongo/lidar_depthcam_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'jongo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:11.0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/jongo/ros2_ws/install/orbbec_description:/home/jongo/ros2_ws/install/orbbec_camera_msgs:/home/jongo/ros2_ws/install/ld06lidar_pkg:/home/jongo/ros2_ws/install/damin_robot1:/home/jongo/lidar_depthcam_ws/install/depth_camera:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:c83affae-034c-4606-9b55-d079d62f4585', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/jongo/ros2_ws/build/damin_robot1', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '172.16.100.124 57964 172.16.100.82 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jongo/ros2_ws/build/damin_robot1/prefix_override:/home/jongo/ros2_ws/install/damin_robot1/lib/python3.10/site-packages:/home/jongo/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages:/home/jongo/ros2_ws/install/ld06lidar_pkg/lib/python3.10/site-packages:/home/jongo/ros2_ws/install/damin_robot1/lib/python3.10/site-packages:/home/jongo/lidar_depthcam_ws/build/depth_camera:/home/jongo/lidar_depthcam_ws/install/depth_camera/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/jongo/ros2_ws/install/orbbec_description:/home/jongo/ros2_ws/install/orbbec_camera_msgs'}, 'shell': False}
+[8.122562] (-) TimerEvent: {}
+[8.223486] (-) TimerEvent: {}
+[8.324788] (-) TimerEvent: {}
+[8.426185] (-) TimerEvent: {}
+[8.526960] (-) TimerEvent: {}
+[8.627818] (-) TimerEvent: {}
+[8.729106] (-) TimerEvent: {}
+[8.829935] (-) TimerEvent: {}
+[8.930725] (-) TimerEvent: {}
+[9.031724] (-) TimerEvent: {}
+[9.133024] (-) TimerEvent: {}
+[9.233949] (-) TimerEvent: {}
+[9.334942] (-) TimerEvent: {}
+[9.435782] (-) TimerEvent: {}
+[9.511926] (damin_robot1) StdoutLine: {'line': b'running egg_info\n'}
+[9.515000] (damin_robot1) StdoutLine: {'line': b'writing ../../build/damin_robot1/damin_robot1.egg-info/PKG-INFO\n'}
+[9.517119] (damin_robot1) StdoutLine: {'line': b'writing dependency_links to ../../build/damin_robot1/damin_robot1.egg-info/dependency_links.txt\n'}
+[9.518213] (damin_robot1) StdoutLine: {'line': b'writing entry points to ../../build/damin_robot1/damin_robot1.egg-info/entry_points.txt\n'}
+[9.519770] (damin_robot1) StdoutLine: {'line': b'writing requirements to ../../build/damin_robot1/damin_robot1.egg-info/requires.txt\n'}
+[9.521200] (damin_robot1) StdoutLine: {'line': b'writing top-level names to ../../build/damin_robot1/damin_robot1.egg-info/top_level.txt\n'}
+[9.532445] (damin_robot1) StdoutLine: {'line': b"reading manifest file '../../build/damin_robot1/damin_robot1.egg-info/SOURCES.txt'\n"}
+[9.535939] (-) TimerEvent: {}
+[9.537750] (damin_robot1) StdoutLine: {'line': b"writing manifest file '../../build/damin_robot1/damin_robot1.egg-info/SOURCES.txt'\n"}
+[9.542351] (damin_robot1) StdoutLine: {'line': b'running build\n'}
+[9.543205] (damin_robot1) StdoutLine: {'line': b'running build_py\n'}
+[9.546071] (damin_robot1) StdoutLine: {'line': b'running install\n'}
+[9.547342] (damin_robot1) StdoutLine: {'line': b'running install_lib\n'}
+[9.557162] (damin_robot1) StdoutLine: {'line': b'running install_data\n'}
+[9.558493] (ld06lidar_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[9.560663] (damin_robot1) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.561871] (ld06lidar_pkg) StdoutLine: {'line': b'writing ../../build/ld06lidar_pkg/ld06lidar_pkg.egg-info/PKG-INFO\n'}
+[9.563047] (ld06lidar_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/ld06lidar_pkg/ld06lidar_pkg.egg-info/dependency_links.txt\n'}
+[9.564793] (ld06lidar_pkg) StdoutLine: {'line': b'writing entry points to ../../build/ld06lidar_pkg/ld06lidar_pkg.egg-info/entry_points.txt\n'}
+[9.566049] (ld06lidar_pkg) StdoutLine: {'line': b'writing requirements to ../../build/ld06lidar_pkg/ld06lidar_pkg.egg-info/requires.txt\n'}
+[9.566981] (ld06lidar_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/ld06lidar_pkg/ld06lidar_pkg.egg-info/top_level.txt\n'}
+[9.569693] (damin_robot1) StdoutLine: {'line': b"removing '/home/jongo/ros2_ws/install/damin_robot1/lib/python3.10/site-packages/damin_robot1-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[9.571795] (damin_robot1) StdoutLine: {'line': b'Copying ../../build/damin_robot1/damin_robot1.egg-info to /home/jongo/ros2_ws/install/damin_robot1/lib/python3.10/site-packages/damin_robot1-0.0.0-py3.10.egg-info\n'}
+[9.578291] (ld06lidar_pkg) StdoutLine: {'line': b"reading manifest file '../../build/ld06lidar_pkg/ld06lidar_pkg.egg-info/SOURCES.txt'\n"}
+[9.581046] (damin_robot1) StdoutLine: {'line': b'running install_scripts\n'}
+[9.582970] (ld06lidar_pkg) StdoutLine: {'line': b"writing manifest file '../../build/ld06lidar_pkg/ld06lidar_pkg.egg-info/SOURCES.txt'\n"}
+[9.584577] (ld06lidar_pkg) StdoutLine: {'line': b'running build\n'}
+[9.585548] (ld06lidar_pkg) StdoutLine: {'line': b'running build_py\n'}
+[9.588443] (ld06lidar_pkg) StdoutLine: {'line': b'running install\n'}
+[9.589696] (ld06lidar_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[9.598174] (ld06lidar_pkg) StdoutLine: {'line': b'running install_data\n'}
+[9.600573] (ld06lidar_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.610127] (ld06lidar_pkg) StdoutLine: {'line': b"removing '/home/jongo/ros2_ws/install/ld06lidar_pkg/lib/python3.10/site-packages/ld06lidar_pkg-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[9.621004] (ld06lidar_pkg) StdoutLine: {'line': b'Copying ../../build/ld06lidar_pkg/ld06lidar_pkg.egg-info to /home/jongo/ros2_ws/install/ld06lidar_pkg/lib/python3.10/site-packages/ld06lidar_pkg-0.0.0-py3.10.egg-info\n'}
+[9.623394] (ld06lidar_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[9.636375] (-) TimerEvent: {}
+[9.669734] (damin_robot1) StdoutLine: {'line': b'Installing jongo_drawshape script to /home/jongo/ros2_ws/install/damin_robot1/lib/damin_robot1\n'}
+[9.674170] (damin_robot1) StdoutLine: {'line': b'Installing jongo_node1 script to /home/jongo/ros2_ws/install/damin_robot1/lib/damin_robot1\n'}
+[9.674917] (damin_robot1) StdoutLine: {'line': b'Installing jongo_node2 script to /home/jongo/ros2_ws/install/damin_robot1/lib/damin_robot1\n'}
+[9.675910] (damin_robot1) StdoutLine: {'line': b'Installing jongo_posesubs script to /home/jongo/ros2_ws/install/damin_robot1/lib/damin_robot1\n'}
+[9.680349] (damin_robot1) StdoutLine: {'line': b'Installing jongo_sudong script to /home/jongo/ros2_ws/install/damin_robot1/lib/damin_robot1\n'}
+[9.684184] (damin_robot1) StdoutLine: {'line': b"writing list of installed files to '/home/jongo/ros2_ws/build/damin_robot1/install.log'\n"}
+[9.726640] (ld06lidar_pkg) StdoutLine: {'line': b'Installing lidar_pub_node script to /home/jongo/ros2_ws/install/ld06lidar_pkg/lib/ld06lidar_pkg\n'}
+[9.731465] (ld06lidar_pkg) StdoutLine: {'line': b'Installing lidar_subs_node script to /home/jongo/ros2_ws/install/ld06lidar_pkg/lib/ld06lidar_pkg\n'}
+[9.737810] (-) TimerEvent: {}
+[9.740720] (ld06lidar_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/jongo/ros2_ws/build/ld06lidar_pkg/install.log'\n"}
+[9.838195] (-) TimerEvent: {}
+[9.940649] (-) TimerEvent: {}
+[10.041396] (-) TimerEvent: {}
+[10.142403] (-) TimerEvent: {}
+[10.160331] (orbbec_camera_msgs) JobEnded: {'identifier': 'orbbec_camera_msgs', 'rc': 0}
+[10.164597] (orbbec_camera) JobStarted: {'identifier': 'orbbec_camera'}
+[10.242661] (-) TimerEvent: {}
+[10.346962] (-) TimerEvent: {}
+[10.447801] (-) TimerEvent: {}
+[10.483294] (damin_robot1) CommandEnded: {'returncode': 0}
+[10.549130] (-) TimerEvent: {}
+[10.650346] (-) TimerEvent: {}
+[10.693817] (damin_robot1) JobEnded: {'identifier': 'damin_robot1', 'rc': 0}
+[10.696984] (ld06lidar_pkg) CommandEnded: {'returncode': 0}
+[10.750495] (-) TimerEvent: {}
+[10.853311] (-) TimerEvent: {}
+[10.926940] (ld06lidar_pkg) JobEnded: {'identifier': 'ld06lidar_pkg', 'rc': 0}
+[10.930994] (orbbec_camera) JobProgress: {'identifier': 'orbbec_camera', 'progress': 'cmake'}
+[10.936915] (orbbec_camera) JobProgress: {'identifier': 'orbbec_camera', 'progress': 'build'}
+[10.938335] (orbbec_camera) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jongo/ros2_ws/build/orbbec_camera', '--', '-j4', '-l4'], 'cwd': '/home/jongo/ros2_ws/build/orbbec_camera', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jongo'), ('SSH_CLIENT', '172.16.100.124 57964 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/jongo/ros2_ws/install/orbbec_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jongo'), ('OLDPWD', '/home/jongo'), ('SSH_TTY', '/dev/pts/3'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator29dc8adce6160aa71083b29ec48bed94c'), ('COLCON_PREFIX_PATH', '/home/jongo/ros2_ws/install:/home/jongo/lidar_depthcam_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jongo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:11.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/jongo/ros2_ws/install/orbbec_description:/home/jongo/ros2_ws/install/orbbec_camera_msgs:/home/jongo/ros2_ws/install/ld06lidar_pkg:/home/jongo/ros2_ws/install/damin_robot1:/home/jongo/lidar_depthcam_ws/install/depth_camera:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:c83affae-034c-4606-9b55-d079d62f4585'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/jongo/ros2_ws/build/orbbec_camera'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '172.16.100.124 57964 172.16.100.82 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jongo/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages:/home/jongo/ros2_ws/install/ld06lidar_pkg/lib/python3.10/site-packages:/home/jongo/ros2_ws/install/damin_robot1/lib/python3.10/site-packages:/home/jongo/lidar_depthcam_ws/build/depth_camera:/home/jongo/lidar_depthcam_ws/install/depth_camera/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jongo/ros2_ws/install/orbbec_camera_msgs:/home/jongo/ros2_ws/install/orbbec_description:/home/jongo/ros2_ws/install/ld06lidar_pkg:/home/jongo/ros2_ws/install/damin_robot1:/home/jongo/lidar_depthcam_ws/install/depth_camera:/opt/ros/humble')]), 'shell': False}
+[10.953467] (-) TimerEvent: {}
+[11.054244] (-) TimerEvent: {}
+[11.155107] (-) TimerEvent: {}
+[11.231313] (orbbec_camera) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target orbbec_camera\x1b[0m\n'}
+[11.255293] (-) TimerEvent: {}
+[11.299651] (orbbec_camera) StdoutLine: {'line': b'[ 11%] Built target orbbec_camera_node\n'}
+[11.355483] (-) TimerEvent: {}
+[11.394694] (orbbec_camera) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/d2c_viewer.cpp.o\x1b[0m\n'}
+[11.455685] (-) TimerEvent: {}
+[11.482421] (orbbec_camera) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/ob_camera_node.cpp.o\x1b[0m\n'}
+[11.483695] (orbbec_camera) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/ros_service.cpp.o\x1b[0m\n'}
+[11.486717] (orbbec_camera) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/utils.cpp.o\x1b[0m\n'}
+[11.555926] (-) TimerEvent: {}
+[11.656887] (-) TimerEvent: {}
+[11.757752] (-) TimerEvent: {}
+[11.858469] (-) TimerEvent: {}
+[11.959268] (-) TimerEvent: {}
+[12.060582] (-) TimerEvent: {}
+[12.161934] (-) TimerEvent: {}
+[12.263334] (-) TimerEvent: {}
+[12.364539] (-) TimerEvent: {}
+[12.465739] (-) TimerEvent: {}
+[12.566918] (-) TimerEvent: {}
+[12.668185] (-) TimerEvent: {}
+[12.769584] (-) TimerEvent: {}
+[12.870945] (-) TimerEvent: {}
+[12.973039] (-) TimerEvent: {}
+[13.074293] (-) TimerEvent: {}
+[13.175961] (-) TimerEvent: {}
+[13.277185] (-) TimerEvent: {}
+[13.378572] (-) TimerEvent: {}
+[13.479839] (-) TimerEvent: {}
+[13.582161] (-) TimerEvent: {}
+[13.684381] (-) TimerEvent: {}
+[13.785149] (-) TimerEvent: {}
+[13.886441] (-) TimerEvent: {}
+[13.987906] (-) TimerEvent: {}
+[14.089659] (-) TimerEvent: {}
+[14.190483] (-) TimerEvent: {}
+[14.291359] (-) TimerEvent: {}
+[14.392262] (-) TimerEvent: {}
+[14.493220] (-) TimerEvent: {}
+[14.594099] (-) TimerEvent: {}
+[14.694853] (-) TimerEvent: {}
+[14.795737] (-) TimerEvent: {}
+[14.896780] (-) TimerEvent: {}
+[14.997822] (-) TimerEvent: {}
+[15.099855] (-) TimerEvent: {}
+[15.200888] (-) TimerEvent: {}
+[15.301928] (-) TimerEvent: {}
+[15.403610] (-) TimerEvent: {}
+[15.504733] (-) TimerEvent: {}
+[15.605880] (-) TimerEvent: {}
+[15.706971] (-) TimerEvent: {}
+[15.807888] (-) TimerEvent: {}
+[15.908765] (-) TimerEvent: {}
+[16.018164] (-) TimerEvent: {}
+[16.120112] (-) TimerEvent: {}
+[16.222010] (-) TimerEvent: {}
+[16.324720] (-) TimerEvent: {}
+[16.427581] (-) TimerEvent: {}
+[16.530122] (-) TimerEvent: {}
+[16.633105] (-) TimerEvent: {}
+[16.734839] (-) TimerEvent: {}
+[16.836733] (-) TimerEvent: {}
+[16.938795] (-) TimerEvent: {}
+[17.040933] (-) TimerEvent: {}
+[17.142790] (-) TimerEvent: {}
+[17.245272] (-) TimerEvent: {}
+[17.346513] (-) TimerEvent: {}
+[17.447678] (-) TimerEvent: {}
+[17.548686] (-) TimerEvent: {}
+[17.649746] (-) TimerEvent: {}
+[17.750948] (-) TimerEvent: {}
+[17.852262] (-) TimerEvent: {}
+[17.953380] (-) TimerEvent: {}
+[18.054886] (-) TimerEvent: {}
+[18.156322] (-) TimerEvent: {}
+[18.257445] (-) TimerEvent: {}
+[18.358495] (-) TimerEvent: {}
+[18.459709] (-) TimerEvent: {}
+[18.560756] (-) TimerEvent: {}
+[18.661818] (-) TimerEvent: {}
+[18.762881] (-) TimerEvent: {}
+[18.863945] (-) TimerEvent: {}
+[18.965253] (-) TimerEvent: {}
+[19.066304] (-) TimerEvent: {}
+[19.167380] (-) TimerEvent: {}
+[19.268477] (-) TimerEvent: {}
+[19.369559] (-) TimerEvent: {}
+[19.470764] (-) TimerEvent: {}
+[19.571888] (-) TimerEvent: {}
+[19.672927] (-) TimerEvent: {}
+[19.773964] (-) TimerEvent: {}
+[19.874983] (-) TimerEvent: {}
+[19.976631] (-) TimerEvent: {}
+[20.080567] (-) TimerEvent: {}
+[20.182096] (-) TimerEvent: {}
+[20.284090] (-) TimerEvent: {}
+[20.385103] (-) TimerEvent: {}
+[20.486361] (-) TimerEvent: {}
+[20.587553] (-) TimerEvent: {}
+[20.688803] (-) TimerEvent: {}
+[20.790280] (-) TimerEvent: {}
+[20.891477] (-) TimerEvent: {}
+[20.992850] (-) TimerEvent: {}
+[21.093997] (-) TimerEvent: {}
+[21.195318] (-) TimerEvent: {}
+[21.296539] (-) TimerEvent: {}
+[21.397674] (-) TimerEvent: {}
+[21.499203] (-) TimerEvent: {}
+[21.600421] (-) TimerEvent: {}
+[21.701569] (-) TimerEvent: {}
+[21.802740] (-) TimerEvent: {}
+[21.903855] (-) TimerEvent: {}
+[22.004925] (-) TimerEvent: {}
+[22.106011] (-) TimerEvent: {}
+[22.207376] (-) TimerEvent: {}
+[22.308521] (-) TimerEvent: {}
+[22.409608] (-) TimerEvent: {}
+[22.510850] (-) TimerEvent: {}
+[22.612267] (-) TimerEvent: {}
+[22.713497] (-) TimerEvent: {}
+[22.814799] (-) TimerEvent: {}
+[22.916029] (-) TimerEvent: {}
+[23.017330] (-) TimerEvent: {}
+[23.118413] (-) TimerEvent: {}
+[23.219594] (-) TimerEvent: {}
+[23.320664] (-) TimerEvent: {}
+[23.421855] (-) TimerEvent: {}
+[23.523082] (-) TimerEvent: {}
+[23.624241] (-) TimerEvent: {}
+[23.725369] (-) TimerEvent: {}
+[23.826432] (-) TimerEvent: {}
+[23.927376] (-) TimerEvent: {}
+[24.028453] (-) TimerEvent: {}
+[24.129503] (-) TimerEvent: {}
+[24.230638] (-) TimerEvent: {}
+[24.331679] (-) TimerEvent: {}
+[24.433151] (-) TimerEvent: {}
+[24.534547] (-) TimerEvent: {}
+[24.635643] (-) TimerEvent: {}
+[24.737689] (-) TimerEvent: {}
+[24.839573] (-) TimerEvent: {}
+[24.941936] (-) TimerEvent: {}
+[25.042967] (-) TimerEvent: {}
+[25.144942] (-) TimerEvent: {}
+[25.247337] (-) TimerEvent: {}
+[25.349177] (-) TimerEvent: {}
+[25.451469] (-) TimerEvent: {}
+[25.552636] (-) TimerEvent: {}
+[25.653825] (-) TimerEvent: {}
+[25.754921] (-) TimerEvent: {}
+[25.856008] (-) TimerEvent: {}
+[25.957077] (-) TimerEvent: {}
+[26.058084] (-) TimerEvent: {}
+[26.159484] (-) TimerEvent: {}
+[26.260533] (-) TimerEvent: {}
+[26.361702] (-) TimerEvent: {}
+[26.462664] (-) TimerEvent: {}
+[26.563661] (-) TimerEvent: {}
+[26.664699] (-) TimerEvent: {}
+[26.765934] (-) TimerEvent: {}
+[26.867191] (-) TimerEvent: {}
+[26.968239] (-) TimerEvent: {}
+[27.069236] (-) TimerEvent: {}
+[27.170282] (-) TimerEvent: {}
+[27.271322] (-) TimerEvent: {}
+[27.372349] (-) TimerEvent: {}
+[27.473295] (-) TimerEvent: {}
+[27.574309] (-) TimerEvent: {}
+[27.675316] (-) TimerEvent: {}
+[27.776336] (-) TimerEvent: {}
+[27.877318] (-) TimerEvent: {}
+[27.978282] (-) TimerEvent: {}
+[28.079282] (-) TimerEvent: {}
+[28.180246] (-) TimerEvent: {}
+[28.281246] (-) TimerEvent: {}
+[28.382194] (-) TimerEvent: {}
+[28.483195] (-) TimerEvent: {}
+[28.584168] (-) TimerEvent: {}
+[28.685162] (-) TimerEvent: {}
+[28.786141] (-) TimerEvent: {}
+[28.887187] (-) TimerEvent: {}
+[28.988218] (-) TimerEvent: {}
+[29.089207] (-) TimerEvent: {}
+[29.190271] (-) TimerEvent: {}
+[29.291704] (-) TimerEvent: {}
+[29.392731] (-) TimerEvent: {}
+[29.493743] (-) TimerEvent: {}
+[29.594851] (-) TimerEvent: {}
+[29.695861] (-) TimerEvent: {}
+[29.796920] (-) TimerEvent: {}
+[29.897988] (-) TimerEvent: {}
+[29.999209] (-) TimerEvent: {}
+[30.100162] (-) TimerEvent: {}
+[30.201302] (-) TimerEvent: {}
+[30.302462] (-) TimerEvent: {}
+[30.403423] (-) TimerEvent: {}
+[30.504444] (-) TimerEvent: {}
+[30.605439] (-) TimerEvent: {}
+[30.706405] (-) TimerEvent: {}
+[30.807392] (-) TimerEvent: {}
+[30.908684] (-) TimerEvent: {}
+[31.009682] (-) TimerEvent: {}
+[31.110730] (-) TimerEvent: {}
+[31.211835] (-) TimerEvent: {}
+[31.312830] (-) TimerEvent: {}
+[31.413882] (-) TimerEvent: {}
+[31.514888] (-) TimerEvent: {}
+[31.615896] (-) TimerEvent: {}
+[31.716873] (-) TimerEvent: {}
+[31.817927] (-) TimerEvent: {}
+[31.918923] (-) TimerEvent: {}
+[32.019991] (-) TimerEvent: {}
+[32.121055] (-) TimerEvent: {}
+[32.222084] (-) TimerEvent: {}
+[32.323479] (-) TimerEvent: {}
+[32.424471] (-) TimerEvent: {}
+[32.525446] (-) TimerEvent: {}
+[32.626449] (-) TimerEvent: {}
+[32.727450] (-) TimerEvent: {}
+[32.828515] (-) TimerEvent: {}
+[32.929587] (-) TimerEvent: {}
+[33.030726] (-) TimerEvent: {}
+[33.132019] (-) TimerEvent: {}
+[33.233147] (-) TimerEvent: {}
+[33.334501] (-) TimerEvent: {}
+[33.435549] (-) TimerEvent: {}
+[33.536616] (-) TimerEvent: {}
+[33.637712] (-) TimerEvent: {}
+[33.738828] (-) TimerEvent: {}
+[33.840017] (-) TimerEvent: {}
+[33.941159] (-) TimerEvent: {}
+[34.042310] (-) TimerEvent: {}
+[34.143418] (-) TimerEvent: {}
+[34.244512] (-) TimerEvent: {}
+[34.345722] (-) TimerEvent: {}
+[34.446727] (-) TimerEvent: {}
+[34.547768] (-) TimerEvent: {}
+[34.648725] (-) TimerEvent: {}
+[34.749696] (-) TimerEvent: {}
+[34.850670] (-) TimerEvent: {}
+[34.951674] (-) TimerEvent: {}
+[35.052607] (-) TimerEvent: {}
+[35.153592] (-) TimerEvent: {}
+[35.254575] (-) TimerEvent: {}
+[35.355608] (-) TimerEvent: {}
+[35.456817] (-) TimerEvent: {}
+[35.557778] (-) TimerEvent: {}
+[35.658776] (-) TimerEvent: {}
+[35.759855] (-) TimerEvent: {}
+[35.860853] (-) TimerEvent: {}
+[35.961890] (-) TimerEvent: {}
+[36.062968] (-) TimerEvent: {}
+[36.164010] (-) TimerEvent: {}
+[36.264993] (-) TimerEvent: {}
+[36.366074] (-) TimerEvent: {}
+[36.467244] (-) TimerEvent: {}
+[36.568355] (-) TimerEvent: {}
+[36.669559] (-) TimerEvent: {}
+[36.770745] (-) TimerEvent: {}
+[36.871882] (-) TimerEvent: {}
+[36.972976] (-) TimerEvent: {}
+[37.074266] (-) TimerEvent: {}
+[37.175359] (-) TimerEvent: {}
+[37.276453] (-) TimerEvent: {}
+[37.377629] (-) TimerEvent: {}
+[37.478747] (-) TimerEvent: {}
+[37.580091] (-) TimerEvent: {}
+[37.681063] (-) TimerEvent: {}
+[37.782049] (-) TimerEvent: {}
+[37.883170] (-) TimerEvent: {}
+[37.984223] (-) TimerEvent: {}
+[38.085506] (-) TimerEvent: {}
+[38.186492] (-) TimerEvent: {}
+[38.287476] (-) TimerEvent: {}
+[38.388673] (-) TimerEvent: {}
+[38.489803] (-) TimerEvent: {}
+[38.590975] (-) TimerEvent: {}
+[38.692008] (-) TimerEvent: {}
+[38.792932] (-) TimerEvent: {}
+[38.893921] (-) TimerEvent: {}
+[38.995169] (-) TimerEvent: {}
+[39.096421] (-) TimerEvent: {}
+[39.197971] (-) TimerEvent: {}
+[39.298962] (-) TimerEvent: {}
+[39.399993] (-) TimerEvent: {}
+[39.500961] (-) TimerEvent: {}
+[39.602049] (-) TimerEvent: {}
+[39.703059] (-) TimerEvent: {}
+[39.804113] (-) TimerEvent: {}
+[39.905390] (-) TimerEvent: {}
+[40.006360] (-) TimerEvent: {}
+[40.107328] (-) TimerEvent: {}
+[40.208359] (-) TimerEvent: {}
+[40.309451] (-) TimerEvent: {}
+[40.410474] (-) TimerEvent: {}
+[40.511709] (-) TimerEvent: {}
+[40.612669] (-) TimerEvent: {}
+[40.713830] (-) TimerEvent: {}
+[40.814839] (-) TimerEvent: {}
+[40.915976] (-) TimerEvent: {}
+[41.016979] (-) TimerEvent: {}
+[41.118118] (-) TimerEvent: {}
+[41.219146] (-) TimerEvent: {}
+[41.320152] (-) TimerEvent: {}
+[41.421142] (-) TimerEvent: {}
+[41.522260] (-) TimerEvent: {}
+[41.623349] (-) TimerEvent: {}
+[41.730468] (-) TimerEvent: {}
+[41.831699] (-) TimerEvent: {}
+[41.932816] (-) TimerEvent: {}
+[42.033950] (-) TimerEvent: {}
+[42.135068] (-) TimerEvent: {}
+[42.236341] (-) TimerEvent: {}
+[42.337728] (-) TimerEvent: {}
+[42.440195] (-) TimerEvent: {}
+[42.542548] (-) TimerEvent: {}
+[42.643511] (-) TimerEvent: {}
+[42.744493] (-) TimerEvent: {}
+[42.845698] (-) TimerEvent: {}
+[42.946725] (-) TimerEvent: {}
+[43.047809] (-) TimerEvent: {}
+[43.148878] (-) TimerEvent: {}
+[43.249908] (-) TimerEvent: {}
+[43.351152] (-) TimerEvent: {}
+[43.452303] (-) TimerEvent: {}
+[43.553454] (-) TimerEvent: {}
+[43.654625] (-) TimerEvent: {}
+[43.755715] (-) TimerEvent: {}
+[43.856766] (-) TimerEvent: {}
+[43.957976] (-) TimerEvent: {}
+[44.059208] (-) TimerEvent: {}
+[44.160184] (-) TimerEvent: {}
+[44.261171] (-) TimerEvent: {}
+[44.362187] (-) TimerEvent: {}
+[44.463211] (-) TimerEvent: {}
+[44.564240] (-) TimerEvent: {}
+[44.665200] (-) TimerEvent: {}
+[44.766205] (-) TimerEvent: {}
+[44.867243] (-) TimerEvent: {}
+[44.968187] (-) TimerEvent: {}
+[45.069160] (-) TimerEvent: {}
+[45.170166] (-) TimerEvent: {}
+[45.271189] (-) TimerEvent: {}
+[45.372165] (-) TimerEvent: {}
+[45.473483] (-) TimerEvent: {}
+[45.574736] (-) TimerEvent: {}
+[45.675944] (-) TimerEvent: {}
+[45.777148] (-) TimerEvent: {}
+[45.878314] (-) TimerEvent: {}
+[45.979389] (-) TimerEvent: {}
+[46.080554] (-) TimerEvent: {}
+[46.181630] (-) TimerEvent: {}
+[46.282735] (-) TimerEvent: {}
+[46.383829] (-) TimerEvent: {}
+[46.484928] (-) TimerEvent: {}
+[46.586009] (-) TimerEvent: {}
+[46.687084] (-) TimerEvent: {}
+[46.793905] (-) TimerEvent: {}
+[46.895067] (-) TimerEvent: {}
+[46.996081] (-) TimerEvent: {}
+[47.097094] (-) TimerEvent: {}
+[47.198359] (-) TimerEvent: {}
+[47.299664] (-) TimerEvent: {}
+[47.400785] (-) TimerEvent: {}
+[47.501901] (-) TimerEvent: {}
+[47.602902] (-) TimerEvent: {}
+[47.703935] (-) TimerEvent: {}
+[47.804927] (-) TimerEvent: {}
+[47.905944] (-) TimerEvent: {}
+[48.006927] (-) TimerEvent: {}
+[48.107970] (-) TimerEvent: {}
+[48.208925] (-) TimerEvent: {}
+[48.309928] (-) TimerEvent: {}
+[48.411025] (-) TimerEvent: {}
+[48.512889] (-) TimerEvent: {}
+[48.614688] (-) TimerEvent: {}
+[48.718901] (-) TimerEvent: {}
+[48.826843] (-) TimerEvent: {}
+[48.934991] (-) TimerEvent: {}
+[49.040122] (-) TimerEvent: {}
+[49.141136] (-) TimerEvent: {}
+[49.242128] (-) TimerEvent: {}
+[49.343172] (-) TimerEvent: {}
+[49.444183] (-) TimerEvent: {}
+[49.545174] (-) TimerEvent: {}
+[49.646147] (-) TimerEvent: {}
+[49.752578] (-) TimerEvent: {}
+[49.853569] (-) TimerEvent: {}
+[49.954572] (-) TimerEvent: {}
+[50.055582] (-) TimerEvent: {}
+[50.156580] (-) TimerEvent: {}
+[50.257631] (-) TimerEvent: {}
+[50.358677] (-) TimerEvent: {}
+[50.459681] (-) TimerEvent: {}
+[50.574190] (-) TimerEvent: {}
+[50.675204] (-) TimerEvent: {}
+[50.776182] (-) TimerEvent: {}
+[50.877203] (-) TimerEvent: {}
+[50.978272] (-) TimerEvent: {}
+[51.080381] (-) TimerEvent: {}
+[51.181325] (-) TimerEvent: {}
+[51.283352] (-) TimerEvent: {}
+[51.388562] (-) TimerEvent: {}
+[51.489661] (-) TimerEvent: {}
+[51.590770] (-) TimerEvent: {}
+[51.691929] (-) TimerEvent: {}
+[51.795961] (-) TimerEvent: {}
+[51.897092] (-) TimerEvent: {}
+[51.998336] (-) TimerEvent: {}
+[52.099373] (-) TimerEvent: {}
+[52.200422] (-) TimerEvent: {}
+[52.301497] (-) TimerEvent: {}
+[52.402602] (-) TimerEvent: {}
+[52.503684] (-) TimerEvent: {}
+[52.604813] (-) TimerEvent: {}
+[52.706038] (-) TimerEvent: {}
+[52.807368] (-) TimerEvent: {}
+[52.908649] (-) TimerEvent: {}
+[53.010085] (-) TimerEvent: {}
+[53.111451] (-) TimerEvent: {}
+[53.212636] (-) TimerEvent: {}
+[53.313959] (-) TimerEvent: {}
+[53.415291] (-) TimerEvent: {}
+[53.516504] (-) TimerEvent: {}
+[53.617804] (-) TimerEvent: {}
+[53.719059] (-) TimerEvent: {}
+[53.820355] (-) TimerEvent: {}
+[53.921620] (-) TimerEvent: {}
+[54.022976] (-) TimerEvent: {}
+[54.124330] (-) TimerEvent: {}
+[54.225726] (-) TimerEvent: {}
+[54.327081] (-) TimerEvent: {}
+[54.428344] (-) TimerEvent: {}
+[54.529689] (-) TimerEvent: {}
+[54.631073] (-) TimerEvent: {}
+[54.732445] (-) TimerEvent: {}
+[54.833819] (-) TimerEvent: {}
+[54.934990] (-) TimerEvent: {}
+[55.036205] (-) TimerEvent: {}
+[55.137360] (-) TimerEvent: {}
+[55.238491] (-) TimerEvent: {}
+[55.339527] (-) TimerEvent: {}
+[55.440656] (-) TimerEvent: {}
+[55.541810] (-) TimerEvent: {}
+[55.642968] (-) TimerEvent: {}
+[55.744131] (-) TimerEvent: {}
+[55.845937] (-) TimerEvent: {}
+[55.947711] (-) TimerEvent: {}
+[56.049572] (-) TimerEvent: {}
+[56.151354] (-) TimerEvent: {}
+[56.252406] (-) TimerEvent: {}
+[56.353369] (-) TimerEvent: {}
+[56.454392] (-) TimerEvent: {}
+[56.555547] (-) TimerEvent: {}
+[56.656553] (-) TimerEvent: {}
+[56.757559] (-) TimerEvent: {}
+[56.863735] (-) TimerEvent: {}
+[56.964717] (-) TimerEvent: {}
+[57.065746] (-) TimerEvent: {}
+[57.166726] (-) TimerEvent: {}
+[57.267749] (-) TimerEvent: {}
+[57.368706] (-) TimerEvent: {}
+[57.469791] (-) TimerEvent: {}
+[57.570803] (-) TimerEvent: {}
+[57.671875] (-) TimerEvent: {}
+[57.772918] (-) TimerEvent: {}
+[57.873929] (-) TimerEvent: {}
+[57.974920] (-) TimerEvent: {}
+[58.078021] (-) TimerEvent: {}
+[58.179062] (-) TimerEvent: {}
+[58.280110] (-) TimerEvent: {}
+[58.381119] (-) TimerEvent: {}
+[58.482186] (-) TimerEvent: {}
+[58.583221] (-) TimerEvent: {}
+[58.684226] (-) TimerEvent: {}
+[58.785240] (-) TimerEvent: {}
+[58.886339] (-) TimerEvent: {}
+[58.987387] (-) TimerEvent: {}
+[59.088380] (-) TimerEvent: {}
+[59.189436] (-) TimerEvent: {}
+[59.290501] (-) TimerEvent: {}
+[59.391464] (-) TimerEvent: {}
+[59.492437] (-) TimerEvent: {}
+[59.593451] (-) TimerEvent: {}
+[59.694435] (-) TimerEvent: {}
+[59.795390] (-) TimerEvent: {}
+[59.896407] (-) TimerEvent: {}
+[59.997438] (-) TimerEvent: {}
+[60.098589] (-) TimerEvent: {}
+[60.199936] (-) TimerEvent: {}
+[60.300851] (-) TimerEvent: {}
+[60.401929] (-) TimerEvent: {}
+[60.502966] (-) TimerEvent: {}
+[60.603944] (-) TimerEvent: {}
+[60.704930] (-) TimerEvent: {}
+[60.806036] (-) TimerEvent: {}
+[60.907215] (-) TimerEvent: {}
+[61.008337] (-) TimerEvent: {}
+[61.109533] (-) TimerEvent: {}
+[61.210667] (-) TimerEvent: {}
+[61.311748] (-) TimerEvent: {}
+[61.412795] (-) TimerEvent: {}
+[61.513766] (-) TimerEvent: {}
+[61.614807] (-) TimerEvent: {}
+[61.723376] (-) TimerEvent: {}
+[61.824454] (-) TimerEvent: {}
+[61.927712] (-) TimerEvent: {}
+[62.028660] (-) TimerEvent: {}
+[62.129688] (-) TimerEvent: {}
+[62.232255] (-) TimerEvent: {}
+[62.333300] (-) TimerEvent: {}
+[62.434320] (-) TimerEvent: {}
+[62.535324] (-) TimerEvent: {}
+[62.636381] (-) TimerEvent: {}
+[62.738604] (-) TimerEvent: {}
+[62.840357] (-) TimerEvent: {}
+[62.942881] (-) TimerEvent: {}
+[63.044662] (-) TimerEvent: {}
+[63.146481] (-) TimerEvent: {}
+[63.248165] (-) TimerEvent: {}
+[63.349288] (-) TimerEvent: {}
+[63.450879] (-) TimerEvent: {}
+[63.553014] (-) TimerEvent: {}
+[63.654224] (-) TimerEvent: {}
+[63.755791] (-) TimerEvent: {}
+[63.856956] (-) TimerEvent: {}
+[63.958167] (-) TimerEvent: {}
+[64.059274] (-) TimerEvent: {}
+[64.161288] (-) TimerEvent: {}
+[64.310122] (-) TimerEvent: {}
+[64.813424] (-) TimerEvent: {}
+[68.977575] (-) TimerEvent: {}
+[72.030276] (-) TimerEvent: {}
+[74.934798] (-) TimerEvent: {}
+[76.814924] (-) TimerEvent: {}
+[77.910383] (-) TimerEvent: {}
+[79.249338] (-) TimerEvent: {}
+[80.062604] (-) TimerEvent: {}
+[80.941186] (-) TimerEvent: {}
+[82.865433] (-) TimerEvent: {}
+[84.561835] (-) TimerEvent: {}
+[86.752489] (-) TimerEvent: {}
+[87.741710] (-) TimerEvent: {}
+[91.050680] (-) TimerEvent: {}
+[93.202117] (-) TimerEvent: {}
+[94.376325] (-) TimerEvent: {}
+[96.616135] (-) TimerEvent: {}
+[98.247470] (-) TimerEvent: {}
+[100.627525] (-) TimerEvent: {}
+[101.622655] (-) TimerEvent: {}
+[103.473897] (-) TimerEvent: {}
+[106.609011] (-) TimerEvent: {}
+[109.263433] (-) TimerEvent: {}
+[111.604482] (-) TimerEvent: {}
+[113.838245] (-) TimerEvent: {}
+[115.368601] (-) TimerEvent: {}
+[117.906205] (-) TimerEvent: {}
+[120.406500] (-) TimerEvent: {}
+[123.778169] (-) TimerEvent: {}
+[127.821657] (-) TimerEvent: {}
+[130.002527] (-) TimerEvent: {}
+[134.460786] (-) TimerEvent: {}
+[139.549786] (-) TimerEvent: {}
+[144.682771] (-) TimerEvent: {}
+[147.165844] (-) TimerEvent: {}
+[152.516791] (-) TimerEvent: {}
+[155.553370] (-) TimerEvent: {}
+[159.781692] (-) TimerEvent: {}
+[162.366239] (-) TimerEvent: {}
+[167.497392] (-) TimerEvent: {}
+[172.895154] (-) TimerEvent: {}
+[176.186647] (-) TimerEvent: {}
+[180.967196] (-) TimerEvent: {}
+[185.145302] (-) TimerEvent: {}
+[188.992364] (-) TimerEvent: {}
+[194.111077] (-) TimerEvent: {}
+[198.874115] (-) TimerEvent: {}
+[202.863250] (-) TimerEvent: {}
+[206.072577] (-) TimerEvent: {}
+[211.486652] (-) TimerEvent: {}
+[218.625155] (-) TimerEvent: {}
+[223.155879] (-) TimerEvent: {}
+[228.018674] (-) TimerEvent: {}
+[232.549132] (-) TimerEvent: {}
+[237.359859] (-) TimerEvent: {}
+[242.305848] (-) TimerEvent: {}
+[247.977710] (-) TimerEvent: {}
+[256.344051] (-) TimerEvent: {}
+[261.475521] (-) TimerEvent: {}
+[265.851587] (-) TimerEvent: {}
+[269.778859] (-) TimerEvent: {}
+[275.633639] (-) TimerEvent: {}
+[279.868155] (-) TimerEvent: {}
+[284.645999] (-) TimerEvent: {}
+[292.605219] (-) TimerEvent: {}
+[302.144630] (-) TimerEvent: {}
+[307.632578] (-) TimerEvent: {}
+[312.724367] (-) TimerEvent: {}
+[317.414064] (-) TimerEvent: {}
+[322.473654] (-) TimerEvent: {}
+[331.513649] (-) TimerEvent: {}
+[341.353634] (-) TimerEvent: {}
+[346.479557] (-) TimerEvent: {}
+[351.756139] (-) TimerEvent: {}
+[356.969395] (-) TimerEvent: {}
+[363.043760] (-) TimerEvent: {}
+[370.272391] (-) TimerEvent: {}
+[377.312938] (-) TimerEvent: {}
+[382.353813] (-) TimerEvent: {}
+[387.857378] (-) TimerEvent: {}
+[391.283145] (-) TimerEvent: {}
+[394.608034] (-) TimerEvent: {}
+[397.541019] (-) TimerEvent: {}
+[404.513377] (-) TimerEvent: {}
+[413.127995] (-) TimerEvent: {}
+[420.325118] (-) TimerEvent: {}
+[425.103812] (-) TimerEvent: {}
+[431.597299] (-) TimerEvent: {}
+[438.990075] (-) TimerEvent: {}
+[448.898473] (-) TimerEvent: {}
+[459.622716] (-) TimerEvent: {}
+[467.803718] (-) TimerEvent: {}
+[475.330389] (-) TimerEvent: {}
+[482.486527] (-) TimerEvent: {}
+[491.423421] (-) TimerEvent: {}
+[497.246087] (-) TimerEvent: {}
+[499.395807] (-) TimerEvent: {}
+[505.701835] (-) TimerEvent: {}
+[515.111433] (-) TimerEvent: {}
+[524.165587] (-) TimerEvent: {}
+[536.909190] (-) TimerEvent: {}
+[548.927236] (-) TimerEvent: {}
+[557.629357] (-) TimerEvent: {}
+[565.319100] (-) TimerEvent: {}
+[578.359915] (-) TimerEvent: {}
+[591.125845] (-) TimerEvent: {}
+[597.440237] (-) TimerEvent: {}
+[602.299571] (-) TimerEvent: {}
+[605.282446] (-) TimerEvent: {}
+[609.351505] (-) TimerEvent: {}
+[613.338450] (-) TimerEvent: {}
+[630.071983] (-) TimerEvent: {}
+[642.246331] (-) TimerEvent: {}
+[649.931327] (-) TimerEvent: {}
+[657.899014] (-) TimerEvent: {}
+[667.095030] (-) TimerEvent: {}
+[682.761599] (-) TimerEvent: {}
+[694.597187] (-) TimerEvent: {}
+[703.111198] (-) TimerEvent: {}
+[706.716090] (-) TimerEvent: {}
+[712.487532] (-) TimerEvent: {}
+[719.014031] (-) TimerEvent: {}
+[724.646109] (-) TimerEvent: {}
+[730.324486] (-) TimerEvent: {}
+[739.215106] (-) TimerEvent: {}
+[751.174041] (-) TimerEvent: {}
+[769.466688] (-) TimerEvent: {}
+[781.976300] (-) TimerEvent: {}
+[790.681258] (-) TimerEvent: {}
+[800.155574] (-) TimerEvent: {}
+[814.426613] (-) TimerEvent: {}
+[825.500652] (-) TimerEvent: {}
+[831.463998] (-) TimerEvent: {}
+[835.914484] (-) TimerEvent: {}
+[840.335634] (-) TimerEvent: {}
+[846.352509] (-) TimerEvent: {}
+[863.717540] (-) TimerEvent: {}

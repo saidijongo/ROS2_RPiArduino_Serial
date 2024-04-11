@@ -1,0 +1,22 @@
+[7.359s] Invoking command in '/home/jongo/ros2_ws/src/ld06lidar_pkg': PYTHONPATH=/home/jongo/ros2_ws/build/ld06lidar_pkg/prefix_override:/home/jongo/ros2_ws/install/ld06lidar_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ld06lidar_pkg build --build-base /home/jongo/ros2_ws/build/ld06lidar_pkg/build install --record /home/jongo/ros2_ws/build/ld06lidar_pkg/install.log --single-version-externally-managed
+[8.824s] running egg_info
+[8.830s] writing ../../build/ld06lidar_pkg/ld06lidar_pkg.egg-info/PKG-INFO
+[8.833s] writing dependency_links to ../../build/ld06lidar_pkg/ld06lidar_pkg.egg-info/dependency_links.txt
+[8.836s] writing entry points to ../../build/ld06lidar_pkg/ld06lidar_pkg.egg-info/entry_points.txt
+[8.839s] writing requirements to ../../build/ld06lidar_pkg/ld06lidar_pkg.egg-info/requires.txt
+[8.843s] writing top-level names to ../../build/ld06lidar_pkg/ld06lidar_pkg.egg-info/top_level.txt
+[8.846s] reading manifest file '../../build/ld06lidar_pkg/ld06lidar_pkg.egg-info/SOURCES.txt'
+[8.853s] writing manifest file '../../build/ld06lidar_pkg/ld06lidar_pkg.egg-info/SOURCES.txt'
+[8.856s] running build
+[8.859s] running build_py
+[8.861s] running install
+[8.864s] running install_lib
+[8.868s] running install_data
+[8.871s] running install_egg_info
+[8.877s] removing '/home/jongo/ros2_ws/install/ld06lidar_pkg/lib/python3.10/site-packages/ld06lidar_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[8.881s] Copying ../../build/ld06lidar_pkg/ld06lidar_pkg.egg-info to /home/jongo/ros2_ws/install/ld06lidar_pkg/lib/python3.10/site-packages/ld06lidar_pkg-0.0.0-py3.10.egg-info
+[8.888s] running install_scripts
+[8.997s] Installing lidar_pub_node script to /home/jongo/ros2_ws/install/ld06lidar_pkg/lib/ld06lidar_pkg
+[9.003s] Installing lidar_subs_node script to /home/jongo/ros2_ws/install/ld06lidar_pkg/lib/ld06lidar_pkg
+[9.011s] writing list of installed files to '/home/jongo/ros2_ws/build/ld06lidar_pkg/install.log'
+[9.811s] Invoked command in '/home/jongo/ros2_ws/src/ld06lidar_pkg' returned '0': PYTHONPATH=/home/jongo/ros2_ws/build/ld06lidar_pkg/prefix_override:/home/jongo/ros2_ws/install/ld06lidar_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ld06lidar_pkg build --build-base /home/jongo/ros2_ws/build/ld06lidar_pkg/build install --record /home/jongo/ros2_ws/build/ld06lidar_pkg/install.log --single-version-externally-managed

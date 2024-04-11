@@ -1,0 +1,23 @@
+[7.138s] Invoking command in '/home/jongo/ros2_ws/build/damin_robot1': PYTHONPATH=/home/jongo/ros2_ws/build/damin_robot1/prefix_override:/home/jongo/ros2_ws/install/damin_robot1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jongo/ros2_ws/build/damin_robot1/build --no-deps symlink_data --force
+[9.137s] running develop
+[10.477s] running egg_info
+[10.478s] writing damin_robot1.egg-info/PKG-INFO
+[10.479s] writing dependency_links to damin_robot1.egg-info/dependency_links.txt
+[10.481s] writing entry points to damin_robot1.egg-info/entry_points.txt
+[10.482s] writing requirements to damin_robot1.egg-info/requires.txt
+[10.483s] writing top-level names to damin_robot1.egg-info/top_level.txt
+[10.493s] reading manifest file 'damin_robot1.egg-info/SOURCES.txt'
+[10.500s] writing manifest file 'damin_robot1.egg-info/SOURCES.txt'
+[10.508s] running build_ext
+[10.509s] Creating /home/jongo/ros2_ws/install/damin_robot1/lib/python3.10/site-packages/damin-robot1.egg-link (link to .)
+[10.513s] Installing jongo_drawshape script to /home/jongo/ros2_ws/install/damin_robot1/lib/damin_robot1
+[10.514s] Installing jongo_node1 script to /home/jongo/ros2_ws/install/damin_robot1/lib/damin_robot1
+[10.516s] Installing jongo_node2 script to /home/jongo/ros2_ws/install/damin_robot1/lib/damin_robot1
+[10.516s] Installing jongo_posesubs script to /home/jongo/ros2_ws/install/damin_robot1/lib/damin_robot1
+[10.517s] Installing jongo_sudong script to /home/jongo/ros2_ws/install/damin_robot1/lib/damin_robot1
+[10.519s] 
+[10.520s] Installed /home/jongo/ros2_ws/build/damin_robot1
+[10.520s] running symlink_data
+[10.521s] symbolically linking /home/jongo/ros2_ws/build/damin_robot1/resource/damin_robot1 -> /home/jongo/ros2_ws/install/damin_robot1/share/ament_index/resource_index/packages
+[10.523s] symbolically linking /home/jongo/ros2_ws/build/damin_robot1/package.xml -> /home/jongo/ros2_ws/install/damin_robot1/share/damin_robot1
+[10.727s] Invoked command in '/home/jongo/ros2_ws/build/damin_robot1' returned '0': PYTHONPATH=/home/jongo/ros2_ws/build/damin_robot1/prefix_override:/home/jongo/ros2_ws/install/damin_robot1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jongo/ros2_ws/build/damin_robot1/build --no-deps symlink_data --force
