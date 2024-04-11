@@ -9,7 +9,7 @@ class RobotControlGUI:
         self.root.title("Robot Control")
         self.motor_control = motor_control
 
-        # Create buttons for controlling the robot
+        #buttons for controlling the robot
         self.btn_forward = tk.Button(self.root, text="Forward", command=self.move_forward)
         self.btn_backward = tk.Button(self.root, text="Backward", command=self.move_backward)
         self.btn_left = tk.Button(self.root, text="Left", command=self.move_left)

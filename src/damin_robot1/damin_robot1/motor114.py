@@ -105,7 +105,7 @@ if __name__ == "__main__":
     # Set velocity mode
     set_velocity_mode()
 
-    # Set motor velocities (example: 100 RPM for both motors)
+    # Set motor velocities (100 RPM for both motors)
     set_motor_velocities(100, 100)
 
     # Read motor positions
@@ -126,7 +126,7 @@ import minimalmodbus
 
 # Define the slave address and serial port
 SLAVE_ADDRESS = 1
-SERIAL_PORT = '/dev/ttyUSB0'  # Adjust this to match your serial port
+SERIAL_PORT = '/dev/ttyUSB0'
 
 # Define the register addresses and data
 REGISTER_START_ADDR = 0x2000  # Start address for left motor encoder wire
@@ -165,7 +165,7 @@ COMMAND_TIMEOUT = 1  # Timeout in seconds
 
 # Create instrument object
 instrument = minimalmodbus.Instrument('/dev/ttyUSB0', SLAVE_ADDRESS)
-instrument.serial.baudrate = 9600
+instrument.serial.baudrate = 115200
 instrument.serial.timeout = COMMAND_TIMEOUT
 
 def write_registers(data):
@@ -209,7 +209,7 @@ def main():
 
 if __name__ == "__main__":
     main()
-
+'''
 
 
 #########################################################################
@@ -218,11 +218,11 @@ import minimalmodbus
 import time
 
 # Define the Modbus RTU slave addresses for left and right motors
-LEFT_MOTOR_ADDRESS = 1
-RIGHT_MOTOR_ADDRESS = 2
+LEFT_MOTOR_ADDRESS = 2
+RIGHT_MOTOR_ADDRESS = 1
 
 # Define the serial port parameters
-SERIAL_PORT = '/dev/ttyUSB0'  # Adjust this according to your setup
+SERIAL_PORT = '/dev/ttyUSB0'  
 BAUDRATE = 115200
 PARITY = 'N'
 STOPBITS = 1
@@ -280,7 +280,7 @@ finally:
 
 ###########################################
 #######New code######## no bueno only left deflection
-
+'''
 
 
 import minimalmodbus
@@ -291,7 +291,7 @@ LEFT_MOTOR_ADDRESS = 1
 RIGHT_MOTOR_ADDRESS = 2
 
 # Define the serial port parameters
-SERIAL_PORT = '/dev/ttyUSB0'  # Adjust this according to your setup
+SERIAL_PORT = '/dev/ttyUSB0' 
 BAUDRATE = 115200
 PARITY = 'N'
 STOPBITS = 1
@@ -372,6 +372,7 @@ finally:
 ######New code
 
 
+'''
 import minimalmodbus
 import time
 
@@ -380,7 +381,7 @@ LEFT_MOTOR_ADDRESS = 1
 RIGHT_MOTOR_ADDRESS = 2
 
 # Define the serial port parameters
-SERIAL_PORT = '/dev/ttyUSB0'  # Adjust this according to your setup
+SERIAL_PORT = '/dev/ttyUSB0' 
 BAUDRATE = 115200
 PARITY = 'N'
 STOPBITS = 1
@@ -477,3 +478,5 @@ finally:
     # Ensure motors are stopped before exiting
     stop_motor(left_motor)
     stop_motor(right_motor)
+
+ '''
