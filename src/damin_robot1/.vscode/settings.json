@@ -1,0 +1,32 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/jongo/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages",
+        "/home/jongo/ros2_ws/install/ld06lidar_pkg/lib/python3.10/site-packages",
+        "/home/jongo/ros2_ws/install/damin_robot1/lib/python3.10/site-packages",
+        "/home/jongo/lidar_depthcam_ws/install/dwb_msgs/local/lib/python3.10/dist-packages",
+        "/home/jongo/lidar_depthcam_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages",
+        "/home/jongo/lidar_depthcam_ws/build/nav2_simple_commander",
+        "/home/jongo/lidar_depthcam_ws/install/nav2_simple_commander/lib/python3.10/site-packages",
+        "/home/jongo/lidar_depthcam_ws/install/nav2_msgs/local/lib/python3.10/dist-packages",
+        "/home/jongo/lidar_depthcam_ws/install/nav2_common/local/lib/python3.10/dist-packages",
+        "/home/jongo/lidar_depthcam_ws/build/depth_camera",
+        "/home/jongo/lidar_depthcam_ws/install/depth_camera/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/jongo/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages",
+        "/home/jongo/ros2_ws/install/ld06lidar_pkg/lib/python3.10/site-packages",
+        "/home/jongo/ros2_ws/install/damin_robot1/lib/python3.10/site-packages",
+        "/home/jongo/lidar_depthcam_ws/install/dwb_msgs/local/lib/python3.10/dist-packages",
+        "/home/jongo/lidar_depthcam_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages",
+        "/home/jongo/lidar_depthcam_ws/build/nav2_simple_commander",
+        "/home/jongo/lidar_depthcam_ws/install/nav2_simple_commander/lib/python3.10/site-packages",
+        "/home/jongo/lidar_depthcam_ws/install/nav2_msgs/local/lib/python3.10/dist-packages",
+        "/home/jongo/lidar_depthcam_ws/install/nav2_common/local/lib/python3.10/dist-packages",
+        "/home/jongo/lidar_depthcam_ws/build/depth_camera",
+        "/home/jongo/lidar_depthcam_ws/install/depth_camera/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

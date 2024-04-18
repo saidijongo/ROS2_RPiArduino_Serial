@@ -1,0 +1,30 @@
+running develop
+Removing /home/jongo/ros2_ws/install/ld06lidar_pkg/lib/python3.10/site-packages/ld06lidar-pkg.egg-link (link to .)
+running egg_info
+writing ../../build/ld06lidar_pkg/ld06lidar_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/ld06lidar_pkg/ld06lidar_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/ld06lidar_pkg/ld06lidar_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/ld06lidar_pkg/ld06lidar_pkg.egg-info/requires.txt
+writing top-level names to ../../build/ld06lidar_pkg/ld06lidar_pkg.egg-info/top_level.txt
+reading manifest file '../../build/ld06lidar_pkg/ld06lidar_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/ld06lidar_pkg/ld06lidar_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /home/jongo/ros2_ws/install/ld06lidar_pkg/lib/python3.10/site-packages/ld06lidar_pkg
+copying /home/jongo/ros2_ws/build/ld06lidar_pkg/build/lib/ld06lidar_pkg/lidar_publisher_node.py -> /home/jongo/ros2_ws/install/ld06lidar_pkg/lib/python3.10/site-packages/ld06lidar_pkg
+copying /home/jongo/ros2_ws/build/ld06lidar_pkg/build/lib/ld06lidar_pkg/lidar_subscriber_node.py -> /home/jongo/ros2_ws/install/ld06lidar_pkg/lib/python3.10/site-packages/ld06lidar_pkg
+copying /home/jongo/ros2_ws/build/ld06lidar_pkg/build/lib/ld06lidar_pkg/__init__.py -> /home/jongo/ros2_ws/install/ld06lidar_pkg/lib/python3.10/site-packages/ld06lidar_pkg
+byte-compiling /home/jongo/ros2_ws/install/ld06lidar_pkg/lib/python3.10/site-packages/ld06lidar_pkg/lidar_publisher_node.py to lidar_publisher_node.cpython-310.pyc
+byte-compiling /home/jongo/ros2_ws/install/ld06lidar_pkg/lib/python3.10/site-packages/ld06lidar_pkg/lidar_subscriber_node.py to lidar_subscriber_node.cpython-310.pyc
+byte-compiling /home/jongo/ros2_ws/install/ld06lidar_pkg/lib/python3.10/site-packages/ld06lidar_pkg/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/ld06lidar_pkg -> /home/jongo/ros2_ws/install/ld06lidar_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/jongo/ros2_ws/install/ld06lidar_pkg/share/ld06lidar_pkg
+running install_egg_info
+Copying ../../build/ld06lidar_pkg/ld06lidar_pkg.egg-info to /home/jongo/ros2_ws/install/ld06lidar_pkg/lib/python3.10/site-packages/ld06lidar_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing lidar_pub_node script to /home/jongo/ros2_ws/install/ld06lidar_pkg/lib/ld06lidar_pkg
+Installing lidar_subs_node script to /home/jongo/ros2_ws/install/ld06lidar_pkg/lib/ld06lidar_pkg
+writing list of installed files to '/home/jongo/ros2_ws/build/ld06lidar_pkg/install.log'

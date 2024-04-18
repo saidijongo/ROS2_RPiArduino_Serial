@@ -1,1 +1,0 @@
-/home/jongo/ros2_ws/src/damin_robot1/setup.py

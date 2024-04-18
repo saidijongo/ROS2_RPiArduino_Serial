@@ -1,0 +1,67 @@
+[7.074s] Invoking command in '/home/jongo/ros2_ws/build/damin_robot1': PYTHONPATH=/home/jongo/ros2_ws/build/damin_robot1/prefix_override:/home/jongo/ros2_ws/install/damin_robot1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/jongo/ros2_ws/build/damin_robot1/build
+[9.004s] running develop
+[10.244s] Removing /home/jongo/ros2_ws/install/damin_robot1/lib/python3.10/site-packages/damin-robot1.egg-link (link to .)
+[10.513s] Invoked command in '/home/jongo/ros2_ws/build/damin_robot1' returned '0': PYTHONPATH=/home/jongo/ros2_ws/build/damin_robot1/prefix_override:/home/jongo/ros2_ws/install/damin_robot1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/jongo/ros2_ws/build/damin_robot1/build
+[10.522s] Invoking command in '/home/jongo/ros2_ws/src/damin_robot1': PYTHONPATH=/home/jongo/ros2_ws/build/damin_robot1/prefix_override:/home/jongo/ros2_ws/install/damin_robot1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/damin_robot1 build --build-base /home/jongo/ros2_ws/build/damin_robot1/build install --record /home/jongo/ros2_ws/build/damin_robot1/install.log --single-version-externally-managed install_data --force
+[12.745s] running egg_info
+[12.762s] writing ../../build/damin_robot1/damin_robot1.egg-info/PKG-INFO
+[12.764s] writing dependency_links to ../../build/damin_robot1/damin_robot1.egg-info/dependency_links.txt
+[12.768s] writing entry points to ../../build/damin_robot1/damin_robot1.egg-info/entry_points.txt
+[12.769s] writing requirements to ../../build/damin_robot1/damin_robot1.egg-info/requires.txt
+[12.771s] writing top-level names to ../../build/damin_robot1/damin_robot1.egg-info/top_level.txt
+[12.789s] reading manifest file '../../build/damin_robot1/damin_robot1.egg-info/SOURCES.txt'
+[12.797s] writing manifest file '../../build/damin_robot1/damin_robot1.egg-info/SOURCES.txt'
+[12.800s] running build
+[12.803s] running build_py
+[12.804s] copying damin_robot1/modbusRTU.py -> /home/jongo/ros2_ws/build/damin_robot1/build/lib/damin_robot1
+[12.807s] copying damin_robot1/motor114.py -> /home/jongo/ros2_ws/build/damin_robot1/build/lib/damin_robot1
+[12.807s] copying damin_robot1/gamepad.py -> /home/jongo/ros2_ws/build/damin_robot1/build/lib/damin_robot1
+[12.809s] copying damin_robot1/motor114exm.py -> /home/jongo/ros2_ws/build/damin_robot1/build/lib/damin_robot1
+[12.810s] copying damin_robot1/gamepadMotor.py -> /home/jongo/ros2_ws/build/damin_robot1/build/lib/damin_robot1
+[12.810s] copying damin_robot1/inputs.py -> /home/jongo/ros2_ws/build/damin_robot1/build/lib/damin_robot1
+[12.811s] copying damin_robot1/gamepadGUI.py -> /home/jongo/ros2_ws/build/damin_robot1/build/lib/damin_robot1
+[12.812s] running install
+[12.812s] running install_lib
+[12.817s] creating /home/jongo/ros2_ws/install/damin_robot1/lib/python3.10/site-packages/damin_robot1
+[12.817s] copying /home/jongo/ros2_ws/build/damin_robot1/build/lib/damin_robot1/modbusRTU.py -> /home/jongo/ros2_ws/install/damin_robot1/lib/python3.10/site-packages/damin_robot1
+[12.818s] copying /home/jongo/ros2_ws/build/damin_robot1/build/lib/damin_robot1/drawshape.py -> /home/jongo/ros2_ws/install/damin_robot1/lib/python3.10/site-packages/damin_robot1
+[12.821s] copying /home/jongo/ros2_ws/build/damin_robot1/build/lib/damin_robot1/motor114.py -> /home/jongo/ros2_ws/install/damin_robot1/lib/python3.10/site-packages/damin_robot1
+[12.852s] copying /home/jongo/ros2_ws/build/damin_robot1/build/lib/damin_robot1/sudong.py -> /home/jongo/ros2_ws/install/damin_robot1/lib/python3.10/site-packages/damin_robot1
+[12.853s] copying /home/jongo/ros2_ws/build/damin_robot1/build/lib/damin_robot1/node2.py -> /home/jongo/ros2_ws/install/damin_robot1/lib/python3.10/site-packages/damin_robot1
+[12.854s] copying /home/jongo/ros2_ws/build/damin_robot1/build/lib/damin_robot1/gamepad.py -> /home/jongo/ros2_ws/install/damin_robot1/lib/python3.10/site-packages/damin_robot1
+[12.858s] copying /home/jongo/ros2_ws/build/damin_robot1/build/lib/damin_robot1/pose_subscriber.py -> /home/jongo/ros2_ws/install/damin_robot1/lib/python3.10/site-packages/damin_robot1
+[12.858s] copying /home/jongo/ros2_ws/build/damin_robot1/build/lib/damin_robot1/motor114exm.py -> /home/jongo/ros2_ws/install/damin_robot1/lib/python3.10/site-packages/damin_robot1
+[12.859s] copying /home/jongo/ros2_ws/build/damin_robot1/build/lib/damin_robot1/gamepadMotor.py -> /home/jongo/ros2_ws/install/damin_robot1/lib/python3.10/site-packages/damin_robot1
+[12.860s] copying /home/jongo/ros2_ws/build/damin_robot1/build/lib/damin_robot1/node1.py -> /home/jongo/ros2_ws/install/damin_robot1/lib/python3.10/site-packages/damin_robot1
+[12.866s] copying /home/jongo/ros2_ws/build/damin_robot1/build/lib/damin_robot1/mcu_controller_node.py -> /home/jongo/ros2_ws/install/damin_robot1/lib/python3.10/site-packages/damin_robot1
+[12.866s] copying /home/jongo/ros2_ws/build/damin_robot1/build/lib/damin_robot1/__init__.py -> /home/jongo/ros2_ws/install/damin_robot1/lib/python3.10/site-packages/damin_robot1
+[12.867s] copying /home/jongo/ros2_ws/build/damin_robot1/build/lib/damin_robot1/inputs.py -> /home/jongo/ros2_ws/install/damin_robot1/lib/python3.10/site-packages/damin_robot1
+[12.873s] copying /home/jongo/ros2_ws/build/damin_robot1/build/lib/damin_robot1/gamepadGUI.py -> /home/jongo/ros2_ws/install/damin_robot1/lib/python3.10/site-packages/damin_robot1
+[12.874s] byte-compiling /home/jongo/ros2_ws/install/damin_robot1/lib/python3.10/site-packages/damin_robot1/modbusRTU.py to modbusRTU.cpython-310.pyc
+[12.882s] byte-compiling /home/jongo/ros2_ws/install/damin_robot1/lib/python3.10/site-packages/damin_robot1/drawshape.py to drawshape.cpython-310.pyc
+[12.884s] byte-compiling /home/jongo/ros2_ws/install/damin_robot1/lib/python3.10/site-packages/damin_robot1/motor114.py to motor114.cpython-310.pyc
+[12.885s] byte-compiling /home/jongo/ros2_ws/install/damin_robot1/lib/python3.10/site-packages/damin_robot1/sudong.py to sudong.cpython-310.pyc
+[12.886s] byte-compiling /home/jongo/ros2_ws/install/damin_robot1/lib/python3.10/site-packages/damin_robot1/node2.py to node2.cpython-310.pyc
+[12.886s] byte-compiling /home/jongo/ros2_ws/install/damin_robot1/lib/python3.10/site-packages/damin_robot1/gamepad.py to gamepad.cpython-310.pyc
+[12.903s] byte-compiling /home/jongo/ros2_ws/install/damin_robot1/lib/python3.10/site-packages/damin_robot1/pose_subscriber.py to pose_subscriber.cpython-310.pyc
+[12.905s] byte-compiling /home/jongo/ros2_ws/install/damin_robot1/lib/python3.10/site-packages/damin_robot1/motor114exm.py to motor114exm.cpython-310.pyc
+[12.905s] byte-compiling /home/jongo/ros2_ws/install/damin_robot1/lib/python3.10/site-packages/damin_robot1/gamepadMotor.py to gamepadMotor.cpython-310.pyc
+[12.906s] byte-compiling /home/jongo/ros2_ws/install/damin_robot1/lib/python3.10/site-packages/damin_robot1/node1.py to node1.cpython-310.pyc
+[12.907s] byte-compiling /home/jongo/ros2_ws/install/damin_robot1/lib/python3.10/site-packages/damin_robot1/mcu_controller_node.py to mcu_controller_node.cpython-310.pyc
+[12.908s] byte-compiling /home/jongo/ros2_ws/install/damin_robot1/lib/python3.10/site-packages/damin_robot1/__init__.py to __init__.cpython-310.pyc
+[12.909s] byte-compiling /home/jongo/ros2_ws/install/damin_robot1/lib/python3.10/site-packages/damin_robot1/inputs.py to inputs.cpython-310.pyc
+[13.008s] byte-compiling /home/jongo/ros2_ws/install/damin_robot1/lib/python3.10/site-packages/damin_robot1/gamepadGUI.py to gamepadGUI.cpython-310.pyc
+[13.020s] running install_data
+[13.021s] copying resource/damin_robot1 -> /home/jongo/ros2_ws/install/damin_robot1/share/ament_index/resource_index/packages
+[13.027s] copying package.xml -> /home/jongo/ros2_ws/install/damin_robot1/share/damin_robot1
+[13.029s] running install_egg_info
+[13.048s] Copying ../../build/damin_robot1/damin_robot1.egg-info to /home/jongo/ros2_ws/install/damin_robot1/lib/python3.10/site-packages/damin_robot1-0.0.0-py3.10.egg-info
+[13.072s] running install_scripts
+[13.219s] Installing jongo_drawshape script to /home/jongo/ros2_ws/install/damin_robot1/lib/damin_robot1
+[13.222s] Installing jongo_node1 script to /home/jongo/ros2_ws/install/damin_robot1/lib/damin_robot1
+[13.224s] Installing jongo_node2 script to /home/jongo/ros2_ws/install/damin_robot1/lib/damin_robot1
+[13.227s] Installing jongo_posesubs script to /home/jongo/ros2_ws/install/damin_robot1/lib/damin_robot1
+[13.228s] Installing jongo_sudong script to /home/jongo/ros2_ws/install/damin_robot1/lib/damin_robot1
+[13.230s] Installing logitech1 script to /home/jongo/ros2_ws/install/damin_robot1/lib/damin_robot1
+[13.236s] writing list of installed files to '/home/jongo/ros2_ws/build/damin_robot1/install.log'
+[13.438s] Invoked command in '/home/jongo/ros2_ws/src/damin_robot1' returned '0': PYTHONPATH=/home/jongo/ros2_ws/build/damin_robot1/prefix_override:/home/jongo/ros2_ws/install/damin_robot1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/damin_robot1 build --build-base /home/jongo/ros2_ws/build/damin_robot1/build install --record /home/jongo/ros2_ws/build/damin_robot1/install.log --single-version-externally-managed install_data --force

@@ -1,1 +1,0 @@
-/home/jongo/ros2_ws/src/ld06lidar_pkg/setup.py

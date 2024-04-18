@@ -1,3 +1,133 @@
+import minimalmodbus
+import time
+
+# Define the Modbus RTU slave addresses for left and right motors
+LEFT_MOTOR_ADDRESS = 1
+RIGHT_MOTOR_ADDRESS = 2
+
+# Define the serial port parameters
+SERIAL_PORT = '/dev/ttyUSB0'  
+BAUDRATE = 115200
+PARITY = 'N'
+STOPBITS = 1
+BYTESIZE = 8
+
+# Create Modbus instrument objects for left and right motors
+left_motor = minimalmodbus.Instrument(SERIAL_PORT, LEFT_MOTOR_ADDRESS)
+right_motor = minimalmodbus.Instrument(SERIAL_PORT, LEFT_MOTOR_ADDRESS)
+
+# Set up serial port parameters
+left_motor.serial.baudrate = BAUDRATE
+left_motor.serial.bytesize = BYTESIZE
+left_motor.serial.parity = PARITY
+left_motor.serial.stopbits = STOPBITS
+
+right_motor.serial.baudrate = BAUDRATE
+right_motor.serial.bytesize = BYTESIZE
+right_motor.serial.parity = PARITY
+right_motor.serial.stopbits = STOPBITS
+
+# Function to rotate both motors
+def rotate_motors(target_velocity):
+    left_motor.write_register(0x200E, 0x08, functioncode=6)  # Enable left motor
+    right_motor.write_register(0x200E, 0x08, functioncode=6)  # Enable right motor
+
+    left_motor.write_register(0x2088, target_velocity, functioncode=6)  # Set target velocity for left motor
+    right_motor.write_register(0x2089, target_velocity, functioncode=6)  # Set target velocity for right motor
+
+def stop_motors():
+    left_motor.write_register(0x200E, 0x07, functioncode=6)  # Stop left motor
+    right_motor.write_register(0x200E, 0x07, functioncode=6)  # Stop right motor
+
+try:
+    rotate_motors(100)
+    time.sleep(5)
+
+    stop_motors()
+    time.sleep(1)
+
+except Exception as e:
+    print("Error:", e)
+
+finally:
+    stop_motors()
+
+
+
+
+
+
+###JONGO###
+#########################################################################
+###New code ### Bueno only left rotation
+''' 
+import minimalmodbus
+import time
+
+# Define the Modbus RTU slave addresses for left and right motors
+LEFT_MOTOR_ADDRESS = 1
+RIGHT_MOTOR_ADDRESS = 2
+
+# Define the serial port parameters
+SERIAL_PORT = '/dev/ttyUSB0'  
+BAUDRATE = 115200
+PARITY = 'N'
+STOPBITS = 1
+BYTESIZE = 8
+
+# Create Modbus instrument objects for left and right motors
+left_motor = minimalmodbus.Instrument(SERIAL_PORT, LEFT_MOTOR_ADDRESS)
+right_motor = minimalmodbus.Instrument(SERIAL_PORT, RIGHT_MOTOR_ADDRESS)
+
+# Set up serial port parameters
+left_motor.serial.baudrate = BAUDRATE
+left_motor.serial.bytesize = BYTESIZE
+left_motor.serial.parity = PARITY
+left_motor.serial.stopbits = STOPBITS
+
+right_motor.serial.baudrate = BAUDRATE
+right_motor.serial.bytesize = BYTESIZE
+right_motor.serial.parity = PARITY
+right_motor.serial.stopbits = STOPBITS
+
+# Function to rotate the motor
+def rotate_motor(motor, target_velocity):
+    motor.write_register(0x200E, 0x08, functioncode=6)  # Enable
+    motor.write_register(0x2088, target_velocity, functioncode=6)  # Set target velocity
+
+# Function to stop the motor
+def stop_motor(motor):
+    motor.write_register(0x200E, 0x07, functioncode=6)  # Stop
+
+try:
+    # Rotate left motor at 100 RPM
+    rotate_motor(left_motor, 200)
+    time.sleep(5)  # Rotate for 5 seconds
+
+    # Stop left motor
+    stop_motor(left_motor)
+    time.sleep(1)  # Wait for 1 second
+
+    # Rotate right motor at -100 RPM
+    rotate_motor(right_motor, -100)
+    time.sleep(2)  # Rotate for 2 seconds
+
+    # Stop right motor
+    stop_motor(right_motor)
+
+except Exception as e:
+    print("Error:", e)
+
+finally:
+    # Ensure motors are stopped before exiting
+    stop_motor(left_motor)
+    stop_motor(right_motor)
+
+'''
+
+###########################################
+#######New code######## no bueno only left deflection
+
 
 '''
 import minimalmodbus
@@ -32,7 +162,6 @@ def rotate_counterclockwise(motor):
 def stop_motor(motor):
     motor.write_register(0, 0)  # Write 0 to control register (stop rotation)
 
-# Example usage
 if __name__ == "__main__":
     try:
         # Rotate left motor clockwise for 5 seconds
@@ -100,7 +229,6 @@ def read_motor_speeds():
     right_speed = instrument.read_register(RIGHT_MOTOR_VELOCITY_ADDR, functioncode=3)
     return left_speed, right_speed
 
-# Example usage
 if __name__ == "__main__":
     # Set velocity mode
     set_velocity_mode()
@@ -212,74 +340,6 @@ if __name__ == "__main__":
 '''
 
 
-#########################################################################
-###New code ### Bueno only left rotation
-import minimalmodbus
-import time
-
-# Define the Modbus RTU slave addresses for left and right motors
-LEFT_MOTOR_ADDRESS = 2
-RIGHT_MOTOR_ADDRESS = 1
-
-# Define the serial port parameters
-SERIAL_PORT = '/dev/ttyUSB0'  
-BAUDRATE = 115200
-PARITY = 'N'
-STOPBITS = 1
-BYTESIZE = 8
-
-# Create Modbus instrument objects for left and right motors
-left_motor = minimalmodbus.Instrument(SERIAL_PORT, LEFT_MOTOR_ADDRESS)
-right_motor = minimalmodbus.Instrument(SERIAL_PORT, RIGHT_MOTOR_ADDRESS)
-
-# Set up serial port parameters
-left_motor.serial.baudrate = BAUDRATE
-left_motor.serial.bytesize = BYTESIZE
-left_motor.serial.parity = PARITY
-left_motor.serial.stopbits = STOPBITS
-
-right_motor.serial.baudrate = BAUDRATE
-right_motor.serial.bytesize = BYTESIZE
-right_motor.serial.parity = PARITY
-right_motor.serial.stopbits = STOPBITS
-
-# Function to rotate the motor
-def rotate_motor(motor, target_velocity):
-    motor.write_register(0x200E, 0x08, functioncode=6)  # Enable
-    motor.write_register(0x2088, target_velocity, functioncode=6)  # Set target velocity
-
-# Function to stop the motor
-def stop_motor(motor):
-    motor.write_register(0x200E, 0x07, functioncode=6)  # Stop
-
-try:
-    # Rotate left motor at 100 RPM
-    rotate_motor(left_motor, 200)
-    time.sleep(20)  # Rotate for 2 seconds
-
-    # Stop left motor
-    stop_motor(left_motor)
-    time.sleep(1)  # Wait for 1 second
-
-    # Rotate right motor at -100 RPM
-    rotate_motor(right_motor, -100)
-    time.sleep(2)  # Rotate for 2 seconds
-
-    # Stop right motor
-    stop_motor(right_motor)
-
-except Exception as e:
-    print("Error:", e)
-
-finally:
-    # Ensure motors are stopped before exiting
-    stop_motor(left_motor)
-    stop_motor(right_motor)
-
-
-
-###########################################
-#######New code######## no bueno only left deflection
 '''
 
 
@@ -290,7 +350,6 @@ import time
 LEFT_MOTOR_ADDRESS = 1
 RIGHT_MOTOR_ADDRESS = 2
 
-# Define the serial port parameters
 SERIAL_PORT = '/dev/ttyUSB0' 
 BAUDRATE = 115200
 PARITY = 'N'
