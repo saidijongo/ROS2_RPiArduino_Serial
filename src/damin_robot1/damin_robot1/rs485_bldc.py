@@ -4,14 +4,13 @@ import time
 
 ser = minimalmodbus.Instrument('/dev/ttyUSB0', 1)  # Port name, slave address (1 is default)
 
-# Set communication parameters
 ser.serial.baudrate = 115200
 ser.serial.bytesize = 8
 ser.serial.parity = minimalmodbus.serial.PARITY_NONE
 ser.serial.stopbits = 1
-ser.serial.timeout = 0.05  # Timeout in seconds
+ser.serial.timeout = 0.05 
 
-# Define the register addresses
+#register addresses
 CONTROL_WORD_ADDRESS = 0x200E
 TARGET_VELOCITY_LEFT_ADDRESS = 0x2088
 TARGET_VELOCITY_RIGHT_ADDRESS = 0x2089
@@ -26,7 +25,6 @@ try:
     # Set target velocity for right motor
     ser.write_register(TARGET_VELOCITY_RIGHT_ADDRESS, 100, functioncode=6)
 
-    # Wait for a while
     time.sleep(1)
 
     # Stop motors
