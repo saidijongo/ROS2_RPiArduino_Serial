@@ -1,22 +1,20 @@
 import minimalmodbus
 import time
 
-# Define the Modbus RTU slave addresses for left and right motors
+#Modbus RTU slave addresses for left and right motors
 LEFT_MOTOR_ADDRESS = 1
 RIGHT_MOTOR_ADDRESS = 2
 
-# Define the serial port parameters
+# serial port parameters
 SERIAL_PORT = "/dev/ttyUSB0"
 BAUDRATE = 115200
 PARITY = 'N'
 STOPBITS = 1
 BYTESIZE = 8
 
-# Create Modbus instrument objects for left and right motors
 left_motor = minimalmodbus.Instrument(SERIAL_PORT, LEFT_MOTOR_ADDRESS)
 right_motor = minimalmodbus.Instrument(SERIAL_PORT, LEFT_MOTOR_ADDRESS)
 
-# Set up serial port parameters
 left_motor.serial.baudrate = BAUDRATE
 left_motor.serial.bytesize = BYTESIZE
 left_motor.serial.parity = PARITY
