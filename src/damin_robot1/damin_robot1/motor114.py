@@ -6,7 +6,7 @@ LEFT_MOTOR_ADDRESS = 1
 RIGHT_MOTOR_ADDRESS = 2
 
 # Define the serial port parameters
-SERIAL_PORT = '/dev/ttyUSB0'  
+SERIAL_PORT = "/dev/ttyUSB0"
 BAUDRATE = 115200
 PARITY = 'N'
 STOPBITS = 1
@@ -41,7 +41,7 @@ def stop_motors():
 
 try:
     rotate_motors(100)
-    time.sleep(35)
+    time.sleep(50)
 
     stop_motors()
     time.sleep(1)
