@@ -39,7 +39,7 @@ def stop_motors():
 
 try:
     rotate_motors(100)
-    time.sleep(50)
+    time.sleep(10)
 
     stop_motors()
     time.sleep(1)
