@@ -29,6 +29,7 @@ right_motor.serial.stopbits = STOPBITS
 def rotate_motors(target_velocity):
     left_motor.write_register(0x200E, 0x08, functioncode=6)  # Enable left motor
     right_motor.write_register(0x200E, 0x08, functioncode=6)  # Enable right motor
+    #print("Rotating motors. Left Speed:", left_speed, "Right Speed:", right_speed)
 
     left_motor.write_register(0x2088, target_velocity, functioncode=6)  # Set target velocity for left motor
     right_motor.write_register(0x2089, target_velocity, functioncode=6)  # Set target velocity for right motor
@@ -38,8 +39,8 @@ def stop_motors():
     right_motor.write_register(0x200E, 0x07, functioncode=6)  # Stop right motor
 
 try:
-    rotate_motors(100)
-    time.sleep(10)
+    rotate_motors(250)
+    time.sleep(40)
 
     stop_motors()
     time.sleep(1)

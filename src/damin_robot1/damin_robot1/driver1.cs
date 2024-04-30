@@ -1,3 +1,4 @@
+//"/dev/ttyUSB0";
 using System.IO.Ports;
 using Modbus.Device;
 namespace Port_Open

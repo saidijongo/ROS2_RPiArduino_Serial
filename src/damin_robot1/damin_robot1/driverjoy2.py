@@ -1,138 +1,64 @@
 import minimalmodbus
 import time
 
-# Modbus RTU slave addresses for left and right motors
-LEFT_MOTOR_ADDRESS = 1
-RIGHT_MOTOR_ADDRESS = 2
+# Define motor driver address
+MOTOR_DRIVER_ADDRESS = 1
 
-# Serial port parameters
-SERIAL_PORT = "/dev/ttyUSB0"
-BAUDRATE = 115200
-PARITY = 'N'
-STOPBITS = 1
-BYTESIZE = 8
+# Define motor registers
+LEFT_MOTOR_REGISTER = 0x2088
+RIGHT_MOTOR_REGISTER = 0x2089
+STOP_REGISTER = 0x2031
 
-# Motor control addresses
-CONTROL_MODE_ADDR = 0x200D
-LEFT_MOTOR_VELOCITY_ADDR = 0x208E
-RIGHT_MOTOR_VELOCITY_ADDR = 0x208F
+# Define function codes
+ASYNCHRONOUS_VELOCITY_CONTROL = 0x06
+SYNCHRONOUS_VELOCITY_CONTROL = 0x10
 
-# Control mode values
-VELOCITY_MODE = 0x03
+# Define speeds
+SPEED_100_RPM = 0x64
+SPEED_NEGATIVE_100_RPM = -0x64
 
-left_motor = minimalmodbus.Instrument(SERIAL_PORT, LEFT_MOTOR_ADDRESS)
-right_motor = minimalmodbus.Instrument(SERIAL_PORT, LEFT_MOTOR_ADDRESS)
+# Define error code
+ERROR_CODE = 0x03CB
 
-left_motor.serial.baudrate = BAUDRATE
-left_motor.serial.bytesize = BYTESIZE
-left_motor.serial.parity = PARITY
-left_motor.serial.stopbits = STOPBITS
+# Define RS485 port
+PORT = "/dev/ttyUSB0"  # Change this to match your setup
 
-right_motor.serial.baudrate = BAUDRATE
-right_motor.serial.bytesize = BYTESIZE
-right_motor.serial.parity = PARITY
-right_motor.serial.stopbits = STOPBITS
-
-def rotate_motors(left_speed, right_speed):
-    print("Rotating motors. Left Speed:", left_speed, "Right Speed:", right_speed)
-    # Set control mode to velocity mode
-    left_motor.write_register(CONTROL_MODE_ADDR, VELOCITY_MODE, functioncode=6)
-    right_motor.write_register(CONTROL_MODE_ADDR, VELOCITY_MODE, functioncode=6)
-
-    left_motor.write_register(LEFT_MOTOR_VELOCITY_ADDR, left_speed, functioncode=6)
-    right_motor.write_register(RIGHT_MOTOR_VELOCITY_ADDR, right_speed, functioncode=6)
-
-def stop_motors():
-    print("Stopping motors.")
-    left_motor.write_register(CONTROL_MODE_ADDR, 0x00, functioncode=6)
-    right_motor.write_register(CONTROL_MODE_ADDR, 0x00, functioncode=6)
-
-try:
-    rotate_motors(50, 50)
-    time.sleep(5)
-
-    rotate_motors(75, 75)
-    time.sleep(5)
-
-    stop_motors()
-
-except Exception as e:
-    print("Error:", e)
-
-finally:
-    stop_motors()
+# Initialize minimalmodbus
+instrument = minimalmodbus.Instrument(PORT, MOTOR_DRIVER_ADDRESS)
 
 
+def send_command(register, data):
+    """
+    Send a command to the motor driver.
 
-"""
-import minimalmodbus
-import time
+    :param register: Motor register
+    :param data: Data to be sent
+    """
+    instrument.write_register(register, data, functioncode=ASYNCHRONOUS_VELOCITY_CONTROL, signed=True)
 
-# Modbus RTU slave addresses for left and right motors
-LEFT_MOTOR_ADDRESS = 1
-RIGHT_MOTOR_ADDRESS = 2
 
-# Serial port parameters
-SERIAL_PORT = "/dev/ttyUSB0"
-BAUDRATE = 115200
-PARITY = 'N'
-STOPBITS = 1
-BYTESIZE = 8
+def rotate_motor(motor, direction, speed):
+    """
+    Rotate the motor in a given direction at a specified speed.
 
-# Motor control addresses
-CONTROL_MODE_ADDR = 0x200D
-LEFT_MOTOR_VELOCITY_ADDR = 0x208E
-RIGHT_MOTOR_VELOCITY_ADDR = 0x208F
+    :param motor: 'left' or 'right'
+    :param direction: 'CW' or 'CCW'
+    :param speed: Speed in RPM
+    """
+    register = LEFT_MOTOR_REGISTER if motor == 'left' else RIGHT_MOTOR_REGISTER
+    speed_data = SPEED_100_RPM if speed >= 0 else SPEED_NEGATIVE_100_RPM
+    direction_data = 0x00 if direction == 'CW' else 0xFF
 
-# Control mode values
-VELOCITY_MODE = 0x03
+    # Set motor speed and direction
+    send_command(register, speed_data)
 
-# Create instruments for left and right motors
-left_motor = minimalmodbus.Instrument(SERIAL_PORT, LEFT_MOTOR_ADDRESS)
-right_motor = minimalmodbus.Instrument(SERIAL_PORT, LEFT_MOTOR_ADDRESS)
+    # Wait for motor to stabilize
+    time.sleep(1)
 
-# Configure serial port parameters
-left_motor.serial.baudrate = BAUDRATE
-left_motor.serial.bytesize = BYTESIZE
-left_motor.serial.parity = PARITY
-left_motor.serial.stopbits = STOPBITS
+    # Stop the motor
+    send_command(STOP_REGISTER, ERROR_CODE)
 
-right_motor.serial.baudrate = BAUDRATE
-right_motor.serial.bytesize = BYTESIZE
-right_motor.serial.parity = PARITY
-right_motor.serial.stopbits = STOPBITS
 
-# Function to rotate both motors
-def rotate_motors(left_speed, right_speed):
-    # Set control mode to velocity mode
-    left_motor.write_register(CONTROL_MODE_ADDR, VELOCITY_MODE, functioncode=6)
-    right_motor.write_register(CONTROL_MODE_ADDR, VELOCITY_MODE, functioncode=6)
-
-    # Set velocities for left and right motors
-    left_motor.write_register(LEFT_MOTOR_VELOCITY_ADDR, left_speed, functioncode=6)
-    right_motor.write_register(RIGHT_MOTOR_VELOCITY_ADDR, right_speed, functioncode=6)
-
-# Function to stop both motors
-def stop_motors():
-    # Set control mode to stop
-    left_motor.write_register(CONTROL_MODE_ADDR, 0x00, functioncode=6)
-    right_motor.write_register(CONTROL_MODE_ADDR, 0x00, functioncode=6)
-
-try:
-    # Rotate both motors forward at 50% speed
-    rotate_motors(50, 50)
-    time.sleep(5)  # Keep motors running for 5 seconds
-
-    # Rotate left motor forward and right motor backward at 75% speed
-    rotate_motors(75, 75)
-    time.sleep(5)
-
-    # Stop both motors
-    stop_motors()
-
-except Exception as e:
-    print("Error:", e)
-
-finally:
-    stop_motors()
-"""
+# Example usage
+rotate_motor('left', 'CW', 100)
+rotate_motor('right', 'CCW', 50)
