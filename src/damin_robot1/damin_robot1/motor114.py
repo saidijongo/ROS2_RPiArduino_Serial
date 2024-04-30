@@ -39,7 +39,7 @@ def stop_motors():
     right_motor.write_register(0x200E, 0x07, functioncode=6)  # Stop right motor
 
 try:
-    rotate_motors(250)
+    rotate_motors(350)
     time.sleep(40)
 
     stop_motors()
