@@ -1,0 +1,58 @@
+sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+
+sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+
+sudo apt install curl #curl install
+curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add -
+
+sudo apt update
+sudo apt install ros-noetic-desktop-full
+sudo apt install ros-noetic-desktop
+
+sudo apt install ros-noetic-PACKAGE
+sudo apt install ros-noetic-slam-gmapping
+apt search ros-noetic
+
+echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
+source ~/.bashrc
+
+echo "source /opt/ros/noetic/setup.zsh" >> ~/.zshrc
+source ~/.zshrc
+
+
+sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential
+
+sudo apt install python3-rosdep
+sudo rosdep init
+rosdep update
+
+
+
+sudo apt install ros-humble-joint-state-publisher
+sudo apt install ros-humble-joint-state-publisher-gui
+sudo apt install ros-humble-xacro
+sudo apt install ros-humble-gazebo-ros-pkgs
+sudo apt install ros-humble-gazebo-ros-core
+
+sudo apt install ros-humble-gazebo-geometry2
+sudo apt install ros-humble-gazebo-msgs
+sudo apt install ros-humble-gazebo-plugins
+sudo apt install ros-humble-ros-ign-bridge
+sudo apt install ros-humble-teleop-twist-keyboard
+gazebo
+
+colcon build
+cd ~/ros2_ws/src
+ros2 pkg create --build-type ament_cmake mobile_robot
+cd ~/ros2_ws/src/mobile_robot/
+mkdir lauch model
+
+cd ~/ros2_ws/
+colcon build
+
+cd ~/ros2_ws/src/mobile_robot/model
+gedit robot.xacro
+
+cd ~/ros2_ws/src/mobile_robot/model
+coda activate
+anaconda-navigator
