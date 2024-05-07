@@ -1,3 +1,4 @@
+#https://github.com/xinjuezou-whi/rplidar_ros2
 import minimalmodbus
 import time
 
@@ -39,7 +40,7 @@ def stop_motors():
     right_motor.write_register(0x200E, 0x07, functioncode=6)  # Stop right motor
 
 try:
-    rotate_motors(350)
+    rotate_motors(250)
     time.sleep(40)
 
     stop_motors()
@@ -59,7 +60,9 @@ finally:
 ###JONGO###
 #########################################################################
 ###New code ### Bueno only left rotation
-''' 
+'''
+Please help me tols
+
 import minimalmodbus
 import time
 
